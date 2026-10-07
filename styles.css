@@ -222,3 +222,25 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .loja .loja-logo { width: 14px; height: 14px; }
   #lojas .ficha { height: 38px; }
 }
+
+/* Filtros quebram para outra linha em vez de cortar. */
+.fichas { flex-wrap: wrap; overflow: visible; }
+/* Cada faixa mostra só os produtos que cabem inteiros na linha. */
+.trilho { grid-auto-flow: row; grid-auto-columns: auto; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-template-rows: auto;   #lojas .ficha { height: 38px; }
+}
+
+/* Filtros quebram para outra linha em vez de cortar. */
+.fichas { flex-wrap: wrap; overflow: visible; }
+/* Cada faixa mostra só os produtos que cabem inteiros na linha. */
+.trilho { grid-auto-flow: row; grid-auto-columns: auto; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-template-rows: auto; grid-auto-rows: 0; row-gap: 0; overflow: hidden; padding: 0; }
+.trilho .cartao:hover { transform: none; }
+/* No celular os filtros e as faixas continuam deslizando com o dedo. */
+@media (max-width: 640px) {
+  .fichas { flex-wrap: nowrap; overflow-x: auto; }
+  .trilho { grid-auto-flow: column; grid-auto-columns: 170px; grid-template-columns: none; grid-auto-rows: auto; overflow-x: auto; padding-bottom: 8px; }; row-gap: 0; overflow: hidden; padding: 0; }
+.trilho .cartao:hover { transform: none; }
+/* No celular os filtros e as faixas continuam deslizando com o dedo. */
+@media (max-width: 640px) {
+  .fichas { flex-wrap: nowrap; overflow-x: auto; }
+  .trilho { grid-auto-flow: column; grid-auto-columns: 170px; grid-template-columns: none; grid-auto-rows: auto; overflow-x: auto; padding-bottom: 8px; }
+}

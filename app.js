@@ -13,6 +13,9 @@ const CONFIG = {
     ...["feed", "feed.eletronicos", "feed.feminino", "feed.mercado", "feed.mercadolivre", "vitrine.mercadolivre"]
       .map((nome) => `https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/${nome}.json`),
   ],
+  // Cupons do dia: cada um diz a loja, o código e em quais ofertas vale.
+  // O primeiro arquivo é o mesmo que o bot do Telegram usa; o segundo é local.
+  cupons: ["https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/cupons.json", "data/cupons.json"],
   porPagina: 40,
   atualizarACadaMs: 2 * 60_000,
   // Ofertas mais antigas que isso saem do ar sozinhas.
@@ -74,7 +77,7 @@ for (const [categoria, fontes] of Object.entries({
 
 const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const $ = (id) => document.getElementById(id);
-const estado = { ofertas: [], visiveis: CONFIG.porPagina, loja: "", categoria: "", busca: "", ordem: "destaque", oficial: false };
+const estado = { ofertas: [], visiveis: CONFIG.porPagina, loja: "", categoria: "", busca: "", ordem: "destaque", oficial: false, cupons: [], cuponsAbertos: false };
 
 function semAcento(texto) {
   return String(texto || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -110,6 +113,8 @@ function normalizar(bruta) {
     lojaOficial: Boolean(bruta.lojaOficial),
     avaliacoes: Number(bruta.avaliacoes) || 0,
     precoEm: Date.parse(bruta.precoEm) || 0,
+    full: Boolean(bruta.full),
+    fonte: bruta.fonte || "",
     categoria: bruta.categoria || CATEGORIA_DA_FONTE[bruta.fonte] || categoriaDe(bruta.titulo),
     busca: semAcento(`${bruta.titulo} ${LOJAS[bruta.loja].nome}`),
   };
@@ -133,7 +138,45 @@ async function carregar() {
     if (!atual || oferta.publicadoEm > atual.publicadoEm) porId.set(oferta.id, oferta);
   }
   estado.ofertas = [...porId.values()].sort((a, b) => b.publicadoEm - a.publicadoEm);
+  estado.cupons = await carregarCupons();
+  for (const oferta of estado.ofertas) {
+    if (oferta.cupom) continue;
+    const cupom = estado.cupons.find((c) => cupomVale(c, oferta));
+    if (cupom) oferta.cupom = cupom.codigo;
+  }
   desenhar();
+}
+
+// Só entram cupons completos e dentro da validade.
+async function carregarCupons() {
+  const listas = await Promise.all(CONFIG.cupons.map(async (fonte) => {
+    try {
+      const resposta = await fetch(fonte, { cache: "no-store" });
+      const lista = resposta.ok ? await resposta.json() : [];
+      return Array.isArray(lista) ? lista : [];
+    } catch { return []; }
+  }));
+  const agora = Date.now();
+  const vistos = new Set();
+  // Cupom sem código é o que se resgata na página da loja; só vale com link.
+  return listas.flat().filter((c) => {
+    const chave = c && (c.codigo || c.link);
+    if (!chave || vistos.has(chave) || !LOJAS[c.loja] || !c.descricao || (!c.codigo && !linkSeguro(c.link))) return false;
+    if ((c.inicio && Date.parse(c.inicio) > agora) || (c.fim && Date.parse(c.fim) <= agora)) return false;
+    vistos.add(chave);
+    return true;
+  });
+}
+
+// Um cupom só aparece no cartão quando a oferta atende à regra dele.
+function cupomVale(cupom, oferta) {
+  // "soLista" é o cupom que vale só em uma lista de produtos da loja: aparece
+  // na seção de cupons, mas não em cartões, porque não sabemos quais entram.
+  return !cupom.soLista && cupom.codigo && cupom.loja === oferta.loja
+    && (!cupom.categorias?.length || cupom.categorias.includes(oferta.categoria))
+    && (!cupom.fontes?.length || cupom.fontes.includes(oferta.fonte))
+    && oferta.preco >= Number(cupom.precoMinimo || 0)
+    && (!cupom.soFull || oferta.full);
 }
 
 function haQuanto(instante) {
@@ -301,6 +344,27 @@ function desenhar() {
   const lista = ordenadas(filtradas());
   const semFiltro = !estado.loja && !estado.categoria && !estado.busca && !estado.oficial && estado.ordem === "destaque";
 
+  // Cupons válidos agora, cada um com botão de copiar e atalho para as ofertas em que vale.
+  $("cupons-bloco").hidden = !estado.cupons.length;
+  // Fechada, a seção mostra só os quatro primeiros para não empurrar as ofertas para baixo.
+  const cuponsFechado = matchMedia("(max-width: 640px)").matches ? 2 : 4;
+  $("cupons-todos").hidden = estado.cupons.length <= cuponsFechado;
+  $("cupons-todos").textContent = estado.cuponsAbertos ? "Mostrar menos" : `Ver todos os ${estado.cupons.length} cupons`;
+  $("cupons").replaceChildren(...estado.cupons.slice(0, estado.cuponsAbertos ? undefined : cuponsFechado).map((cupom) => {
+    const loja = LOJAS[cupom.loja];
+    const quantas = cupom.codigo ? todas.filter((o) => o.cupom === cupom.codigo).length : 0;
+    return el("article", { class: "cupom-cartao" },
+      el("span", { class: "loja" }, logoLoja(loja), loja.nome),
+      el("strong", {}, cupom.descricao),
+      cupom.regra && el("small", {}, cupom.regra),
+      el("div", { class: "cupom-acoes" },
+        cupom.codigo && el("button", { class: "cupom", type: "button", title: "Copiar cupom", onclick: () => copiarCupom(cupom.codigo) }, cupom.codigo),
+        linkSeguro(cupom.link) && el("a", { class: "link", href: cupom.link, target: "_blank", rel: "sponsored nofollow noopener" }, !cupom.codigo ? "Resgatar na loja" : cupom.soLista ? "Ver produtos do cupom" : "Abrir na loja"),
+        quantas > 0 && el("button", { class: "link", type: "button", onclick: () => { $("busca").value = ""; definir({ loja: cupom.loja, categoria: cupom.categorias?.length === 1 ? cupom.categorias[0] : "", busca: "", oficial: false }); } }, `Ver ${quantas} ${quantas === 1 ? "oferta" : "ofertas"}`),
+      ),
+    );
+  }));
+
   // Página inicial: uma faixa por loja, na ordem definida em LOJAS.
   $("vitrines").replaceChildren(...(semFiltro ? porLoja(todas).filter((grupo) => grupo.length >= 4).map((grupo) => {
     const loja = LOJAS[grupo[0].loja];
@@ -347,6 +411,7 @@ function iniciar() {
   });
   $("ordem").addEventListener("change", (evento) => definir({ ordem: evento.target.value }));
   $("mais").addEventListener("click", () => { estado.visiveis += CONFIG.porPagina; desenhar(); });
+  $("cupons-todos").addEventListener("click", () => { estado.cuponsAbertos = !estado.cuponsAbertos; desenhar(); });
   $("limpar").addEventListener("click", () => { $("busca").value = ""; definir({ loja: "", categoria: "", busca: "", oficial: false }); });
   $("tema").addEventListener("click", () => {
     const escuroAgora = document.documentElement.dataset.theme

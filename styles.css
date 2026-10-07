@@ -226,21 +226,21 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 /* Filtros quebram para outra linha em vez de cortar. */
 .fichas { flex-wrap: wrap; overflow: visible; }
 /* Cada faixa mostra só os produtos que cabem inteiros na linha. */
-.trilho { grid-auto-flow: row; grid-auto-columns: auto; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-template-rows: auto;   #lojas .ficha { height: 38px; }
-}
-
-/* Filtros quebram para outra linha em vez de cortar. */
-.fichas { flex-wrap: wrap; overflow: visible; }
-/* Cada faixa mostra só os produtos que cabem inteiros na linha. */
 .trilho { grid-auto-flow: row; grid-auto-columns: auto; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-template-rows: auto; grid-auto-rows: 0; row-gap: 0; overflow: hidden; padding: 0; }
-.trilho .cartao:hover { transform: none; }
-/* No celular os filtros e as faixas continuam deslizando com o dedo. */
-@media (max-width: 640px) {
-  .fichas { flex-wrap: nowrap; overflow-x: auto; }
-  .trilho { grid-auto-flow: column; grid-auto-columns: 170px; grid-template-columns: none; grid-auto-rows: auto; overflow-x: auto; padding-bottom: 8px; }; row-gap: 0; overflow: hidden; padding: 0; }
 .trilho .cartao:hover { transform: none; }
 /* No celular os filtros e as faixas continuam deslizando com o dedo. */
 @media (max-width: 640px) {
   .fichas { flex-wrap: nowrap; overflow-x: auto; }
   .trilho { grid-auto-flow: column; grid-auto-columns: 170px; grid-template-columns: none; grid-auto-rows: auto; overflow-x: auto; padding-bottom: 8px; }
 }
+
+/* Cupons de hoje */
+.cupons-grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.cupom-cartao { display: grid; gap: 8px; padding: 14px; border: 1px dashed color-mix(in srgb, var(--destaque) 60%, var(--borda)); border-radius: var(--raio); background: var(--superficie); }
+.cupom-cartao strong { font-size: 15px; }
+.cupom-cartao small { color: var(--texto-suave); }
+.cupom-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 2px; }
+.cupom-acoes .cupom { font-size: 13px; padding: 5px 10px; letter-spacing: .03em; }
+.cupom-acoes .link { font-size: 13px; text-decoration: none; }
+
+@media (max-width: 640px) { .cupons-grade { grid-template-columns: 1fr; gap: 10px; } .cupom-cartao { padding: 12px; } }

@@ -3,21 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diegola Promoções: ofertas e cupons do dia</title>
-  <meta name="description" content="Promoções conferidas da Shopee, Mercado Livre, Amazon, AliExpress, KaBuM! e Magalu, atualizadas o dia todo.">
+  <title>Diegola Promoções: as melhores ofertas do dia</title>
+  <meta name="description" content="Ofertas selecionadas na Amazon, Mercado Livre e Shopee: produtos bem avaliados, lojas oficiais e desconto de verdade, atualizadas o dia todo.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Diegola Promoções">
+  <meta property="og:title" content="Diegola Promoções: as melhores ofertas do dia">
+  <meta property="og:description" content="Ofertas selecionadas na Amazon, Mercado Livre e Shopee, atualizadas o dia todo.">
   <meta name="theme-color" content="#0f1115">
   <link rel="icon" type="image/png" href="assets/logo-64.png">
+  <link rel="apple-touch-icon" href="assets/logo-192.png">
   <script>
     // Aplica o tema salvo antes da primeira pintura para não piscar.
     try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <header class="topo">
     <div class="topo-linha largura">
       <a class="marca" href="./" aria-label="Diegola Promoções, início">
-        <img class="marca-logo" src="assets/logo-192.png" alt="" width="34" height="34">
+        <img class="marca-logo" src="assets/logo-192.png" alt="" width="36" height="36">
         <span>Diegola <b>Promoções</b></span>
       </a>
       <label class="busca">
@@ -36,12 +41,22 @@
 
   <main class="largura">
     <section class="abertura">
-      <h1>Promoções de hoje</h1>
+      <h1>As melhores ofertas do dia</h1>
+      <p class="chamada-texto">Selecionadas na Amazon, Mercado Livre e Shopee, com link direto para a loja.</p>
+      <ul class="selos">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.700 5.600 6.100.900-4.400 4.300 1 6.100L12 17l-5.400 2.900 1-6.100L3.200 9.500l6.100-.900Z"/></svg>Nota alta e muitas vendas</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.500 6v5.500c0 4.500 3.200 8.300 7.500 9.500 4.300-1.200 7.500-5 7.500-9.500V6Z"/><path d="m9 12 2.200 2.200L15.200 10"/></svg>Prioridade para lojas oficiais</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12 12 20l-8-8V4h8Z"/><circle cx="8" cy="8" r="1.200"/></svg>Desconto inflado fica de fora</li>
+      </ul>
       <p id="resumo" class="resumo" aria-live="polite">Carregando ofertas…</p>
     </section>
 
-    <nav id="lojas" class="fichas" aria-label="Filtrar por loja"></nav>
-    <nav id="categorias" class="fichas fichas-suaves" aria-label="Filtrar por categoria"></nav>
+    <div class="filtros">
+      <nav id="lojas" class="fichas" aria-label="Filtrar por loja"></nav>
+      <nav id="categorias" class="fichas fichas-suaves" aria-label="Filtrar por categoria"></nav>
+    </div>
+
+    <div id="vitrines"></div>
 
     <section id="destaques-bloco" class="destaques" hidden>
       <div class="titulo-secao">
@@ -53,10 +68,11 @@
 
     <section>
       <div class="titulo-secao">
-        <h2 id="titulo-lista">Últimas ofertas</h2>
+        <h2 id="titulo-lista">Todas as ofertas</h2>
         <label class="ordenar">
           <span>Ordenar</span>
           <select id="ordem">
+            <option value="destaque">Em destaque</option>
             <option value="recentes">Mais recentes</option>
             <option value="desconto">Maior desconto</option>
             <option value="menor">Menor preço</option>
@@ -71,19 +87,31 @@
 
     <section class="chamada">
       <div>
-        <h2>Receba antes, direto no celular</h2>
-        <p>As ofertas saem primeiro no grupo do Telegram, separadas por tópico.</p>
+        <h2>Receba as ofertas antes, direto no celular</h2>
+        <p>Elas saem primeiro no grupo do Telegram, separadas por assunto. É grátis.</p>
       </div>
       <a id="telegram-base" class="botao telegram grande" target="_blank" rel="noopener">Entrar no grupo do Telegram</a>
     </section>
   </main>
 
-  <footer class="rodape largura">
-    <p>Preços e estoque podem mudar a qualquer momento: vale o valor exibido na loja no fechamento da compra.</p>
-    <p>Os links são de afiliado. Comprando por eles, o Diegola Promoções pode receber comissão, sem custo extra para você.</p>
+  <footer class="rodape">
+    <div class="largura rodape-grade">
+      <div>
+        <a class="marca" href="./">
+          <img class="marca-logo" src="assets/logo-192.png" alt="" width="36" height="36" loading="lazy">
+          <span>Diegola <b>Promoções</b></span>
+        </a>
+        <p>Curadoria diária de ofertas das maiores lojas do Brasil.</p>
+      </div>
+      <div class="rodape-avisos">
+        <p>Preços e estoque podem mudar a qualquer momento: vale o valor exibido na loja no fechamento da compra.</p>
+        <p>Os links são de afiliado. Comprando por eles, o Diegola Promoções pode receber comissão, sem custo extra para você. Como Associado da Amazon, ganhamos com compras qualificadas.</p>
+        <p>© 2026 Diegola Promoções</p>
+      </div>
+    </div>
   </footer>
 
   <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
-  <script src="app.js?v=5" defer></script>
+  <script src="app.js?v=7" defer></script>
 </body>
 </html>

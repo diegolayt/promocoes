@@ -19,13 +19,14 @@ const CONFIG = {
   validadeHoras: 72,
 };
 
+// A ordem daqui é a ordem em que as lojas aparecem no site.
 const LOJAS = {
-  shopee: { nome: "Shopee", cor: "#ee4d2d" },
-  mercadolivre: { nome: "Mercado Livre", cor: "#f5c400" },
-  amazon: { nome: "Amazon", cor: "#ff9900" },
-  aliexpress: { nome: "AliExpress", cor: "#e43225" },
-  kabum: { nome: "KaBuM!", cor: "#ff6500" },
-  magalu: { nome: "Magalu", cor: "#0086ff" },
+  amazon: { nome: "Amazon", cor: "#ff9900", logo: "assets/lojas/amazon.png" },
+  mercadolivre: { nome: "Mercado Livre", cor: "#f5c400", logo: "assets/lojas/mercadolivre.png" },
+  shopee: { nome: "Shopee", cor: "#ee4d2d", logo: "assets/lojas/shopee.png" },
+  aliexpress: { nome: "AliExpress", cor: "#e43225", logo: "assets/lojas/aliexpress.png" },
+  kabum: { nome: "KaBuM!", cor: "#ff6500", logo: "assets/lojas/kabum.png" },
+  magalu: { nome: "Magalu", cor: "#0086ff", logo: "assets/lojas/magalu.png" },
 };
 
 // A primeira categoria cujo padrão casar com o título vence, então as mais
@@ -73,7 +74,7 @@ for (const [categoria, fontes] of Object.entries({
 
 const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
 const $ = (id) => document.getElementById(id);
-const estado = { ofertas: [], visiveis: CONFIG.porPagina, loja: "", categoria: "", busca: "", ordem: "recentes", oficial: false };
+const estado = { ofertas: [], visiveis: CONFIG.porPagina, loja: "", categoria: "", busca: "", ordem: "destaque", oficial: false };
 
 function semAcento(texto) {
   return String(texto || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -189,7 +190,7 @@ function cartao(oferta) {
     foto,
     el("div", { class: "cartao-corpo" },
       el("div", { class: "cartao-meta" },
-        el("span", { class: "loja", style: `--cor:${loja.cor}` }, el("i"), loja.nome),
+        el("span", { class: "loja" }, logoLoja(loja), loja.nome),
         el("time", { datetime: new Date(oferta.publicadoEm).toISOString() }, haQuanto(oferta.publicadoEm)),
       ),
       el("h3", { class: "cartao-titulo" },
@@ -207,9 +208,13 @@ function cartao(oferta) {
   );
 }
 
+function logoLoja(loja) {
+  return el("img", { class: "loja-logo", src: loja.logo, alt: "", width: "20", height: "20", loading: "lazy", decoding: "async" });
+}
+
 function ficha(rotulo, ativa, aoClicar, extras = {}) {
   return el("button", { class: "ficha", type: "button", "aria-pressed": String(ativa), onclick: aoClicar, disabled: extras.desativada, style: extras.cor && `--cor:${extras.cor}` },
-    extras.cor && el("i"), rotulo, extras.total != null && el("small", {}, String(extras.total)),
+    extras.logo ? logoLoja(extras) : extras.cor && el("i"), rotulo, extras.total != null && el("small", {}, String(extras.total)),
   );
 }
 
@@ -222,7 +227,28 @@ function filtradas({ ignorarLoja = false, ignorarCategoria = false } = {}) {
     && termos.every((termo) => oferta.busca.includes(termo)));
 }
 
+// Reveza os grupos (um item de cada por vez) para a lista ficar variada.
+function revezar(grupos) {
+  const saida = [];
+  for (let i = 0; grupos.some((grupo) => i < grupo.length); i += 1) {
+    for (const grupo of grupos) if (i < grupo.length) saida.push(grupo[i]);
+  }
+  return saida;
+}
+
+function porLoja(lista) {
+  return Object.keys(LOJAS).map((loja) => lista.filter((o) => o.loja === loja)).filter((grupo) => grupo.length);
+}
+
+// Amostra variada de uma loja: uma oferta de cada categoria por vez.
+function variadas(lista, quantidade) {
+  const categorias = [...new Set(lista.map((o) => o.categoria))];
+  return revezar(categorias.map((categoria) => lista.filter((o) => o.categoria === categoria))).slice(0, quantidade);
+}
+
 function ordenadas(lista) {
+  // "Em destaque" segue a ordem das lojas, revezando entre elas.
+  if (estado.ordem === "destaque") return revezar(porLoja(lista));
   const criterios = {
     recentes: (a, b) => b.publicadoEm - a.publicadoEm,
     desconto: (a, b) => b.desconto - a.desconto || b.publicadoEm - a.publicadoEm,
@@ -238,18 +264,18 @@ function definir(mudancas) {
   if (estado.loja) parametros.set("loja", estado.loja);
   if (estado.categoria) parametros.set("cat", estado.categoria);
   if (estado.busca) parametros.set("q", estado.busca);
-  if (estado.ordem !== "recentes") parametros.set("ordem", estado.ordem);
+  if (estado.ordem !== "destaque") parametros.set("ordem", estado.ordem);
   history.replaceState(null, "", parametros.size ? `?${parametros}` : location.pathname);
   desenhar();
 }
 
 function desenhar() {
   const todas = estado.ofertas;
-  const hoje = new Date().setHours(0, 0, 0, 0);
   const resumo = $("resumo");
   resumo.replaceChildren();
   if (todas.length) {
-    resumo.append(el("b", {}, `${todas.length} ofertas no ar`), ` · ${todas.filter((o) => o.publicadoEm >= hoje).length} postadas hoje · a mais nova saiu ${haQuanto(todas[0].publicadoEm)}`);
+    const lojasAtivas = porLoja(todas).length;
+    resumo.append(el("b", {}, `${todas.length} ofertas no ar`), ` em ${lojasAtivas} ${lojasAtivas === 1 ? "loja" : "lojas"} · atualizado ${haQuanto(todas[0].publicadoEm)}`);
   } else {
     resumo.textContent = "Nenhuma oferta no ar agora. Volte daqui a pouco.";
   }
@@ -260,7 +286,7 @@ function desenhar() {
     ficha("Todas", !estado.loja, () => definir({ loja: "" }), { total: paraLojas.length }),
     ...Object.entries(LOJAS).map(([chave, loja]) => {
       const total = paraLojas.filter((o) => o.loja === chave).length;
-      return ficha(loja.nome, estado.loja === chave, () => definir({ loja: estado.loja === chave ? "" : chave }), { cor: loja.cor, total, desativada: !total && estado.loja !== chave });
+      return ficha(loja.nome, estado.loja === chave, () => definir({ loja: estado.loja === chave ? "" : chave }), { cor: loja.cor, logo: loja.logo, total, desativada: !total && estado.loja !== chave });
     }),
   );
 
@@ -273,7 +299,19 @@ function desenhar() {
   );
 
   const lista = ordenadas(filtradas());
-  const semFiltro = !estado.loja && !estado.categoria && !estado.busca && !estado.oficial && estado.ordem === "recentes";
+  const semFiltro = !estado.loja && !estado.categoria && !estado.busca && !estado.oficial && estado.ordem === "destaque";
+
+  // Página inicial: uma faixa por loja, na ordem definida em LOJAS.
+  $("vitrines").replaceChildren(...(semFiltro ? porLoja(todas).filter((grupo) => grupo.length >= 4).map((grupo) => {
+    const loja = LOJAS[grupo[0].loja];
+    return el("section", { class: "vitrine" },
+      el("div", { class: "titulo-secao" },
+        el("h2", { class: "loja-titulo" }, logoLoja(loja), loja.nome),
+        el("button", { class: "link", type: "button", onclick: () => { definir({ loja: grupo[0].loja }); scrollTo({ top: 0 }); } }, `Ver todas (${grupo.length})`),
+      ),
+      el("div", { class: "trilho" }, ...variadas(grupo, 12).map(cartao)),
+    );
+  }) : []));
   // Acima de 70% quase sempre é "preço cheio" inflado pelo vendedor; esses
   // continuam na lista, mas não ganham a vitrine.
   const destaques = semFiltro
@@ -282,7 +320,7 @@ function desenhar() {
   $("destaques-bloco").hidden = destaques.length < 4;
   $("destaques").replaceChildren(...destaques.map(cartao));
 
-  $("titulo-lista").textContent = semFiltro ? "Últimas ofertas" : `${lista.length} ${lista.length === 1 ? "oferta encontrada" : "ofertas encontradas"}`;
+  $("titulo-lista").textContent = semFiltro ? "Todas as ofertas" : `${lista.length} ${lista.length === 1 ? "oferta encontrada" : "ofertas encontradas"}`;
   $("grade").replaceChildren(...lista.slice(0, estado.visiveis).map(cartao));
   $("vazio").hidden = lista.length > 0 || !todas.length;
   $("mais").hidden = lista.length <= estado.visiveis;
@@ -293,7 +331,7 @@ function iniciar() {
   estado.loja = LOJAS[parametros.get("loja")] ? parametros.get("loja") : "";
   estado.categoria = parametros.get("cat") || "";
   estado.busca = parametros.get("q") || "";
-  estado.ordem = ["recentes", "desconto", "menor", "maior"].includes(parametros.get("ordem")) ? parametros.get("ordem") : "recentes";
+  estado.ordem = ["recentes", "desconto", "menor", "maior"].includes(parametros.get("ordem")) ? parametros.get("ordem") : "destaque";
   $("busca").value = estado.busca;
   $("ordem").value = estado.ordem;
 

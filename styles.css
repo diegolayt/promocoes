@@ -167,3 +167,58 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 }
 
 .preco-em { color: var(--texto-suave); font-size: 11.5px; }
+
+/* ───── Revisão visual ───── */
+.marca-logo { width: 36px; height: 36px; }
+.abertura { padding: 30px 0 18px; }
+.abertura h1 { font-size: clamp(26px, 5vw, 38px); letter-spacing: -0.03em; line-height: 1.1; }
+.chamada-texto { margin-top: 8px; color: var(--texto-suave); font-size: 16px; max-width: 60ch; }
+.selos { display: flex; flex-wrap: wrap; gap: 8px 20px; list-style: none; padding: 0; margin: 16px 0 0; font-size: 13.5px; color: var(--texto-suave); }
+.selos li { display: inline-flex; align-items: center; gap: 7px; }
+.selos svg { width: 16px; height: 16px; color: var(--destaque); }
+.resumo { margin-top: 14px; font-size: 13.5px; }
+
+.loja-titulo { display: inline-flex; align-items: center; gap: 10px; }
+.loja-titulo i { width: 11px; height: 11px; border-radius: 50%; background: var(--cor); }
+.titulo-secao .link { text-decoration: none; font-size: 14px; white-space: nowrap; }
+.titulo-secao .link:hover { text-decoration: underline; }
+.trilho { scrollbar-width: thin; scrollbar-color: var(--borda) transparent; }
+.trilho::-webkit-scrollbar { height: 6px; }
+.trilho::-webkit-scrollbar-thumb { background: var(--borda); border-radius: 999px; }
+
+.rodape { display: block; margin-top: 52px; padding: 34px 0 46px; border-top: 1px solid var(--borda); background: var(--superficie); }
+.rodape-grade { display: grid; grid-template-columns: minmax(220px, 1fr) 2fr; gap: 24px 56px; color: var(--texto-suave); font-size: 13px; }
+.rodape-grade .marca { display: inline-flex; margin-bottom: 10px; color: var(--texto); }
+.rodape-avisos { display: grid; gap: 8px; align-content: start; }
+
+@media (max-width: 640px) {
+  .abertura { padding: 22px 0 12px; }
+  .chamada-texto { font-size: 15px; }
+  .selos { flex-direction: column; gap: 7px; }
+  .titulo-secao { margin: 22px 0 10px; }
+  .titulo-secao h2 { font-size: 17px; }
+  .ordenar span { display: none; }
+  .cartao-titulo { font-size: 13px; }
+  .ir { height: 36px; font-size: 13px; }
+  .rodape-grade { grid-template-columns: 1fr; }
+  .chamada { padding: 18px; margin-top: 30px; }
+}
+
+/* Lojas com a logo de cada uma, em botões retangulares. */
+.loja-logo { width: 20px; height: 20px; border-radius: 5px; object-fit: cover; flex: none; }
+#lojas .ficha { height: 40px; border-radius: 10px; padding-inline: 12px; gap: 8px; }
+#lojas .ficha[aria-pressed="true"] { background: var(--superficie); color: var(--texto); border-color: var(--texto); box-shadow: inset 0 0 0 1px var(--texto); }
+#lojas .ficha[aria-pressed="true"] small { color: var(--texto-suave); opacity: 1; }
+#lojas .ficha:disabled .loja-logo { filter: grayscale(1); }
+.loja .loja-logo { width: 16px; height: 16px; border-radius: 4px; }
+.loja-titulo .loja-logo { width: 26px; height: 26px; border-radius: 7px; }
+
+/* Loja e horário sempre em uma linha só, mesmo no celular. */
+.cartao-meta { white-space: nowrap; }
+.cartao-meta .loja { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.cartao-meta time { flex: none; }
+@media (max-width: 640px) {
+  .cartao-meta { font-size: 11.5px; gap: 6px; }
+  .loja .loja-logo { width: 14px; height: 14px; }
+  #lojas .ficha { height: 38px; }
+}

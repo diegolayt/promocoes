@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diegola Promoções: ofertas e cupons do dia</title>
+  <meta name="description" content="Promoções conferidas da Shopee, Mercado Livre, Amazon, AliExpress, KaBuM! e Magalu, atualizadas o dia todo.">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" type="image/png" href="assets/logo-64.png">
+  <script>
+    // Aplica o tema salvo antes da primeira pintura para não piscar.
+    try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-linha largura">
+      <a class="marca" href="./" aria-label="Diegola Promoções, início">
+        <img class="marca-logo" src="assets/logo-192.png" alt="" width="34" height="34">
+        <span>Diegola <b>Promoções</b></span>
+      </a>
+      <label class="busca">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg>
+        <input id="busca" type="search" placeholder="Buscar: air fryer, SSD, tênis…" autocomplete="off" aria-label="Buscar ofertas">
+      </label>
+      <button id="tema" class="icone" type="button" aria-label="Alternar tema claro/escuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.800A9 9 0 1 1 11.200 3a7 7 0 0 0 9.800 9.800Z"/></svg>
+      </button>
+      <a id="telegram-topo" class="botao telegram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.500 4.300 2.900 11.500c-.800.300-.800 1.400 0 1.700l4.700 1.500 1.800 5.600c.200.700 1.100.900 1.600.400l2.600-2.500 4.700 3.500c.600.400 1.400.100 1.600-.600L23 5.500c.200-.900-.700-1.600-1.500-1.200ZM9.300 14.200l8.300-6.100-6.500 7-.300 3.400-1.500-4.300Z"/></svg>
+        <span>Entrar no grupo</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="largura">
+    <section class="abertura">
+      <h1>Promoções de hoje</h1>
+      <p id="resumo" class="resumo" aria-live="polite">Carregando ofertas…</p>
+    </section>
+
+    <nav id="lojas" class="fichas" aria-label="Filtrar por loja"></nav>
+    <nav id="categorias" class="fichas fichas-suaves" aria-label="Filtrar por categoria"></nav>
+
+    <section id="destaques-bloco" class="destaques" hidden>
+      <div class="titulo-secao">
+        <h2>Maiores descontos</h2>
+        <span>das últimas 24 horas</span>
+      </div>
+      <div id="destaques" class="trilho"></div>
+    </section>
+
+    <section>
+      <div class="titulo-secao">
+        <h2 id="titulo-lista">Últimas ofertas</h2>
+        <label class="ordenar">
+          <span>Ordenar</span>
+          <select id="ordem">
+            <option value="recentes">Mais recentes</option>
+            <option value="desconto">Maior desconto</option>
+            <option value="menor">Menor preço</option>
+            <option value="maior">Maior preço</option>
+          </select>
+        </label>
+      </div>
+      <div id="grade" class="grade"></div>
+      <p id="vazio" class="vazio" hidden>Nada encontrado com esses filtros. <button id="limpar" class="link" type="button">Limpar filtros</button></p>
+      <div class="mais"><button id="mais" class="botao contorno" type="button" hidden>Carregar mais ofertas</button></div>
+    </section>
+
+    <section class="chamada">
+      <div>
+        <h2>Receba antes, direto no celular</h2>
+        <p>As ofertas saem primeiro no grupo do Telegram, separadas por tópico.</p>
+      </div>
+      <a id="telegram-base" class="botao telegram grande" target="_blank" rel="noopener">Entrar no grupo do Telegram</a>
+    </section>
+  </main>
+
+  <footer class="rodape largura">
+    <p>Preços e estoque podem mudar a qualquer momento: vale o valor exibido na loja no fechamento da compra.</p>
+    <p>Os links são de afiliado. Comprando por eles, o Diegola Promoções pode receber comissão, sem custo extra para você.</p>
+  </footer>
+
+  <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
+  <script src="app.js?v=5" defer></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+# Mais vendidos da Amazon.com.br coletados em 06/10/2026 (nota >= 4,5 e 300+ avaliações).
+# Formato: ASIN|título|preço|nota|avaliações|id da imagem
+[Informática]
+B074L9L5KZ|Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto|64,00|4,8|70568|51+TpH1VS8L
+B0CJ3J2WCR|Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa|219,90|4,7|5151|61y-lcvG7VL
+B07643MPGS|Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2|109,90|4,7|21668|61vdNn+737L
+B0CJ3BDN7T|Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro|89,90|4,8|7115|51pIShw4V8L
+B08WKPK952|Cartucho de tinta HP 667 Preto Original (3YM79AB) para impressora Deskjet|65,40|4,7|12117|81rYpjuTwdL
+B074HMBWQG|Cartucho de Tinta HP 664 Preto Original (F6V29AB) para impressora Deskjet|74,90|4,7|16581|61PXGpDplBL
+[Games]
+B0FPGF9J2J|PlayStation 5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7|4.089,00|4,8|3994|71WCygaQDAL
+B0FY6X2XXY|Controle sem fio PlayStation DualSense – Branco|417,57|4,8|8489|51zRVFcqMLL
+B0FR6PC1FB|Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online|2.098,97|4,8|602|61JwTVae3+L
+B0F6F6MYP1|Ghost of Yōtei - PlayStation 5|297,51|4,9|1090|81T4Iic4FRL
+B0F6D7MQQB|Console Nintendo Switch 2 - Modelo Nacional de Tomada|4.098,00|4,8|884|51DCY2ooVtL
+B0GWCCBDRR|Marvel's Wolverine - PlayStation 5|309,90|4,5|421|81HieNgPHTL
+B0F8R9NDXC|PlayStation 5 Slim com leitor de disco - Pacote ASTRO BOT e Gran Turismo 7|4.999,00|4,8|2147|71IkUBtdDGL
+[Eletrodomésticos]
+B0CDJ4L7CZ|Sanduicheira Elétrica Cadence Click - 127V|75,34|4,8|21028|51UxR8FHe-L
+B08R93TVRG|Fritadeira Philco Air Fryer Oven 12L PFR2200P - 127V|399,00|4,6|10083|612gXC9waVL
+B07QK91PTZ|Liquidificador Mondial Turbo Power, Preto, 550W, 220V - L-99 FB|80,75|4,7|20189|71KFAoTV+hL
+B0CRBJYG6P|Fritadeira Air Fryer Britânia 5,5L 1500W BFR50 Redstone 220V|289,00|4,8|2008|51NKkmrtVEL
+B094X2N4HV|Aspirador de pó vertical 2 em 1 Electrolux 1450W HEPA STK15 Cinza 127V|179,00|4,7|17510|31RDw6Caq9L
+B09B17MQLC|Ventilador de Mesa Mondial 30cm Super Power, Preto, 60W, 220V - VSP-30-B|99,90|4,6|14352|61o7Q8hq2zL
+[Casa]
+B0C2ZNDWK6|Conjunto de Bowls Tigelas de Inox com Tampa Plástica Electrolux|75,10|4,9|10402|51hUmO15FhL
+B0F256HPZJ|Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux|54,14|4,7|4686|61Wa-avvnwL
+B07K8XJF9D|Garrafa Térmica Inox Parede Dupla Matterhorn 591ml Azul Mônaco Contigo|44,63|4,7|14939|41k8bj588BL
+[Mercado]
+B07N4FX3TC|Lysoform Original, Desinfetante Líquido, Limpeza Casa, 5L|48,21|4,9|26609|61kCz5HQ12L
+B07VRYJWPB|Finish Power Powder Advanced Detergente para Lava Louças em Pó 2,5kg|119,19|4,8|22875|61FuIlOh2GL
+B07BSRM75G|Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades|52,11|4,8|8361|71an37VMa7L
+B0CSYPRC2Q|Ypê Detergente em Pó para Máquina 1Kg|48,28|4,8|4933|616mKGypBaL
+B0C9RVFRZD|Duracell Pilhas Alcalinas AA Pack 24 Unidades|99,64|4,9|34029|81dHFKPXSML
+[Livros]
+8501117846|Verity - Colleen Hoover|32,66|4,8|90385|91SDZ2eUj+L
+8535923691|A cabeça do santo - Socorro Acioli|37,70|4,8|36898|71-YhujYUxS
+8551009834|O massacre da família Hope - Riley Sager|40,77|4,7|16704|815bfY-u6-L
+6550971292|Vidas secas - Graciliano Ramos|8,36|4,8|19126|618-b9Im6dL
+8534705259|Olhos D'Água - Conceição Evaristo|21,56|4,8|11598|51RjYjNVpRL
+6559801365|O Pequeno Príncipe – Edição de luxo com capa dura almofadada e aquarelas originais|13,17|4,9|3496|81QluJ4QXyL
+8532520669|O conto da aia - Margaret Atwood|43,78|4,7|33106|91AHNAr638L
+[Áudio e TV]
+B09B8VGCR8|Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth|329,00|4,8|94608|71xoR4A6q-L
+B0C2RS4ZG6|Echo Spot com Alexa (Geração mais recente) | Despertador inteligente com som vibrante|899,00|4,7|10306|71Qtzczw2fL
+[Informática]
+B0CP31L73X|Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo e luz frontal ajustável|519,00|4,8|32939|718jJRdvDsL
+[Celulares]
+B0FPYV6K68|Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7", IP54 - Preto|819,00|4,8|2969|61ldkLk4JYL
+B0GVTB7BGQ|Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Câmera Tripla de até 50MP|2.665,56|4,8|685|51VZg1VWMlL
+B0DXR7GNWJ|Apple iPhone 16e de 128 GB — Preto|3.482,69|4,8|4027|412RWxKFt8L
+B0GQW2J4SK|Apple iPhone 17 de 256 GB — Preto|6.015,39|4,8|837|41HPi5vrxSL
+[Beleza]
+B07H113TPQ|L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar|40,49|4,8|121931|61bsBAPQB7L
+B072MK7BN2|La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante|71,52|4,8|26749|41LpbF-1WDL
+B0F8KD3YGQ|Phebo Caixa de Sabonetes, Vinho, 90g, 8 unidades|39,90|4,9|1965|71OYMuip-bL
+B0CPYDJLH2|L'Oréal Professionnel Óleo 10 em 1 Absolut Repair|84,90|4,7|23811|61g91pR25kL
+B07GMCX5S4|Carga para Aparelho de Barbear Gillette Mach3 Sensitive 16 unidades|89,99|4,8|38614|71qI3elsK7L
+B07RK4HST7|CeraVe Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico|93,73|4,8|88406|61vyW3Dl-7L
+[Brinquedos]
+B000GKUEVE|Pacote 5 Carros Sortidos Hot Wheels, Mattel|54,99|4,8|19078|81GMRnT1SsL
+B08GKYKZBF|Laptop Infantil Barbie Candide, Brinquedo Educativo Bilíngue|62,99|4,6|2297|61ubj7qnXCL
+B0DFFTP71B|Bicicleta de Equilíbrio Buba, 4 Rodas|199,90|4,8|5450|51Gz7G2XQ7L
+B077PLGGJX|Jogo Cara a Cara Estrela, 53 peças|55,99|4,8|6378|81CJd3CfGnL
+B085N8W621|Taco Gato Cabra Queijo Pizza (PaperGames)|43,99|4,9|9930|71biar0L2WL
+[Esportes]
+B0B56Q7BT8|Mibee Compressor de ar portátil com inflador de pneu e bateria recarregável de 4000 mAh|59,00|4,5|3422|41fHfQbB81L
+B0CCG7139R|Bola de Futsal Penalty RX XXIII|59,90|4,8|3045|61giL56MKRL
+B07FP3Q6P8|Bola de Tênis Wilson Championship Extra Duty|49,90|4,7|1682|51L7fSnwihL
+B0CLZHRQK8|Bola de Vôlei de Praia Mikasa|161,99|4,7|1111|619L902wGSL

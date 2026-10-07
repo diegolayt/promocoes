@@ -5,17 +5,17 @@ const CONFIG = {
   // Arquivos de ofertas. Aceita caminhos locais ou URLs completas (por exemplo
   // os feeds que o bot grava no GitHub). Fontes que falharem são ignoradas.
   fontes: [
-    "data/ofertas.json",
-    "data/manuais.json",
-    "data/amazon.json",
+    "../data/ofertas.json",
+    "../data/manuais.json",
+    "../data/amazon.json",
     // Feeds que o bot do Telegram grava a cada publicação (um por tópico).
     // A vitrine traz os melhores de cada categoria do Mercado Livre, duas vezes ao dia.
-    ...["feed", "feed.eletronicos", "feed.feminino", "feed.mercado", "feed.mercadolivre", "vitrine.mercadolivre"]
+    ...["feed", "feed.eletronicos", "feed.feminino", "feed.mercado", "feed.mercadolivre", "vitrine.mercadolivre", "vitrine.shopee"]
       .map((nome) => `https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/${nome}.json`),
   ],
   // Cupons do dia: cada um diz a loja, o código e em quais ofertas vale.
   // O primeiro arquivo é o mesmo que o bot do Telegram usa; o segundo é local.
-  cupons: ["https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/cupons.json", "data/cupons.json"],
+  cupons: ["https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/cupons.json", "../data/cupons.json"],
   porPagina: 40,
   atualizarACadaMs: 2 * 60_000,
   // Ofertas mais antigas que isso saem do ar sozinhas.
@@ -24,12 +24,12 @@ const CONFIG = {
 
 // A ordem daqui é a ordem em que as lojas aparecem no site.
 const LOJAS = {
-  amazon: { nome: "Amazon", cor: "#ff9900", logo: "assets/lojas/amazon.png" },
-  mercadolivre: { nome: "Mercado Livre", cor: "#f5c400", logo: "assets/lojas/mercadolivre.png" },
-  shopee: { nome: "Shopee", cor: "#ee4d2d", logo: "assets/lojas/shopee.png" },
-  aliexpress: { nome: "AliExpress", cor: "#e43225", logo: "assets/lojas/aliexpress.png" },
-  kabum: { nome: "KaBuM!", cor: "#ff6500", logo: "assets/lojas/kabum.png" },
-  magalu: { nome: "Magalu", cor: "#0086ff", logo: "assets/lojas/magalu.png" },
+  amazon: { nome: "Amazon", cor: "#ff9900", logo: "../assets/lojas/amazon.png" },
+  mercadolivre: { nome: "Mercado Livre", cor: "#f5c400", logo: "../assets/lojas/mercadolivre.png" },
+  shopee: { nome: "Shopee", cor: "#ee4d2d", logo: "../assets/lojas/shopee.png" },
+  aliexpress: { nome: "AliExpress", cor: "#e43225", logo: "../assets/lojas/aliexpress.png" },
+  kabum: { nome: "KaBuM!", cor: "#ff6500", logo: "../assets/lojas/kabum.png" },
+  magalu: { nome: "Magalu", cor: "#0086ff", logo: "../assets/lojas/magalu.png" },
 };
 
 // A primeira categoria cujo padrão casar com o título vence, então as mais

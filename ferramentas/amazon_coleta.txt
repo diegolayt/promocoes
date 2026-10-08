@@ -1,5 +1,6 @@
 # Mais vendidos da Amazon.com.br coletados em 06/10/2026 (nota >= 4,5 e 300+ avaliações).
 # Formato: ASIN|título|preço|nota|avaliações|id da imagem
+@ 2026-10-06T22:03:00-03:00
 [Informática]
 B074L9L5KZ|Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto|64,00|4,8|70568|51+TpH1VS8L
 B0CJ3J2WCR|Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa|219,90|4,7|5151|61y-lcvG7VL
@@ -68,3 +69,344 @@ B0B56Q7BT8|Mibee Compressor de ar portátil com inflador de pneu e bateria recar
 B0CCG7139R|Bola de Futsal Penalty RX XXIII|59,90|4,8|3045|61giL56MKRL
 B07FP3Q6P8|Bola de Tênis Wilson Championship Extra Duty|49,90|4,7|1682|51L7fSnwihL
 B0CLZHRQK8|Bola de Vôlei de Praia Mikasa|161,99|4,7|1111|619L902wGSL
+
+# Segunda coleta. A linha com @ diz quando os preços abaixo dela foram vistos.
+@ 2026-10-07T01:30:00-03:00
+[Eletrodomésticos]
+B0B3SJ345V|SUGGAR DEPURADOR DE AR SLIM 60CM 3 VEL. PRETO 110V DPS161PT|331,54|4,6|5489|416sTcN5ZlL
+B0D15458G5|SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 10KG 110V BRANCA LE1021BR|519,99|4,5|788|51Xzw3t1fvL
+B09B8W3KQP|Máquina de Lavar Electrolux 15kg Branca Essential Care com Cesto Inox e Jet&Cl|1.899,00|4,7|969|41pS08Q7EoL
+B0B3SJ8YLP|SUGGAR DEPURADOR DE AR SLIM 80CM 3 VEL. PRETO 220V DPS182PT|377,89|4,5|2893|41reXjYlagL
+B07CZ3R2P8|Refil Filtro Vela Purificador Soft Everest Original|115,74|4,8|1172|41XhFbEHcKL
+B0B7C9HXGL|Cooktop 4 Bocas Itatiaia Essencial com Mesa de Vidro Temperado e Acendimento A|316,00|4,7|1389|71uLqItiKiL
+B081FKSGPP|SUGGAR DEPURADOR DE AR SLIM DE EMBUTIR 60CM FRONTAL INOX 110V DE61IX|689,00|4,7|1240|51ciFDrjQLL
+B085JFZHJ6|MONDIAL Cooktop a Gás, 5 Bocas, Preto/Inox, Bivolt - CTG-02|378,99|4,7|2678|7144mJXoQrL
+B076HZ5SX7|Philco Depurador, Slim Pdr60i, 150w, Cinza, 110v, Montagem debaixo do móvel|379,89|4,7|1002|41OTSrcA4dL
+B08L9RHPCF|SUGGAR CENTRIFUGA DE ROUPAS GIROMAX 15KG BRANCA 110V CT1501BR|521,89|4,5|1729|41RhW6z68DL
+B07GWXBGYS|Fischer Cooktop Gás 5 Bocas TC Infinity Mesa Inox Bivolt 23678-54121|1.189,00|4,5|2064|71OM7XG9BbL
+B085JFRRSW|MONDIAL Cooktop a Gás, 4 Bocas, Preto/Inox, Bivolt - CTG-01|331,54|4,7|5600|517E2Ia2cWL
+B0CH5PR9G9|WAP Air Fryer Oven Digital WAOD1 12L, 10 Funções Programadas 220V - Faça a hig|504,79|4,7|891|51WUHb-xT8L
+B076X6RBGG|Britânia Pipoqueira, Pop Time, Branco, 220v, 62552001 Plástico e Metal|118,79|4,7|4948|61lJjtLR5uL
+B0DY2FPRJD|Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 127V|199,00|4,8|1021|51TMCXmRIdL
+B076VYNDMP|MONDIAL Personal Blender, Preto/Prata, 300W, 110V - DG-01|145,00|4,6|8626|81dpglLUgmL
+B0DX2DZYDY|MONDIAL Forno Elétrico 52L Grand Family II, Branco/Inox, 1800W, 220V - FRN-52-|348,99|4,5|567|51fc63tRvgL
+B0921RTR6Y|Panasonic Micro-ondas 34L Inox Antibactéria 127v NN-ST67LSRU|823,71|4,6|2043|41y-HnVgGIL
+B07L8X97SR|Panificadora Automática Master Bread, Mondial, Preto, 700W, 220V - NPF-53|521,99|4,6|1299|51OmxaZFbNL
+B08S1HB8G9|3 Corações TRES Cafeteira Espresso e Multibebida Passione Preta - 127V|348,90|4,6|3502|71ng1H1wNsS
+B07L33N2RY|Micro-ondas Electrolux 27L cor Inox Espelhado com 55 receitas pré-programadas|729,00|4,6|3052|61HouN88mwL
+B08JN3JJQG|Panasonic Micro-ondas 21L Branco Espelhado 127v NN-ST27LWRU|417,99|4,7|6690|412oVgjWUxL
+B07G1FHPDR|Pipoqueira Popflix, Mondial, Vermelho, 1200W, 220V - PP-03|142,02|4,6|2968|81oRNVZ6SUL
+B0DCL4NW6J|WAP Climatizador de Ar AIR FRESH 4 em 1, com Reservatório para Essência e 3 Ní|379,90|4,5|1833|61Px4EY0XML
+B07613Y23B|Ferro De Passar Black+decker Vfa Preto cromado 127v clássico - Preto|99,90|4,7|9374|71zTmXUCInL
+B0BT524YQB|WAP Ventilador de Torre AIR SILENCE com 4 Níveis de Velocidade|319,90|4,8|2583|61+rCTOwewL
+B0BT26M491|WAP Aspirador Vertical Silent Speed Max 3 em 1, 1350W, 127V|159,90|4,8|11999|61m5wUE9XzL
+B0CP4CXPPM|Ventilador de Teto Arno Ultimate Bivolt Branco VX13, 150W, Controle Remoto|539,00|4,6|4068|51vqvPegHOL
+[Mercado]
+B0C75GP7VP|Personal Papel Higiênico Vip Folha Tripla, 32 Rolos De 20M|65,20|4,8|7477|81LqO9bt-AL
+B07DYHDXX8|Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar|54,99|4,8|67547|71bXBFl912L
+B08DZ8WLZ7|Papel Higiênico Neve Supreme Folha Tripla Leve 32 Pague 28 20 Metros|53,90|4,8|27694|71uMfSWtjnL
+B0CD886J99|Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Prot|96,99|4,7|4614|81444WvRIsL
+B07MBXDB51|Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L|50,08|4,9|44559|61NJbm2a9tL
+B07MS89BTP|DUX HUMAN HEALTH Whey Protein Concentrado 900g Chocolate – 23g de Proteína|189,99|4,7|6205|71gzdbMsTKL
+B0CF71CJ2L|Creatina Pura Dark Lab, Monohidratada 100% de Pureza, Sem Glúten, Sem Sabor|49,90|4,8|41404|611VgrvbtFL
+B07FN1XPNW|Lenços Huggies Higiene Superior Limpam 2x Mais 6 x 48 Un|49,90|4,8|16757|71rS1wIq+bL
+B07DVJC66X|Max Titanium Creatina Pote Monohidratada (300g) 100% Pura|41,49|4,8|80071|51gt4U5kD-L
+B09BDJ5V5D|Vitafor - Omegafor Plus - 240 Cápsulas|221,88|4,8|11858|51oBtMDTfqL
+B07HDSL78H|Café Orfeu Clássico em Grãos 1kg|116,70|4,7|16667|51mMS+Qpi1L
+B09M2B14V7|YoPRO Bebida Láctea UHT Chocolate Líquida Caixinha 250ml - 15g de Proteínas|74,15|4,7|24885|711Hqva6ioL
+B07XLB46NH|Chiclete Trident Hortelã Sem Açúcar - Caixa com 21 unid. de 8g|49,58|4,9|1618|61VSWbMJKgL
+B0F2GMT6T3|Integralmedica Whey Protein Crisp Bar Ovomaltine 12 Unidades|90,62|4,8|2255|61sRE1EYW4L
+B07J4J9XKZ|Bravecto 250mg Antipulgas e Carrapatos para Cães de 4,5 a 10kg – 1 Comprimido|117,99|4,8|36410|51ngRrc8nmL
+B07Y5NF2FZ|Scalibor 19g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose|57,31|4,7|11171|5105WiYFuaL
+B07YP1K82Z|Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg|50,00|4,8|5516|71TwFhTj7NL
+B0F96F3CXL|Pack Ração Úmida Whiskas Sachê Carne/Frango/Atum para Gatos Adultos|48,95|4,9|941|817lLPtiksL
+B07WRS2BQ5|Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção|89,99|4,6|4125|71jHkfQe5EL
+B08J6HSR41|Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote com 25 tubos de 14g|40,90|4,7|1706|61iKqbTXDnL
+B07XZDZWTG|NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete|58,90|4,8|21778|71SCXcx21qL
+B0DPXSDD9R|Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas|40,89|4,9|1657|81IzmHr72pL
+[Casa]
+B0CH3WBKN6|WAP Extratora Portátil Spot Cleaner W3, 3 em 1, Borrifa, Esfrega e Extrai|449,90|4,7|3795|71YOp9GJX2L
+B09V1SM8QB|WAP Parafusadeira e Furadeira à Bateria 12V BPF-12K3, Kit de 13 Acessórios|105,90|4,8|22818|81hJD-odFeL
+B0785W3BLR|Resistência Acqua Ultra 220V 7800W 3065B, Lorenzetti|73,00|4,7|12554|51cSs+R7z2L
+B076BB1XPG|Electrolux Aspirador água pó compacto potente função sopro 1400W 12 L|199,90|4,6|4155|61X0GXT93RL
+B076N2S8FV|Sparta Maleta de ferramentas kit com 129 peças|74,90|4,7|18528|61ZmjmMLsRL
+B0CLF2RGNL|WAP Parafusadeira e Furadeira com Impacto à Bateria 3/8" 21V K21-ID01|186,90|4,7|1486|81s-uIbE5JL
+B08MV1F8VV|Fechadura Digital de Sobrepor FD1000, Intelbras|249,00|4,9|1219|416vCY53LjL
+B07CTN7X2Y|Kit de Pontas e Brocas X-Line 33 unidades Bosch|76,10|4,8|21999|61dkAeB2rXL
+B0DWXV7S1H|Buddemeyer Jogo de Toalhas Melissa Extra Soft Gigante Verde/Verde Claro 5pç|229,00|4,6|564|71G7rOgTDmL
+B07BDNVZ4W|Buddemeyer Travesseiro 50x70cm, Toque de Pluma Algodão Branco|105,00|4,6|13252|31UgUp3LBaL
+B0FZ99Y541|Cama de Solteiro 88x188cm, Metal, Cabeceira, 300kg - Estrutura metálica|179,98|4,7|773|81Y3yKHjnbL
+B089Y3S71L|Escrivaninha Trevalla Kuadra Me150-E10 Industrial 150cm Preto Onix|227,48|4,6|19240|61BR+BkI0xL
+B0B8ZF9DR3|Colchão Casal Emma Basics 17 cm - 138x188 cm, Espuma D28|999,00|4,7|1646|61jnkc5Z4GL
+B081NL5R39|Colchão Casal Emma Original 25 cm - 138x188 cm, Espuma Viscoelástica 3 Camadas|2.199,00|4,7|2019|61Q-eFimUIL
+B078JC61TX|Sanremo - Caixa Organizadora Plástica de 56,1 Litros e Tampa com Travas|84,55|4,5|2324|41ioq0UoC8L
+B0C5N3RP6Q|Burigotto Berço Serenata, Cinza|424,00|4,8|1479|91vxZzqdMBL
+B0BQ3R8YST|Mesa Dynamica Diretor 180X60X75cm|451,35|4,6|2401|61+BAh3HrdL
+[Moda]
+B0BFT7XG6C|Tech T-shirt Gola U Masculino|84,90|4,5|2286|41NMLoCbJIL
+B07RML3H5T|Kit 6 Pares Meias Lupo 3245 Cano Médio Algodão - Sortido|50,81|4,8|6644|713Ija9xF3L
+B0G49SWCGT|Guarda Chuva com Botão Automático Reforçado – Compacto, Resistente ao Vento|41,90|4,5|580|51rmxbfHQ1L
+B0GXTY8SMX|Romantic Crown Mochila Feminino Masculino Viagem Expansível para Notebook|108,28|4,8|3814|61ov9flqL+L
+B0DXF8MFR2|Mochila Esportiva com Cordão, Separação seca e húmida|47,48|4,6|561|613DmJ7TUZL
+B0H1FYFR5L|Kit 6 Cuecas Lupo Boxer Masculinas Microfibra de Poliamida Sem Costura|134,97|4,7|3672|71rB2-l1JRL
+B0BZTCT6W7|Lupo Kit de meias esportivas de algodão respirável com 6 pares|54,14|4,8|1502|81ytTvzHarL
+B0CC2R7V5R|Kit 6 Pares Meia Cano Médio Alto Atoalhada Esportiva Algodão|55,99|4,8|2558|91qgLNRYZOL
+B07RHFXSN2|Óculos de Sol Ray-Ban Hexagonal Unissex, Tamanho 54|668,00|4,6|606|51eu2ztv1CL
+B0D548TDD7|Top Puma Feminino Esportivo Poliamida Academia Nadador Sem Bojo Original|44,99|4,8|2039|71HTX2p9s0L
+B07YDW6YXS|Capacete Fechado Pro Tork Sport Moto 788 Preto - Branco Tam. 56|64,63|4,5|8856|61kTbKJ5C4L
+B095KS85T8|Capacete Aberto Pro Tork New Liberty 3 Solid Preto Tam. 60 Vis. Fumê|67,96|4,5|1401|51vv-2rLv+S
+[Áudio e TV]
+B0CS3RHBZQ|Fone de ouvido sem fio TWS Philips TAT1209BK/00 preto, com bluetooth|118,99|4,6|8199|51yHf2TFfUL
+B0F5X39JQ1|Smart TV 4K 55" LG UHD 55UA85 Processador α7 AI Ger8 4K Super Upscaling|2.000,00|4,7|1772|61RGkr3wqEL
+B0GH34KFLR|Smart TV 32" Philco Roku TV Dolby Áudio HDR10 P32CRB|919,00|4,5|666|81zLY1z0j4L
+B0BX8V5SDW|Câmera Instax Mini 12 Lilás Candy|459,00|4,8|7346|61Aj10ec8KL
+B0F5BQGVJM|Philips Headphone Bluetooth TAH2209, Até 25 horas de bateria, Preto|113,00|4,8|2660|41jjoSyX37L
+B000XSG300|Duracell Pilha Recarregável AAA 900mAh Palito Com 4 Unidades|84,89|4,8|26795|81O9YIIKF-L
+[Celulares]
+B0FPHYC9FQ|Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7"- Preto|869,00|4,8|977|61AYtRHD0SL
+[Informática]
+B0FBRZ1ZPB|Monitor Gamer Samsung 24" FHD, 120 Hz, HDMI, Preto, S3|549,00|4,8|537|71D5dACxAYL
+B0F9B9QDNK|Xiaomi Redmi Pad 2 apenas WiFi 2.5K Octa Core|1.450,00|4,8|684|71kxpJ7DTGL
+B0CX4XSY3X|Capa de tecido para Kindle 11ª Geração (2022 e 2024) - Cor Verde Matchá|149,00|4,9|10647|711+7nOVHnL
+B07XLML2YS|TP-Link Tapo C200, Câmera de Segurança Wi-Fi 360º, 1080p Full HD, Visão Noturna|171,23|4,8|151819|41WQe9NiU6L
+B0D4NRBBMR|Samsung Galaxy Book4 Intel Core i5-1335U, Windows 11 Home, 8GB, 512GB SSD|4.299,00|4,7|1366|71qOQOgOZUL
+B0BQX6NNVC|HD Externo Toshiba 2TB Canvio Basics Preto HDTB520XK3AA|629,02|4,7|21232|91e-WNUpH0L
+B09JKXGSLG|Epson Kit de garrafas de tintas originais, Magenta, Amarelo, Ciano e Preto|208,00|4,8|6582|71J6JbK1DWL
+B0DBR3DZWG|SSD Kingston NV3 1TB M.2 2280 NVMe Gen4|1.005,00|4,8|11129|71c5uuoM1bL
+B07GPRWFC5|Mouse Gamer Sem Fio Logitech G305 LIGHTSPEED com 6 Botões Programáveis|179,90|4,8|15195|51sg9BLSMTL
+B0DTTM47F9|Impressora Epson EcoTank L1250 - Tanque de Tinta Colorida, Wi-Fi Direct|887,38|4,7|1807|51BeI0fbpzL
+B0050J4DOU|Impressora Multifuncional HP Smart Tank 583 Tanque de Tinta Colorida Wi-Fi|749,00|4,7|1412|71ZmCxdw0hL
+B0D6NLHV8N|JBL Quantum 100M2, Headset Gamer com Fio, Over Ear, Microfone|168,59|4,7|7873|61uBAfuJUfL
+B0CX22JSR3|Cabo Apple USB-C para Lightning (1 m)|168,54|4,8|9931|61PduSmu8GL
+B08BN8VD23|Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2)|674,00|4,6|5037|81QyMksmunL
+B0FHCY7WLF|Notebook Dell 15 I15-I1300-A60P, Intel Core i5-1334U, Windows 11 Home|4.649,00|4,5|538|51LAU1+ACrL
+B0CYVVRSSZ|Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD|3.099,00|4,7|1321|71TK+vh6JIL
+B09VCJ171S|Processador AMD Ryzen 5 5500 100100000457BOX|615,99|4,8|9154|51So7GoGvxL
+[Games]
+B0GS35BTFZ|PRAGMATA - PlayStation 5|229,90|4,8|357|61Qf8CZcmQL
+B0B3YF2NZD|The Last Of Us Part I - PlayStation 5|169,90|4,9|3722|81KoGd-98cL
+B0FZDSXJMY|007 First Light - Specialist Edition (Exclusivo Amazon) - PlayStation 5|269,90|4,8|698|61mxvp+aRrL
+B088GNW267|Controle DualSense - PlayStation 5|429,00|4,8|13478|5102Pp-TfHL
+B0F663CWT8|Sonic X Shadow Generations - Nintendo Switch 2|213,44|4,7|556|81KCnCguboL
+B0F8RFWW53|Donkey Kong Bananza - Nintendo Switch 2|435,89|4,8|654|61AMXPtRajL
+B0BKH8PHMY|Pokémon Legends: Arceus - Nintendo Switch|299,00|4,9|937|611MOHoqCkL
+B0FHHFBDNQ|GameSir G7 Pro Controle Gamer Tri-Mode para Xbox, PC e Android Sem Fio|539,99|4,6|5054|71-wtZ5RihL
+B0D739FJLG|Controle Wireless 8BitDo Ultimate 2C, Bluetooth, Verde|204,40|4,8|5564|51DTcaDKELL
+B0D41SDLTB|Mouse Gamer Redragon K1ng 1K Preto PAW3327 Cabo USB Tipo-C Removível 12400 DPI|88,36|4,8|865|51h06ltKy4L
+B0F3VTCZK8|Cartão Samsung microSD Express 256 GB para Nintendo Switch 2|410,00|4,8|3893|51+NEcdWJFL
+B0C4BG535B|Street Fighter 6 - PlayStation 5|181,98|4,7|517|71ksB1D3FIL
+[Beleza]
+B07XP8K162|CeraVe Creme Hidratante Corporal, para Pele Seca a Extra Seca, com 3 Ceramidas|94,90|4,7|14313|51Sfs7Wu+TL
+B07SJSZHD7|Eucerin Dual Sérum Facial Antimanchas e Anti-idade 30ml, Anti-Pigment|230,99|4,7|12528|71njjocTB6L
+B07Y2BK4GJ|Protetor Solar Facial Minesol Oil Control, Sem Cor, FPS 70, 40g|62,99|4,8|15495|51eH9ipBcXL
+B0B3SGCCY5|La Roche-Posay Effaclar Gel Alta Tolerância, Limpeza Facial|64,49|4,8|12043|61K7v5j5pRL
+B077BY5B8Q|Maybelline NY The Colossal Volum Express, Máscara de Cílios Lavável|51,99|4,7|32000|51rTd-hhlGL
+B0D9NN7XFD|Bioderma Óleo de Banho Higiene Hidratante Atoderm 1L Refil|194,99|4,8|39166|518gOd83faL
+B0BG312BMR|Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml|139,90|4,7|2325|41pSxYgVPwL
+B079VPMXHF|Cetaphil Loção Hidratante|89,90|4,8|30595|61OMefnVvwL
+B09SMBB1KN|ISDIN Protetor Solar Facial Fusion Water 5 Stars|63,29|4,8|12044|616A9KPmehL
+[Brinquedos]
+B07J2PCFB3|Sunny Skye, Pelúcia 12", Patrulha Canina|75,99|4,9|2699|51pI0bdl8AL
+B0DJ19R8H7|LEGO Minecraft A Batalha de Lava no Nether 21266 (99 Peças)|79,90|4,8|4236|81Fx8Quy1SL
+B09FMW7FFF|LEGO City Carro da Polícia 60312 (94 Peças)|69,90|4,8|11405|81lMF9lWcSL
+B0BPPHDB3J|Bebê Reborn Boneca Menina 100% silicone, pode dar banho|170,05|4,8|701|61tPSSQOTKS
+B0B25M6HGJ|Sunny Gabby's Dollhouse, Boneca Gabby, Orelhas de Gato Removíveis - 20cm|88,25|4,8|1173|71EVzHyO+7L
+B0CGY4J7QT|LEGO Creator 3 em 1 – Caminhão Plataforma com Helicóptero|139,90|4,8|6753|81Tn057C1lL
+B076X75H7L|Hasbro Games, Jogo de Festas, Twister - Novos Movimentos|72,98|4,8|3131|71L97MO8vIL
+[Esportes]
+B0F6GFK67V|Rmg8 Fit - Par de Halteres 3kg Emborrachado Sextavado Preto|75,90|4,8|566|41nIKNBnepL
+[Livros]
+B08Y3CV67L|As extraordinárias viagens de Júlio Verne - Box com 6 livros|47,59|4,8|7966|71wgomAPTQS
+8535933395|O avesso da pele – Vencedor Jabuti 2021 - Jeferson Tenório|42,35|4,8|26230|81p29WCHFaL
+6555656204|Tudo que deixamos inacabado - Rebecca Yarros|50,14|4,8|8001|8148ztBU3BL
+8551013017|Alchemised: Edição especial (capa dura + pintura trilateral) - SenLinYu|90,54|4,8|4266|71Up57zy7pL
+855101305X|Alchemised: Edição brasileira - SenLinYu|60,04|4,8|4266|71Ib1chR4GL
+6555657898|Até o fim do verão - Abby Jimenez|34,99|4,8|3839|81LcML07DAL
+8550807567|Hábitos Atômicos: um Método Fácil e Comprovado de Criar Bons Hábitos|31,01|4,8|28855|81eT2pjx4jL
+B08ZK6N3XZ|As obras revolucionárias de George Orwell - Box com 3 livros|29,60|4,8|23385|61F-KPiT4KL
+# Terceira coleta: mais vendidos de 18 categorias, só produtos que ainda não estavam na vitrine.
+@ 2026-10-08T18:35:00-03:00
+[Áudio e TV]
+B0GM1LSHQF|Fone de Ouvido Bluetooth Over-Ear JBL Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto|178,00|4,8|543|61cnqHlVvEL
+B0FH7LY3R4|Roku Streaming Stick HD 2025 - Dispositivo de streaming para TV com controle remoto por comando de voz|219,90|4,7|4269|71NIAAVDxML
+B0FJMHMCBZ|Headphone Bluetooth Philips TAH2300BK/00 com Microfone, Até 55 horas de bateria, Dobrável, Preto|109,90|4,5|2511|51BmQ8K9sML
+[Celulares]
+B0GVT7QXF7|Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera Tripla de até 50MP, IP68, Tela Super AMOLED|1.959,00|4,8|699|51VZg1VWMlL
+[Moda]
+B0CVCLGV1W|Smartwatch Samsung Galaxy Fit3 Display 1.6" Grafite|214,00|4,8|12989|61o3-pf41tL
+B08G8SYDY1|Pacote com 8 bodies de manga curta Simple Joys by Carter's Unissex Bebê|158,14|4,8|21448|81yDahe4h6L
+B000JQFX1G|Relógio automático masculino Invicta Pro Diver Collection Coin-Edge|866,87|4,6|23271|7181qF69--L
+B0FFNRMR4L|Kit 4 Bermuda Shorts Tactel Sandrini Elastano Academia Praia|59,99|4,5|1391|61vMwWcGVgL
+B072QGQVQP|Macacão de dormir para bebês Pijama de algodão com pés Simple Joys by Carter's Meninos|188,56|4,6|43955|81LUs2m-4QL
+B01M35CY4X|Pacote com 4 calças neutras Simple Joys by Carter's Unissex Bebê|115,78|4,7|65573|81vzreyuq+L
+B07ZPQBNS6|Macacão de dormir para bebês Cotton Sleep and Play, Pacote com 2, Simple Joys by Carter's Meninas|112,47|4,8|6720|81akbZpB4SL
+B000YKO2XM|Chinelo Havaianas Top adulto unissex|34,81|4,8|42579|61FKTXJTgBL
+B0H1FY5N9W|Kit 6 Cuecas Lupo Boxer Masculinas Microfibra de Poliamida Sem Costura|134,97|4,7|3675|71rB2-l1JRL
+B08G8SRT1D|Conjunto de 6 peças para bebês meninos (manga curta e comprida) e calça Simple Joys by Carter's|162,11|4,8|1791|81cF-q8HQ-L
+B0BZTDMVR7|Kit de meias esportivas Lupo de algodão respirável com 6 pares|61,10|4,8|1507|81TTJq2X6FL
+[Informática]
+B0765KZ264|Suporte Articulado de Mesa ELG F80N com Pistão a Gás para Monitores de 17" a 35"|129,99|4,9|37881|61-TzEg09KL
+B0FHCHBRGF|Notebook Dell 15 Intel Core i5-1334U, Windows 11 Home, Tela 15.6 FHD 120 Hz, 8 GB RAM, 512 GB SSD|3.599,00|4,6|1380|51LAU1+ACrL
+B086CB6BXW|Suporte Para Notebook e MacBook em Alumínio com Altura Ajustável|13,38|4,5|5024|61Ggc5CthJL
+B0BPTK4P38|Combo Teclado e Mouse Sem Fio Dell KM3322W, Receptor USB 2,4 GHz|129,00|4,7|11249|51IPtedWrsL
+B0FLKGNYJ8|Monitor Gamer AOC AGON G50 24" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F|559,00|4,8|368|71RpoYhSWJL
+B075Y72PHZ|Mochila Lenovo Casual B210 Preta para Notebook 15,6"|74,90|4,8|37167|6157zAcYYVL
+B0FMFRFNWG|Galaxy Tab S10 Lite, 128GB, Tela 10.9", WIFI, Cinza|2.355,15|4,8|2757|51UFm7dGUuL
+B0DF8VTNHM|Garrafa de Tinta Original Epson Ecotank T544 Preto - T544122|52,80|4,9|1962|618fghm1r2L
+B0DTJKLBBQ|Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto|89,90|4,8|12703|51QjFpLqLwL
+B0DH3PLZ6N|Kit Starlink Mini Internet via satélite, Dual Band, Wifi 5, Branco|490,00|4,7|1437|412S5CxpfAL
+B0F9B4TQVP|Suporte Para Notebook Com Cooler Duplo Silencioso, 8 Níveis de Ajuste Ergonômico e Saída USB Adicional|37,99|4,7|735|61sWhcvub6L
+[Games]
+B09JH4PD8Q|Base de Carregamento do DualSense - PlayStation 5|199,90|4,9|16114|41y-G-g+dVL
+B07FN1MZBH|Controle sem fio PlayStation Dualshock 4 - Preto|232,90|4,8|27564|61kwdPH8+xL
+B0GGLJCJQM|Resident Evil Requiem - PlayStation 5|269,90|4,8|1361|71xKlhR+NtL
+B07TV9B7Z3|Teclado Gamer HyperX Alloy Core RGB, ABNT2, Preto|176,46|4,8|5829|61XRKm0vZaL
+B0F6CY514C|Nintendo Switch 2 Pro Controller|529,00|4,9|814|61rWSOX2ZiL
+B07Y2G7VX5|Headphone Gamer Havit H2002d com Microfone, Falante 53mm, compatível com Xbox One e PS4|189,90|4,7|27381|71sV-QnV8TL
+B086BT95SH|Ghost Of Tsushima Edição Padrão - PlayStation 4|69,90|4,9|4830|71PqM1pqVeL
+B07L5BPDV7|The Last Of Us Hits - PlayStation 4|59,90|4,9|4616|71ekFvMw6rL
+B08T68T1T6|Mouse Gamer Redragon Predator RGB M612-RGB, Preto|90,90|4,9|1257|51AVGfhKbOL
+B099H1RFQR|Ghost of Tsushima Versão do Diretor - PlayStation 5|169,90|4,9|1714|61tiYH7F6LS
+[Eletrodomésticos]
+B0DCLKNY2Q|Fogão Elétrico Portátil Cooktop Elgin Single Cook 1 Boca - 110V|39,00|4,5|1707|51w83ZtbHZL
+B00DCTI47M|Máquina de Lavar Panasonic 15kg Titânio 127V NA-F150B1T|1.740,00|4,5|373|61aihS5uIXL
+B0B61WJRY5|Lava e Seca Samsung WD11M com Digital Inverter Inox Look 11/7kg - 220V|3.514,05|4,6|561|516qpWn6k2L
+B09B7X4JSZ|Máquina de Lavar Electrolux 13kg Branca Essential Care com Cesto Inox e Jet&Clean (LED13) - 127V|1.849,00|4,8|1078|41NV3orR5JL
+B0813ZX2P2|Máquina de Lavar Roupa Semiautomática Tanquinho Colormaq 10kg LCS10 Prata 220V|489,99|4,7|380|41yVvGl34dL
+B076BDR1P7|Refrigerador Electrolux 240L 1 Porta Classe A 110 Volts, Branco|1.729,00|4,7|540|31Bxh2X5ZcL
+B085JG3T6S|Cooktop a Gás Mondial 5 Bocas, Preto/Inox, Bivolt - CTG-03|479,90|4,6|332|81E0jJ9EnxL
+B0816YJYQB|Depurador de Ar Slim de Embutir Suggar 60cm Inox 220V DE62IX|719,90|4,7|1001|51ciFDrjQLL
+B09WWY48B7|Sanduicheira e Grill Press Britânia BGR27I 127V|90,14|4,7|11616|5136pVcmWhL
+B08DFCF9HW|Liquidificador 1400 Full Oster Preto 3,2L - 127V|151,21|4,5|28151|51N3Xi4JJML
+B0F99ZSRXH|Air Fryer Philco 6,5L Visor Glass 1700W PAF65 127V|355,00|4,6|378|61O11E0CmgL
+B09VQ39F41|Mixer Vertical Turbo Chef Elgin 3 em 1 200W Preto 110V|92,18|4,6|10038|51yYe4QlyQL
+B09NL92H57|Micro-Ondas Mondial Branco, 1200W, 110V - MO-01-21-W|376,95|4,7|2293|61WJEyvwQtL
+B0BZJDB39Z|Fritadeira Air Fryer Forno Oven Mondial 12L, Preto/Inox, 2000W, 220V - AFON-12L-BI|546,32|4,8|6295|51G4AxVAJxL
+[Casa]
+B09XJL4B9H|Pote Hermético Electrolux, 12 unidades, cinza, BPA Free, Porta Mantimentos|77,80|4,9|54041|51uccv-jBiL
+B0CD4SCM33|Panela de Pressão Tramontina Vancouver Effect em Alumínio com Antiaderente Starflon Max|161,91|4,8|10309|81ubjq2DfxL
+B0H51V6GGM|Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas - Marmitas Reutilizáveis|84,20|4,5|677|71Ch2W5q1pL
+B088C4QZV2|Lâmpada Inteligente Smart Color 10W Elgin RGB Wifi Compatível com Alexa e Google Home|29,99|4,7|61130|61i1yPAlVLL
+B0C2HZ8FJ2|Rodo Plástico para Pia de 14cm Sanremo, Cor Preta, Linha Casar|5,41|4,8|7271|31jLjKybymL
+B0D8V17JSG|Filtro de linha com protetor contra surtos (DPS) iCLAMPER Energia 5 - 5 tomadas, 10 amperes|59,99|4,9|12720|513zBX7OWdL
+B0798XT2VK|Protetor de Geladeira ou Freezer Contra Queda e Surtos de Energia 127V|40,05|4,5|5822|516wjfTaZwL
+B086WWQX1S|Kit 3 Sacos para Lavar Roupas Delicadas P, M e G com Zíper Oikos|18,44|4,6|4463|61BJhE0GLIL
+B0779BRVVS|Fita Dupla-face Scotch 3M Fixa Forte Extrema 24 mm x 2 m|26,58|4,7|21498|71mEwfbHotL
+B07CV2JXNH|WD-40 Fórmula Original - Produto Multiusos Aerossol 300ml|34,10|4,9|20809|514x2w0chDL
+B07JN19LDF|Extensão Slim 3 Tomadas Tripolar Bivolt 3 Metros Branco Force Line|18,90|4,8|13411|41GGKBzVXuL
+B076VK3TRX|Fita Dupla-face Scotch 3M Fixa Forte Transparente 24 mm x 2 m|17,06|4,7|6482|71Wu-mW6eML
+B017KU45CG|Fita de Empacotamento Scotch 3M Transparente 45 mm x 45 m 4 Rolos|19,99|4,7|5342|71unJfYJOPL
+B0F61QC5SR|Luva Nitrílica Preta Premium Sem Pó Antiderrapante - 100 Unidades|32,90|4,6|981|61iWrdvAXNL
+B076XQLJNL|Rebitador Manual Tipo Alicate Vonder RM 244|21,50|4,8|3479|41gPd+MmvJL
+B0B8ZHR7LB|Colchão Solteiro Emma Basics 17 cm - 88x188 cm, Espuma D28|749,00|4,7|1650|611bBzockCL
+B0D1S8ZFHT|Organizador Multiuso 8L com Alça de Bambu Bege Linha Flow Ou|34,90|4,8|834|51yivWYCUsL
+B07885WTFJ|Banqueta Plástica Dobrável Vonder, Branca, Altura 220 mm|42,99|4,8|14271|514bcom3x-L
+B076QQX7TB|Caixa Organizadora de 4 Litros com Travas Ordene, Cor Cristal, Linha Bel|14,44|4,7|3995|415p4wdIdFL
+B09XNCLQBW|Kit 50 Cabides Infantis de Veludo Antideslizante Ultra Fino (Bege)|69,90|4,8|663|61rk5Ezql0L
+B08YKBXTX6|Colchão Casal Emma Duo Comfort - 138x188x18 cm, Conforto de Dupla Face|1.579,00|4,7|2164|81YhNKtwICL
+[Mercado]
+B0BSVM7QS8|Pilha Alcalina AA com 16 unidades Elgin|18,49|4,7|20839|71RnTuLpZeL
+B0BSVN58JW|Pilha Alcalina AAA com 16 unidades Elgin Palito|24,99|4,7|9800|517itypmYaL
+B07X4JG2G4|Carregador de Pilhas Recarregáveis Duracell AA e AAA com 4 Pilhas AA Inclusas - Bivolt|137,75|4,8|62677|819KK4qPMeL
+B0755PWFSN|Bateria de Lítio CR2032 3V Elgin - Cartela com 5 unidades|7,49|4,7|20160|61V3OakYmRL
+B0876YDWVC|Saco para Lixo Dover-Roll Odor Defense Banheiro e Pia Lilás - Rolo com 50 Sacos|14,85|4,8|9806|51DjpTGQlFL
+B0CN1L7B18|Café em Cápsula Nescafé Dolce Gusto Mochaccino Avelã 10 Cápsulas|17,90|4,8|6164|51TNyvczuVL
+B0FWCTHSWQ|Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro|25,60|4,8|4799|61EJm3taFuL
+B07FGYQCKM|Finish Secante para Lava Louças e Abrilhantador 250ml|34,55|4,8|26764|71isXr-TNuL
+B07HZNJJCD|Ypê Água Sanitária 5L|14,00|4,8|6818|41gD5T2OSHL
+B084BXFGJN|Vinagre de Álcool Concentrado 6% Castelo 5L|29,10|4,8|7139|71d4qLpOf5L
+B076BJMK4N|Ypê Detergente Clear 5L - Detergente Líquido|23,90|4,8|7202|51VKwPMyB7L
+B098FKK5QD|Detergente Limpador para Extratoras Concentrado WAP Limpa e Extrai 1 Litro|45,99|4,8|11340|61Yni3o3Q6L
+B0C7WGXZ8Q|Limpador Perfumado Veja Banho de Cheiro 2L|10,79|4,7|859|61jpqa9ZmcL
+B07DTLSF61|Cif Cremoso Limpeza Milagrosa Original 250 ml|7,00|4,9|3981|41nB8ah9vrL
+B0CZS2LGFD|Azeite de oliva extra virgem O-Live & Co, Chileno, vidro, 450ml|26,50|4,8|2091|61xkuBfTjSL
+B0FPRGYFCL|Achocolatado Nescau 2,01kg|32,90|4,8|3263|61fgMVvEKiL
+B0DXQYHD2F|Chiclete Trident X Gamers Citrus Mix - Caixa com 6 unidades de 48,3g|54,90|4,8|530|714CYh+DiYL
+B097BYXGXN|Heinz Ketchup Tradicional 1,033kg|21,53|4,9|26133|51653ltvYsL
+B095TL2MD3|Geleia de Frutas Vermelhas Linea 230g Sem Adição de Açúcar|16,97|4,7|1143|61iZww9pcrL
+B0CX36ZMLZ|ChocoPops Australia Chocolate, Sem Açúcar, Sem Glúten, Vegano, 200g|25,17|4,8|2035|81Rh6GOpcqL
+B004HOEU4M|Red Bull Energético 250ml, 4 latas|29,06|4,8|7428|71ILkKMv8tL
+B0C4M2SYF8|Café Solúvel L'OR Classique Pote de Vidro 130g|37,90|4,8|3067|61rDxgi3prL
+B08KSVQ62G|Café em Cápsula Nescafé Dolce Gusto Mochaccino Canela 10 Cápsulas|17,89|4,9|10571|51RITWg4ryL
+B07D5PH2YJ|Papel Higiênico Personal VIP Folha Dupla, 12 unidades|16,03|4,8|24864|71nTW4i0FEL
+B07HZL4D72|Ypê Amaciante Tradicional Aconchego 5L|18,19|4,7|8726|51UE1ZXqipL
+B07DTN9W36|Brilhante Limpeza Total - Lava Roupas Líquido 3L|23,98|4,8|26306|71jvqKocIgL
+B0C4CFDJVJ|Papel Higiênico Personal Vip Folha Tripla com 12 Rolos de 20m|19,99|4,8|9121|71CkW6MPsTL
+B0CBCRP3BS|OMO Lava-Roupas Líquido Ultra Power Frasco 1,8L|24,90|4,8|13993|71y1o6ee9IL
+B07CVVZV91|Papel Higiênico Sublime Folha Dupla, 24 rolos|36,02|4,8|9236|61tvAlgn0KL
+B07L5W6GVC|Vitafor Omegafor Plus - 120 Cápsulas|118,53|4,8|21620|51y-aN4gOuL
+B09YZ2Y1W3|Adaptogen Tasty Whey Original 900g|219,00|4,7|5002|61j0rLXAurL
+B07Y2CRBBK|Coleira Antiparasitária Scalibor 25g contra mosquitos da Leishmaniose - Cães porte grande 65cm|57,31|4,7|11186|51sCelMZw7L
+B0DPXVPRGC|Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16|50,89|4,9|1540|811NwSk-AgL
+B07HFFX8V9|Granulado Sanitário Pipicat Classic 4 kg|13,96|4,6|5719|81YZeTZ0iyS
+B07XVX9G17|Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades|66,90|4,6|4708|51azdgMu30L
+B0BWQ5VHJQ|Petisco Dreamies Carne Tentadora Gatos Adultos 150g|15,19|4,9|3253|71l46osyqnL
+B0B91Z6VRQ|Ração Whiskas Carne Gatos Adultos 2,7 kg|36,07|4,8|2685|61ypdtO-HAL
+B0BCH8QVW5|Ração Whiskas Peixe Gatos Adultos Castrados 2,7 kg|36,13|4,8|1083|81Eskn0B7-L
+B08T1TW43G|Ração Úmida Purina Friskies para Gatos Adultos Frango ao Molho - 15 Sachês 85g|37,90|4,9|2365|6143RojzqnL
+B0DPXVL7LK|Ração Úmida Whiskas Sachê Carne ao Molho para Gatos Adultos - Leve 20 Pague 16|43,34|4,9|6089|81kVX-5Hg0L
+[Livros]
+655552894X|A Morte de Ivan Ilitch (2 ed.)|13,90|4,8|4260|61CpTX3QbFL
+6555522372|De quanta terra precisa um homem? e outras histórias|15,00|4,8|8982|61N9GLW2AyS
+8542243676|Dia da Ceifa - no universo de O Empyriano (Coleção Asa e Garra)|113,11|4,8|392|91UUSUoVtfL
+6556020885|Canção para ninar menino grande|25,87|4,7|7532|61u-HWzo8nL
+8535944672|Bom dia, inverno|38,60|4,8|3758|71lg0-EgSTL
+6555607289|Melhor do que nos filmes|36,30|4,8|16634|61y5iLUKS3L
+8501923281|Nunca minta|34,00|4,6|28769|81-Hk3onFyL
+6555653302|A hipótese do amor - Edição com sobrecapa do filme|40,00|4,8|29637|61aqLpyvIkL
+6555655259|Amor, teoricamente|38,34|4,8|14252|81iUrbors9L
+6555320354|A hora da estrela: Edição comemorativa|27,33|4,7|30355|61TaHURu27L
+6559873080|Brasil no espelho: Um guia para entender o Brasil e os brasileiros|33,19|4,7|879|81YDs92bbDL
+[Beleza]
+B07SBXMSGB|Argan Óleo Reparador 50ml Lola Cosmetics|14,80|4,8|47903|41sfmT4opyL
+B0F3K1H34H|Desodorante Antitranspirante em Gel Secret Proteção de Algodão 73g|27,90|4,8|2331|51GcYLd6R2L
+B0DDDT7VGQ|L'Oréal Professionnel Absolut Repair Shampoo Refil para cabelos danificados e secos|60,63|4,8|10107|5144FGTj+UL
+B0DJMP5Z6Z|Máscara Acidificante de Equilíbrio do pH 250g Amend Essencial|33,99|4,8|3281|41oo+GAtYeL
+B0B5YF3HSW|Algodão Quadrado Baby Bellacotton 100% Algodão Macio - 100 Unidades|26,00|4,8|7812|51KrvW902fL
+B074LTNQBP|Morte Súbita Máscara Super Hidratante 450g Lola Cosmetics|30,50|4,8|81896|71vJXnkK-NL
+B0DC74428B|Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada 240 ml|29,99|4,8|7612|61k0+bqK+LL
+B0G45KPX15|Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g|26,90|4,8|1672|71EYznJIxWL
+B0D8RHX3C6|Sérum Hidratante Corporal Dove Dermo Renovador Niacinamida 48h de Hidratação|29,89|4,8|17692|41jEssG9EDL
+B09KCYYZNG|Densidade Acidificante Capilar 250g Lola Cosmetics|32,99|4,8|33190|71oJz+tFG8L
+B07F3823D9|Sabonete Líquido Íntimo Nivea Fresh Comfort 250ml|15,19|4,9|15051|71pcrJT6jwL
+B0FCJ1JZWG|Creme Dental Boni Natural com óleos de Menta e Melaleuca, Vegano, Sem Flúor, 90g, 3 unidades|28,00|4,8|14768|6108qlBKLHL
+B08K4HMYHH|Escova de Dente Macia Colgate Slim Soft Black, 4 Unidades|23,87|4,8|48410|81megt2vE7L
+[Brinquedos]
+B07LHC55HY|Jogo Caiu Perdeu Pais & Filhos, 54 Peças|15,30|4,8|27007|81QAJDzi7DL
+B00CTH0A1Q|Jogo de Cartas UNO Clássico Mattel com 108 cartas|14,90|4,9|37087|71yJ6Tu7+zL
+B07CBL2H3M|Jogo Tapa Certo Estrela - Para 5 Anos ou Mais|25,99|4,8|8063|619Vr4UzwqL
+B093QCF4PM|Laptop Infantil Patrulha Canina Candide, Brinquedo Educativo Bilíngue|47,99|4,5|4227|61DxXmGX-+L
+B001GAP4YA|Massa para Modelar DAS, Branco, 1kg|36,00|4,8|71239|61Hh2n69xrL
+B004H49BCI|Boneca Barbie Vestido Surpresa Mattel|23,99|4,7|633|61FpU0Mz+gL
+B00NHQFA1I|LEGO Classic - Caixa Média de Peças Criativas|199,99|4,9|57254|8160QjpuoOL
+B0DHLHWZT7|LEGO Speed Champions Carro de Corrida Ferrari SF-24 F1 77242|148,29|4,9|3551|81+vIw2yt1L
+B0GFM3QRB5|Blocos de Montar Magnéticos Infantil Brastoy Construção STEM (120 Peças)|143,00|4,9|481|61rc2l3I8WL
+B0DHLFGNMM|LEGO Speed Champions Carro de Corrida Oracle Red Bull Racing RB20 F1 77243|141,90|4,8|3303|81oplZow5nL
+B0CRZC7GRL|Chocalho com Mordedor Coelhinho Buba|19,99|4,8|2092|51UTOXmFfuL
+[Esportes]
+B07FW4BVZW|Touca de Natação Speedo Flat Cap, Silicone Resistente, Tamanho Único|23,90|4,6|5227|51baqU9RjNL
+B07G4L9SRV|Kit Mini Band Acte|19,90|4,7|4476|51D2JXBPoUL
+B085DVNHHK|Garrafa de água Owala FreeSip de aço inoxidável isolada com canudo, 946 ml - Rosa Claro|184,30|4,6|54875|71XJK6bWJKL
+B09GMT4KLC|Colchonete Impermeável Espuma D23 90x40x3 - Academia, Yoga e Pilates|29,90|4,5|1939|41KNx5AO+IL
+B09DF9NWC7|Corda de pular sem emaranhados com rolamentos de esferas|7,35|4,6|23788|71wm42EtoNL
+B0CLTSRYQW|Bola de Vôlei de Quadra Oficial Mikasa|152,99|4,7|931|51U3+JoFOoL
+B076WX3VSJ|Cadeira Alta de Alumínio Mor Azul|71,15|4,7|4538|51yDJM-PuZL
+B07JFKXM6N|Colchão Inflável Multiuso Casal com Fole Mor Life|129,90|4,6|7500|517OVjk1QZL
+B08VPS711D|Coqueteleira Dux - Fumê|19,92|4,6|9766|51ao+TrcxJL
+B076BCQ58V|Caixa Térmica 34L Mor|81,68|4,8|4260|51FQJHF195L
+[Outros]
+B0BW4NDV3N|Vonixx V-Mol Lava Autos 1,5L|25,53|4,8|2870|51gsmKA0V6L
+B08N844668|Shampoo Automotivo Concentrado 1:400 Vonixx V-Floc 3 Litros|52,88|4,8|1931|613IR7ZkFTL
+B07YM4MJ3K|Vonixx V-Floc 1,5L|33,00|4,9|5045|611D0eN+XxL
+B07WZQC1NJ|Capacete Aberto Pro Tork New Liberty 3 Solid Preto Fosco Tam. 60|99,90|4,6|16861|51-2lTjdQ4L
+B08B1VX8RY|Vonixx Intense - Renovador de plásticos com proteção UV 500ml|24,88|4,8|3428|51BYK0ttPxL
+B07Y5LQGLC|Vonixx Carnaúba Tok Final 500ml|20,51|4,7|2263|51i9ViTGF7L
+B07X3YB5FJ|Capacete Fechado Pro Tork Sport Moto 788 Preto e Branco Tam. 60|73,62|4,5|8860|61kTbKJ5C4L
+B076133XTB|Papel Sulfite Report A4 Branco 75g 500 folhas|29,99|4,8|5089|51CugdXsNiL
+B07V69MJTR|Caneta Gel Pentel Energel X Retrátil 0.5mm Preta|7,43|4,8|9876|51nXMn5alFL
+B01CZXF4XW|Papel Sulfite Chamex A4 75g 500 folhas|34,50|4,9|37523|61wJxH8y1DL
+B08YHD24HC|Fita Corretiva Pentel 6m Azul + Refil|11,30|4,8|5887|51kzguK35ES
+B09S6V872Z|Caneta Cis Spiro 0.7 com 8 unidades|18,96|4,9|7537|51P8qxOGA0L
+B07DJN5QRG|Cola Bastão Pritt para Escola e Escritório, Transparente, 40g|12,61|4,8|7126|71kpkZZZVVL
+B0778SPXYL|Caneta Esferográfica BIC Cristal Fina Azul, 50 Unidades|31,26|4,9|1626|611B1ZxF78L
+B07D3WCMVD|Pastel Oleoso Pentel 50 Cores PHN-50|35,34|4,8|12844|71atpfdmmyL

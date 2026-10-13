@@ -10,7 +10,7 @@ const CONFIG = {
     "../data/amazon.json",
     // Feeds que o bot do Telegram grava a cada publicação (um por tópico).
     // A vitrine traz os melhores de cada categoria do Mercado Livre, duas vezes ao dia.
-    ...["feed", "feed.eletronicos", "feed.feminino", "feed.mercado", "feed.mercadolivre", "vitrine.mercadolivre", "vitrine.shopee", "feed.aliexpress", "vitrine.aliexpress"]
+    ...["feed", "feed.eletronicos", "feed.feminino", "feed.mercado", "feed.mercadolivre", "vitrine.mercadolivre", "vitrine.shopee", "feed.aliexpress", "vitrine.aliexpress", "hot.aliexpress"]
       .map((nome) => `https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/${nome}.json`),
   ],
   // Cupons do dia: cada um diz a loja, o código e em quais ofertas vale.

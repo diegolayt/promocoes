@@ -145,13 +145,13 @@ async function carregar() {
     if (cupom) oferta.cupom = cupom.codigo;
   }
   desenhar();
-  if (!anel.montado) montarAnel(estado.ofertas);
+  if (!anel.ocupado && Date.now() - anel.montadoEm > RENOVAR_ANEL_MS) montarAnel(estado.ofertas);
   preencherCelular();
 }
 
 // As mensagens do celular da chamada são ofertas de verdade que estão no ar.
 function preencherCelular() {
-  const curtas = revezar(porLoja(estado.ofertas.filter((o) => o.desconto >= 20 && o.desconto <= 70))).slice(0, 3);
+  const curtas = escolherEmAlta(estado.ofertas.filter((o) => o.desconto >= 20 && o.desconto <= 70), 3).slice(0, 3);
   if (curtas.length < 3) return;
   document.querySelectorAll(".celular .msg").forEach((msg, i) => {
     // Tira códigos de modelo (S429049631) do começo do nome.
@@ -164,17 +164,50 @@ function preencherCelular() {
 // ───── Carrossel 3D da abertura ─────
 // As ofertas reais giram num anel; cada carta sempre encara a câmera e fica
 // menor e mais apagada quando passa para trás. Arrastar gira o anel.
-const anel = { montado: false, cartas: [], angulo: 0, velocidade: 0.0016, inclinacao: 0, alvoInclinacao: 0 };
+const anel = { montadoEm: 0, ocupado: false, cartas: [], angulo: 0, velocidade: 0.0016, inclinacao: 0, alvoInclinacao: 0 };
+// A roleta troca os produtos sozinha de tempos em tempos, com as ofertas novas.
+const RENOVAR_ANEL_MS = 10 * 60_000;
+
+// O que costuma ser mais buscado: eletrônicos, informática, games, áudio,
+// eletroportáteis e cuidados com aparelho. Mercado (granola, café), roupas,
+// livros e brinquedos ficam de fora da roleta, mas continuam na lista.
+const CATEGORIAS_EM_ALTA = new Set(["Celulares", "Informática", "Games", "Áudio e TV", "Eletrodomésticos"]);
+const PRODUTOS_EM_ALTA = /\b(air ?fryer|fritadeira|cameras?|webcam|fonte|projetor|jbl|caixa de som|soundbar|fita (de )?led|led rgb|celular|smartphone|iphone|galaxy|redmi|xiaomi|poco|motorola|maquina de (cortar|corte)|aparador|barbeador|cortador de cabelo|secador|chapinha|fones?|headset|earbuds|smartwatch|relogio inteligente|ssd|hd externo|memoria ram|placa de video|processador|placa[ -]mae|monitor|teclado|mouse|notebook|tablet|ipad|console|playstation|ps5|xbox|nintendo|switch|controle|smart tv|tv \d+|roteador|alexa|echo dot|chromecast|fire tv|tv box|robo aspirador|aspirador|ventilador|ar condicionado|drone|power ?bank|carregador|kindle)\b/;
+const FORA_DA_ROLETA = /\b(granola|biscoito|bolacha|chocolate|cafe|cha|whey|creatina|suplemento|sabao|amaciante|detergente|fralda|racao|papel higienico|azeite|arvore de natal|enfeite|livro|mochila|bolsa|capa|capinha|pelicula|case|cabo|adaptador)\b/;
+
+function emAlta(oferta) {
+  const nome = semAcento(oferta.titulo);
+  if (FORA_DA_ROLETA.test(nome) || oferta.categoria === "Mercado") return false;
+  return CATEGORIAS_EM_ALTA.has(oferta.categoria) || PRODUTOS_EM_ALTA.test(nome);
+}
+
+// Nota de procura: vendas e avaliações pesam mais, desconto honesto ajuda,
+// oferta recente ganha um empurrão.
+function procura(oferta) {
+  const horas = (Date.now() - oferta.publicadoEm) / 3_600_000;
+  const desconto = oferta.desconto <= 70 ? oferta.desconto : 0;
+  return Math.log10(oferta.vendidos + 1) * 2 + Math.log10(oferta.avaliacoes + 1) + (oferta.nota >= 4.5 ? 1 : 0)
+    + desconto / 20 + (PRODUTOS_EM_ALTA.test(semAcento(oferta.titulo)) ? 1.5 : 0) + Math.max(0, 1 - horas / 24);
+}
+
+// Pega os mais procurados e mistura tipos de produto (um celular, um fone,
+// uma air fryer…) para a roleta não ficar repetitiva. Cada renovação sorteia
+// um pouco diferente entre os melhores.
+function escolherEmAlta(ofertas, quantas) {
+  const melhores = ofertas.filter((o) => o.imagem && emAlta(o))
+    .map((o) => ({ o, nota: procura(o) + Math.random() * 1.2 }))
+    .sort((a, b) => b.nota - a.nota).slice(0, quantas * 5).map(({ o }) => o);
+  const tipo = (o) => semAcento(o.titulo).match(PRODUTOS_EM_ALTA)?.[0].replace(/s$/, "") || o.categoria;
+  const tipos = [...new Set(melhores.map(tipo))];
+  return revezar(tipos.map((t) => melhores.filter((o) => tipo(o) === t)));
+}
 
 async function montarAnel(ofertas) {
   const pequeno = matchMedia("(max-width: 640px)").matches;
   const quantas = pequeno ? 10 : 14;
-  // Prefere descontos honestos, revezando lojas e categorias.
-  const boas = ofertas.filter((o) => o.imagem && o.desconto >= 15 && o.desconto <= 70);
-  const base = boas.length >= quantas ? boas : ofertas.filter((o) => o.imagem);
-  const candidatas = revezar(porLoja(base).map((grupo) => variadas(grupo, quantas))).slice(0, quantas * 2);
-  if (!candidatas.length) return;
-  anel.montado = true;
+  const candidatas = escolherEmAlta(ofertas, quantas).slice(0, quantas * 2);
+  if (candidatas.length < 5) return;
+  anel.ocupado = true;
 
   // Só entram as fotos que carregaram de verdade (algumas lojas recusam).
   const carregadas = await Promise.all(candidatas.map((oferta) => new Promise((ok) => {
@@ -186,9 +219,11 @@ async function montarAnel(ofertas) {
     foto.src = oferta.imagem;
   })));
   const escolhidas = carregadas.filter(Boolean).slice(0, quantas);
-  if (escolhidas.length < 5) { anel.montado = false; return; }
+  anel.ocupado = false;
+  if (escolhidas.length < 5) return;
+  anel.montadoEm = Date.now();
 
-  anel.cartas = escolhidas.map(({ oferta, foto }) => {
+  const cartas = escolhidas.map(({ oferta, foto }) => {
     const loja = LOJAS[oferta.loja];
     foto.alt = "";
     foto.draggable = false;
@@ -202,35 +237,55 @@ async function montarAnel(ofertas) {
     );
     return carta;
   });
-  $("anel").replaceChildren(...anel.cartas);
-  ligarArraste();
-  requestAnimationFrame(girar);
+
+  const trocar = () => {
+    anel.cartas = cartas;
+    $("anel").replaceChildren(...cartas);
+    if (anel.ligado) medirAnel();
+    else { anel.ligado = true; ligarArraste(); requestAnimationFrame(girar); }
+    posicionarCartas(performance.now());
+    $("anel").classList.remove("trocando");
+  };
+  // Na renovação, a roleta apaga, troca os produtos e acende de novo.
+  if (anel.ligado) { $("anel").classList.add("trocando"); setTimeout(trocar, 500); }
+  else trocar();
+}
+
+// Medidas lidas só quando a tela muda de tamanho. Ler medidas a cada quadro
+// obrigava o navegador a recalcular a página inteira e travava o giro.
+const movimentoReduzido = matchMedia("(prefers-reduced-motion: reduce)");
+
+function medirAnel() {
+  const largura = $("anel").offsetWidth;
+  const total = anel.cartas.length;
+  anel.raio = Math.max(largura * 1.8, (largura * 1.45) / (2 * Math.tan(Math.PI / total)));
+  anel.caixa = $("anel-cena").getBoundingClientRect();
+  anel.caixa = { top: anel.caixa.top + scrollY, height: anel.caixa.height };
 }
 
 function posicionarCartas(tempo) {
   const total = anel.cartas.length;
-  const largura = $("anel").offsetWidth;
-  const raio = Math.max(largura * 1.8, (largura * 1.45) / (2 * Math.tan(Math.PI / total)));
+  const raio = anel.raio;
   anel.cartas.forEach((carta, i) => {
     const teta = anel.angulo + (i / total) * Math.PI * 2;
     const x = Math.sin(teta) * raio;
     const z = Math.cos(teta) * raio - raio * 0.35;
     const frente = (Math.cos(teta) + 1) / 2; // 1 na frente, 0 atrás
     const y = Math.sin(teta * 2 + tempo / 1400) * 10;
-    carta.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, ${z.toFixed(1)}px) rotateY(${(Math.sin(teta) * 28).toFixed(1)}deg)`;
+    carta.style.transform = `translate3d(${x.toFixed(1)}px,${y.toFixed(1)}px,${z.toFixed(1)}px) rotateY(${(Math.sin(teta) * 28).toFixed(1)}deg)`;
     carta.style.opacity = (0.06 + frente ** 1.8 * 0.94).toFixed(2);
-    carta.style.zIndex = String(Math.round(frente * 100));
-    carta.style.pointerEvents = frente > 0.75 ? "auto" : "none";
+    // Só mexe no clique quando muda, para não refazer estilos à toa.
+    const clicavel = frente > 0.75;
+    if (carta.clicavel !== clicavel) { carta.clicavel = clicavel; carta.style.pointerEvents = clicavel ? "auto" : "none"; }
   });
 }
 
 function girar(tempo) {
-  const parado = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (parado) { posicionarCartas(0); return; }
+  if (movimentoReduzido.matches) { posicionarCartas(0); anel.rodando = false; return; }
   // Passo medido em quadros de 60 Hz, para girar igual em qualquer tela.
   const passo = Math.min(4, (tempo - (anel.ultimoTempo ?? tempo)) / 16.67);
   anel.ultimoTempo = tempo;
-  if (!document.hidden && $("anel").getBoundingClientRect().bottom > 0) {
+  if (anel.naTela && !document.hidden) {
     if (!anel.arrastando) anel.angulo += anel.velocidade * passo;
     // Depois de solto, o anel desacelera até voltar ao giro calmo.
     anel.velocidade += (0.0016 - anel.velocidade) * Math.min(1, 0.03 * passo);
@@ -244,6 +299,11 @@ function girar(tempo) {
 function ligarArraste() {
   const cena = $("anel-cena");
   let inicioX = 0, ultimoX = 0, moveu = 0;
+  medirAnel();
+  addEventListener("resize", medirAnel);
+  // Fora da tela o anel não gasta nada.
+  anel.naTela = true;
+  new IntersectionObserver(([entrada]) => { anel.naTela = entrada.isIntersecting; }).observe(cena);
   cena.addEventListener("pointerdown", (evento) => {
     anel.arrastando = true;
     inicioX = ultimoX = evento.clientX;
@@ -251,8 +311,8 @@ function ligarArraste() {
     cena.classList.add("arrastando");
   });
   addEventListener("pointermove", (evento) => {
-    const caixa = cena.getBoundingClientRect();
-    if (evento.clientY < caixa.bottom) anel.alvoInclinacao = ((evento.clientY - caixa.top) / caixa.height - 0.5) * -8;
+    const topo = anel.caixa.top - scrollY;
+    if (evento.clientY < topo + anel.caixa.height) anel.alvoInclinacao = ((evento.clientY - topo) / anel.caixa.height - 0.5) * -8;
     if (!anel.arrastando) return;
     const passo = evento.clientX - ultimoX;
     ultimoX = evento.clientX;
@@ -260,7 +320,7 @@ function ligarArraste() {
     anel.angulo += passo * 0.005;
     anel.velocidade = passo * 0.005;
     // Sem animação contínua (movimento reduzido), o arraste reposiciona direto.
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) posicionarCartas(0);
+    if (movimentoReduzido.matches) posicionarCartas(0);
   });
   const soltar = () => { anel.arrastando = false; cena.classList.remove("arrastando"); };
   addEventListener("pointerup", soltar);
@@ -586,7 +646,9 @@ function iniciar() {
 
   // O topo fica transparente sobre a abertura escura e sólido no resto da página.
   const topo = $("topo");
-  const ajustarTopo = () => topo.classList.toggle("solido", scrollY > document.querySelector(".palco").offsetHeight - 70);
+  let alturaPalco = document.querySelector(".palco").offsetHeight;
+  addEventListener("resize", () => { alturaPalco = document.querySelector(".palco").offsetHeight; });
+  const ajustarTopo = () => topo.classList.toggle("solido", scrollY > alturaPalco - 70);
   addEventListener("scroll", ajustarTopo, { passive: true });
   ajustarTopo();
   $("abrir-busca").addEventListener("click", () => { irPara("ofertas"); setTimeout(() => $("busca").focus({ preventScroll: true }), 500); });

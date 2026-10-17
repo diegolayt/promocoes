@@ -299,7 +299,7 @@ const RENOVAR_ANEL_MS = 10 * 60_000;
 // livros e brinquedos ficam de fora da roleta, mas continuam na lista.
 const CATEGORIAS_EM_ALTA = new Set(["Celulares", "Informática", "Games", "Áudio e TV", "Eletrodomésticos"]);
 const PRODUTOS_EM_ALTA = /\b(air ?fryer|fritadeira|cameras?|webcam|fonte|projetor|jbl|caixa de som|soundbar|fita (de )?led|led rgb|celular|smartphone|iphone|galaxy|redmi|xiaomi|poco|motorola|maquina de (cortar|corte)|aparador|barbeador|cortador de cabelo|secador|chapinha|fones?|headset|earbuds|smartwatch|relogio inteligente|ssd|hd externo|memoria ram|placa de video|processador|placa[ -]mae|monitor|teclado|mouse|notebook|tablet|ipad|console|playstation|ps5|xbox|nintendo|switch|controle|smart tv|tv \d+|roteador|alexa|echo dot|chromecast|fire tv|tv box|robo aspirador|aspirador|ventilador|ar condicionado|drone|power ?bank|carregador|kindle)\b/;
-const FORA_DA_ROLETA = /\b(granola|biscoito|bolacha|chocolate|cafe|cha|whey|creatina|suplemento|sabao|amaciante|detergente|fralda|racao|papel higienico|azeite|arvore de natal|enfeite|livro|mochila|bolsa|capa|capinha|pelicula|case|cabo|adaptador)\b/;
+const FORA_DA_ROLETA = /\b(granola|biscoito|bolacha|chocolate|cafe|cha|whey|creatina|suplemento|sabao|amaciante|detergente|fralda|racao|papel higienico|azeite|arvore de natal|enfeite|livro|mochila|bolsa|capa|capinha|pelicula|case|cabo|adaptador|potes?|hermeticos?|panelas?|facas?|talheres|copos?|garrafas?|formas?|organizador|tapete|cortina)\b/;
 
 function emAlta(oferta) {
   const nome = semAcento(oferta.titulo);
@@ -328,23 +328,57 @@ function escolherEmAlta(ofertas, quantas) {
   return revezar(tipos.map((t) => melhores.filter((o) => tipo(o) === t)));
 }
 
-async function montarAnel(ofertas) {
-  const pequeno = matchMedia("(max-width: 640px)").matches;
-  const quantas = pequeno ? 10 : 14;
-  const candidatas = escolherEmAlta(ofertas, quantas).slice(0, quantas * 2);
-  if (candidatas.length < 5) return;
-  anel.ocupado = true;
+// Quanto da roleta cada loja ocupa (pedido do Diego em 17/10/2026): o Mercado
+// Livre tem os produtos mais atraentes, então ele domina. A sobra de uma loja
+// sem foto suficiente vai para a próxima da lista.
+const COTA_DA_ROLETA = [["mercadolivre", 0.6], ["amazon", 0.2], ["shopee", 0.1], ["aliexpress", 0.1]];
 
-  // Só entram as fotos que carregaram de verdade (algumas lojas recusam).
-  const carregadas = await Promise.all(candidatas.map((oferta) => new Promise((ok) => {
+// Na roleta só entra o mais buscado em eletrônicos e eletrodomésticos, e,
+// quando dá, só o que está com desconto de verdade.
+function candidatasDaLoja(ofertas, loja, quantas) {
+  const daLoja = ofertas.filter((o) => o.loja === loja);
+  const comDesconto = daLoja.filter((o) => o.desconto >= 15 && o.desconto <= 70);
+  const base = escolherEmAlta(comDesconto, quantas).length >= quantas ? comDesconto : daLoja;
+  return escolherEmAlta(base, quantas).slice(0, quantas * 2);
+}
+
+// Espalha as lojas pelo anel para o Mercado Livre não ficar todo junto.
+function espalhar(grupos) {
+  return grupos.flatMap((grupo) => grupo.map((item, i) => ({ item, posicao: (i + 0.5) / grupo.length })))
+    .sort((a, b) => a.posicao - b.posicao).map(({ item }) => item);
+}
+
+function carregarFoto(oferta) {
+  return new Promise((ok) => {
     const foto = new Image();
     foto.referrerPolicy = "no-referrer";
     const relogio = setTimeout(() => ok(null), 5000);
     foto.onload = () => { clearTimeout(relogio); ok(foto.naturalWidth > 40 ? { oferta, foto } : null); };
     foto.onerror = () => { clearTimeout(relogio); ok(null); };
     foto.src = oferta.imagem;
-  })));
-  const escolhidas = carregadas.filter(Boolean).slice(0, quantas);
+  });
+}
+
+async function montarAnel(ofertas) {
+  const pequeno = matchMedia("(max-width: 640px)").matches;
+  const quantas = pequeno ? 10 : 14;
+  const metas = COTA_DA_ROLETA.map(([loja, parte]) => ({ loja, meta: Math.max(1, Math.round(quantas * parte)) }));
+  const porLojaCandidatas = metas.map(({ loja }) => candidatasDaLoja(ofertas, loja, quantas));
+  if (porLojaCandidatas.flat().length < 5) return;
+  anel.ocupado = true;
+
+  // Só entram as fotos que carregaram de verdade (algumas lojas recusam).
+  const carregadasPorLoja = await Promise.all(porLojaCandidatas.map(async (lista) => (await Promise.all(lista.map(carregarFoto))).filter(Boolean)));
+  let falta = quantas - metas.reduce((soma, { meta }) => soma + meta, 0);
+  const grupos = metas.map(({ meta }, i) => carregadasPorLoja[i].slice(0, meta));
+  falta += metas.reduce((soma, { meta }, i) => soma + meta - grupos[i].length, 0);
+  // O que faltou (arredondamento ou loja sem foto) completa na ordem da cota.
+  for (let i = 0; i < grupos.length && falta > 0; i += 1) {
+    const extras = carregadasPorLoja[i].slice(grupos[i].length, grupos[i].length + falta);
+    grupos[i].push(...extras);
+    falta -= extras.length;
+  }
+  const escolhidas = espalhar(grupos.filter((grupo) => grupo.length));
   anel.ocupado = false;
   if (escolhidas.length < 5) return;
   anel.montadoEm = Date.now();

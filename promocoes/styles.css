@@ -94,7 +94,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .icone { display: grid; place-items: center; width: 36px; height: 36px; border: 0; border-radius: var(--raio); background: none; cursor: pointer; transition: background-color var(--tempo); }
 
 /* ───── Abertura com o carrossel 3D ───── */
-.palco { position: relative; display: grid; grid-template-rows: 1fr auto auto; justify-items: center; height: 100svh; min-height: 620px; padding: 92px 24px 28px; overflow: hidden; background: var(--carvao); color: #fff; isolation: isolate; }
+.palco { position: relative; display: grid; grid-template-rows: 1fr auto auto; justify-items: center; height: 100svh; min-height: 620px; padding: 92px 24px 28px; overflow: hidden; background: var(--carvao); color: #fff; isolation: isolate; contain: layout paint; }
 .palco-texto { position: relative; z-index: 2; align-self: start; text-align: center; }
 .palco h1 { color: #fff; font-size: clamp(30px, 4.2vw, 48px); line-height: 1.15; text-wrap: balance; }
 .resumo { text-wrap: balance; }
@@ -108,15 +108,17 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 /* A cena ocupa a abertura inteira; o anel gira em torno do eixo vertical. */
 .anel-cena { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; perspective: 1400px; perspective-origin: 50% 40%; cursor: grab; touch-action: pan-y; }
 .anel-cena.arrastando { cursor: grabbing; }
+.anel { transition: opacity .5s; }
+.anel.trocando { opacity: 0; }
 .anel { position: relative; width: var(--carta); height: calc(var(--carta) * 1.28); transform-style: preserve-3d; --carta: clamp(150px, 15vw, 220px); margin-top: 6vh; }
-.carta { position: absolute; inset: 0; display: flex; flex-direction: column; border-radius: var(--raio-grande); overflow: hidden; background: #fff; color: var(--carvao); backface-visibility: hidden; transition: opacity .6s; }
+.carta { position: absolute; inset: 0; display: flex; flex-direction: column; border-radius: var(--raio-grande); overflow: hidden; background: #fff; color: var(--carvao); backface-visibility: hidden; will-change: transform, opacity; }
 .carta img { flex: 1; min-height: 0; width: 100%; object-fit: contain; padding: 14px; pointer-events: none; }
 .carta-rodape { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; padding: 9px 12px 11px; background: #f4f4f4; }
 .carta-preco { font-size: 16px; font-weight: 500; }
 .carta-off { font-size: 12px; font-weight: 500; color: var(--azul); }
 .carta-loja { position: absolute; top: 10px; left: 10px; width: 22px; height: 22px; border-radius: 5px; padding: 0; flex: none; }
 /* Chão espelhado: um brilho discreto sob o anel, como o piso polido das fotos da Tesla. */
-.anel-cena::after { content: ""; position: absolute; left: 50%; bottom: 14%; width: min(1100px, 120vw); height: 160px; translate: -50% 0; border-radius: 50%; background: radial-gradient(closest-side, rgb(62 106 225 / 28%), transparent); /* taste-skill-ignore: luz do piso sob o carrossel 3D */ filter: blur(10px); z-index: -1; }
+.anel-cena::after { content: ""; position: absolute; left: 50%; bottom: 14%; width: min(1100px, 120vw); height: 160px; translate: -50% 0; border-radius: 50%; background: radial-gradient(closest-side, rgb(62 106 225 / 24%), rgb(62 106 225 / 8%) 60%, transparent); /* taste-skill-ignore: luz do piso sob o carrossel 3D */ z-index: -1; }
 
 /* ───── Garantias ───── */
 .garantias { background: var(--fundo); }

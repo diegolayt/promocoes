@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
     // Aplica o tema salvo antes da primeira pintura para não piscar.
     try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=27">
+  <link rel="stylesheet" href="styles.css?v=28">
 </head>
 <body>
   <header id="topo" class="topo">
@@ -119,19 +119,52 @@
   </main>
 
   <section class="chamada">
-    <div class="chamada-celular" aria-hidden="true">
-      <div class="celular">
-        <div class="celular-tela">
-          <span class="msg">Oferta nova no grupo</span>
-          <span class="msg">Cupom do dia liberado</span>
-          <span class="msg">Desconto de verdade, link direto</span>
+    <!-- Um iPhone em 3D de verdade (frente, laterais e traseira) com a tela do
+         grupo do Telegram: as mensagens são as ofertas reais que o bot postou. -->
+    <div id="chamada-cena" class="chamada-celular" aria-hidden="true">
+      <div id="iphone" class="iphone" data-ui>
+        <div class="iphone-traseira"></div>
+        <div class="iphone-lado esquerdo"></div>
+        <div class="iphone-lado direito"></div>
+        <div class="iphone-frente">
+          <span class="iphone-botao acao"></span>
+          <span class="iphone-botao volume-mais"></span>
+          <span class="iphone-botao volume-menos"></span>
+          <span class="iphone-botao lateral"></span>
+          <div class="iphone-tela">
+            <div class="ios-status">
+              <span id="ios-hora">9:41</span>
+              <span class="ilha"></span>
+              <span class="ios-icones">
+                <svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+                <svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 8.9a3.4 3.4 0 0 1 4.8 0Z"/><path d="M3.4 6.6a6.6 6.6 0 0 1 9.2 0l-1.3 1.4a4.7 4.7 0 0 0-6.6 0Z"/><path d="M1.2 4.3a9.8 9.8 0 0 1 13.6 0l-1.3 1.4a7.9 7.9 0 0 0-11 0Z"/></svg>
+                <span class="bateria"><i></i></span>
+              </span>
+            </div>
+            <div class="tg-topo">
+              <span class="tg-voltar"><svg viewBox="0 0 12 20"><path d="M10 2 2 10l8 8"/></svg><b id="tg-nao-lidas">24</b></span>
+              <span class="tg-titulo"><strong>Diegola Promoções</strong><small id="tg-topico">bot postando ofertas…</small></span>
+              <img class="tg-foto-grupo" src="../assets/logo-64.png" alt="" width="34" height="34">
+            </div>
+            <div id="tg-chat" class="tg-chat">
+              <div class="tg-data">Hoje</div>
+            </div>
+            <div class="tg-entrada">
+              <svg viewBox="0 0 24 24"><path d="m20.5 11.5-8.2 8.2a5 5 0 0 1-7.1-7.1l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7l-8.5 8.5a1.7 1.7 0 0 1-2.4-2.4l7.9-7.9"/></svg>
+              <span class="tg-campo">Mensagem</span>
+              <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
+            </div>
+            <span class="ios-barra"></span>
+          </div>
         </div>
       </div>
+      <span class="iphone-chao"></span>
     </div>
     <div class="chamada-texto">
-      <h2>Receba as ofertas antes, direto no celular</h2>
-      <p>Elas saem primeiro no grupo do Telegram, separadas por assunto. É grátis.</p>
+      <h2>Receba primeiro no Telegram</h2>
+      <p>O bot posta cada oferta no grupo assim que ela aparece, com foto, preço e link direto, separada por assunto. Entrar é grátis e você sai quando quiser.</p>
       <a id="telegram-base" class="botao primario" target="_blank" rel="noopener">Entrar no grupo do Telegram</a>
+      <p id="tg-contagem" class="chamada-nota" hidden></p>
     </div>
   </section>
 
@@ -147,9 +180,10 @@
         <p>© 2026 Diegola Promoções</p>
       </div>
     </div>
+    <p class="rodape-nome" aria-hidden="true">DIEGOLA</p>
   </footer>
 
   <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
-  <script src="app.js?v=28" defer></script>
+  <script src="app.js?v=29" defer></script>
 </body>
 </html>

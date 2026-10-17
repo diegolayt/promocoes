@@ -1,62 +1,77 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Diegola Promoções: as melhores ofertas do dia</title>
-  <meta name="description" content="Ofertas selecionadas na Amazon, Mercado Livre e Shopee: produtos bem avaliados, lojas oficiais e desconto de verdade, atualizadas o dia todo.">
+  <meta name="description" content="Ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress: produtos bem avaliados, lojas oficiais e desconto de verdade, atualizadas o dia todo.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Diegola Promoções">
   <meta property="og:title" content="Diegola Promoções: as melhores ofertas do dia">
-  <meta property="og:description" content="Ofertas selecionadas na Amazon, Mercado Livre e Shopee, atualizadas o dia todo.">
-  <meta name="theme-color" content="#0f1115">
+  <meta property="og:description" content="Ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress, atualizadas o dia todo.">
+  <meta name="theme-color" content="#171a20">
   <link rel="icon" type="image/png" href="../assets/logo-64.png">
   <link rel="apple-touch-icon" href="../assets/logo-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&display=swap">
   <script>
     // Aplica o tema salvo antes da primeira pintura para não piscar.
     try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=25">
 </head>
 <body>
-  <header class="topo">
-    <div class="topo-linha largura">
-      <a class="marca" href="./" aria-label="Diegola Promoções, início">
-        <img class="marca-logo" src="../assets/logo-192.png" alt="" width="36" height="36">
-        <span>Diegola <b>Promoções</b></span>
-      </a>
-      <label class="busca">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg>
-        <input id="busca" type="search" placeholder="Buscar: air fryer, SSD, tênis…" autocomplete="off" aria-label="Buscar ofertas">
-      </label>
-      <button id="tema" class="icone" type="button" aria-label="Alternar tema claro/escuro">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.800A9 9 0 1 1 11.200 3a7 7 0 0 0 9.800 9.800Z"/></svg>
-      </button>
-      <a id="telegram-topo" class="botao telegram" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.500 4.300 2.900 11.500c-.800.300-.800 1.400 0 1.700l4.700 1.500 1.800 5.600c.200.700 1.100.900 1.600.400l2.600-2.500 4.700 3.500c.600.400 1.400.100 1.600-.600L23 5.500c.200-.900-.700-1.600-1.500-1.200ZM9.300 14.200l8.300-6.100-6.500 7-.300 3.400-1.500-4.300Z"/></svg>
-        <span>Entrar no grupo</span>
-      </a>
+  <header id="topo" class="topo">
+    <div class="topo-linha">
+      <a class="marca" href="./" aria-label="Diegola Promoções, início">DIEGOLA</a>
+      <nav class="topo-links" aria-label="Seções">
+        <a href="#ofertas">Ofertas</a>
+        <a href="#cupons-bloco">Cupons</a>
+        <a href="#lojas-bloco">Lojas</a>
+        <a href="#destaques-bloco">Descontos</a>
+      </nav>
+      <div class="topo-acoes">
+        <button id="abrir-busca" class="icone" type="button" aria-label="Buscar ofertas">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button id="tema" class="icone" type="button" aria-label="Alternar tema claro/escuro">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a id="telegram-topo" class="botao-nav" target="_blank" rel="noopener">Entrar no grupo</a>
+      </div>
     </div>
   </header>
 
-  <main class="largura">
-    <section class="abertura">
+  <section class="palco" aria-label="Ofertas em destaque">
+    <div id="anel-cena" class="anel-cena" aria-hidden="true">
+      <div id="anel" class="anel"></div>
+    </div>
+    <div class="palco-texto">
       <h1>As melhores ofertas do dia</h1>
-      <p class="chamada-texto">Selecionadas na Amazon, Mercado Livre e Shopee, com link direto para a loja.</p>
-      <ul class="selos">
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.700 5.600 6.100.900-4.400 4.300 1 6.100L12 17l-5.400 2.900 1-6.100L3.200 9.500l6.100-.900Z"/></svg>Nota alta e muitas vendas</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.500 6v5.500c0 4.500 3.200 8.300 7.500 9.500 4.300-1.200 7.500-5 7.500-9.500V6Z"/><path d="m9 12 2.200 2.200L15.200 10"/></svg>Prioridade para lojas oficiais</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12 12 20l-8-8V4h8Z"/><circle cx="8" cy="8" r="1.200"/></svg>Desconto inflado fica de fora</li>
-      </ul>
       <p id="resumo" class="resumo" aria-live="polite">Carregando ofertas…</p>
+    </div>
+    <div class="palco-acoes">
+      <a class="botao primario" href="#ofertas">Ver ofertas</a>
+      <a id="telegram-palco" class="botao secundario" target="_blank" rel="noopener">Entrar no grupo</a>
+    </div>
+    <p class="palco-dica">Arraste para girar · toque em um produto para abrir</p>
+  </section>
+
+  <section class="garantias" aria-label="Como escolhemos">
+    <div class="largura garantias-grade">
+      <div><strong>Nota alta</strong><span>Só produtos bem avaliados e com muitas vendas</span></div>
+      <div><strong>Loja oficial</strong><span>Prioridade para quem vende com garantia</span></div>
+      <div><strong>Desconto real</strong><span>Preço inflado para parecer promoção fica de fora</span></div>
+    </div>
+  </section>
+
+  <main class="largura">
+    <section id="lojas-bloco" class="bloco-lojas" aria-label="Filtrar por loja">
+      <nav id="lojas" class="lojas-grade"></nav>
     </section>
 
-    <div class="filtros">
-      <nav id="lojas" class="fichas" aria-label="Filtrar por loja"></nav>
-      <nav id="categorias" class="fichas fichas-suaves" aria-label="Filtrar por categoria"></nav>
-    </div>
-
-    <section id="cupons-bloco" hidden>
+    <section id="cupons-bloco" class="secao" hidden>
       <div class="titulo-secao">
         <h2>Cupons de hoje</h2>
         <button id="cupons-todos" class="link" type="button" hidden></button>
@@ -65,16 +80,20 @@
     </section>
 
     <div id="vitrines"></div>
+  </main>
 
-    <section id="destaques-bloco" class="destaques" hidden>
+  <section id="destaques-bloco" class="destaques" hidden>
+    <div class="largura">
       <div class="titulo-secao">
         <h2>Maiores descontos</h2>
         <span>das últimas 24 horas</span>
       </div>
       <div id="destaques" class="trilho"></div>
-    </section>
+    </div>
+  </section>
 
-    <section>
+  <main class="largura">
+    <section id="ofertas" class="secao">
       <div class="titulo-secao">
         <h2 id="titulo-lista">Todas as ofertas</h2>
         <label class="ordenar">
@@ -88,27 +107,38 @@
           </select>
         </label>
       </div>
+      <label class="busca">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="busca" type="search" placeholder="Buscar: air fryer, SSD, tênis…" autocomplete="off" aria-label="Buscar ofertas">
+      </label>
+      <nav id="categorias" class="fichas" aria-label="Filtrar por categoria"></nav>
       <div id="grade" class="grade"></div>
       <p id="vazio" class="vazio" hidden>Nada encontrado com esses filtros. <button id="limpar" class="link" type="button">Limpar filtros</button></p>
-      <div class="mais"><button id="mais" class="botao contorno" type="button" hidden>Carregar mais ofertas</button></div>
-    </section>
-
-    <section class="chamada">
-      <div>
-        <h2>Receba as ofertas antes, direto no celular</h2>
-        <p>Elas saem primeiro no grupo do Telegram, separadas por assunto. É grátis.</p>
-      </div>
-      <a id="telegram-base" class="botao telegram grande" target="_blank" rel="noopener">Entrar no grupo do Telegram</a>
+      <div class="mais"><button id="mais" class="botao secundario" type="button" hidden>Carregar mais ofertas</button></div>
     </section>
   </main>
+
+  <section class="chamada">
+    <div class="chamada-celular" aria-hidden="true">
+      <div class="celular">
+        <div class="celular-tela">
+          <span class="msg">Oferta nova no grupo</span>
+          <span class="msg">Cupom do dia liberado</span>
+          <span class="msg">Desconto de verdade, link direto</span>
+        </div>
+      </div>
+    </div>
+    <div class="chamada-texto">
+      <h2>Receba as ofertas antes, direto no celular</h2>
+      <p>Elas saem primeiro no grupo do Telegram, separadas por assunto. É grátis.</p>
+      <a id="telegram-base" class="botao primario" target="_blank" rel="noopener">Entrar no grupo do Telegram</a>
+    </div>
+  </section>
 
   <footer class="rodape">
     <div class="largura rodape-grade">
       <div>
-        <a class="marca" href="./">
-          <img class="marca-logo" src="../assets/logo-192.png" alt="" width="36" height="36" loading="lazy">
-          <span>Diegola <b>Promoções</b></span>
-        </a>
+        <a class="marca" href="./">DIEGOLA</a>
         <p>Curadoria diária de ofertas das maiores lojas do Brasil.</p>
       </div>
       <div class="rodape-avisos">
@@ -120,6 +150,6 @@
   </footer>
 
   <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
-  <script src="app.js?v=14" defer></script>
+  <script src="app.js?v=25" defer></script>
 </body>
 </html>

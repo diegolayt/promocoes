@@ -1,4 +1,4 @@
-// ───── Configuração ─────
+﻿// ───── Configuração ─────
 const CONFIG = {
   // Link de convite do grupo (t.me/...). Vazio esconde os botões do Telegram.
   telegram: "https://t.me/diegolapromocoes",
@@ -145,6 +145,154 @@ async function carregar() {
     if (cupom) oferta.cupom = cupom.codigo;
   }
   desenhar();
+  if (!anel.montado) montarAnel(estado.ofertas);
+  preencherCelular();
+}
+
+// As mensagens do celular da chamada são ofertas de verdade que estão no ar.
+function preencherCelular() {
+  const curtas = revezar(porLoja(estado.ofertas.filter((o) => o.desconto >= 20 && o.desconto <= 70))).slice(0, 3);
+  if (curtas.length < 3) return;
+  document.querySelectorAll(".celular .msg").forEach((msg, i) => {
+    // Tira códigos de modelo (S429049631) do começo do nome.
+    const palavras = curtas[i].titulo.split(/\s+/).filter((p) => !/\d{4,}/.test(p));
+    const nome = palavras.slice(0, 4).join(" ").replace(/[,;:\-–]+$/, "");
+    msg.textContent = `${nome} por ${brl.format(curtas[i].preco)} (−${curtas[i].desconto}%)`;
+  });
+}
+
+// ───── Carrossel 3D da abertura ─────
+// As ofertas reais giram num anel; cada carta sempre encara a câmera e fica
+// menor e mais apagada quando passa para trás. Arrastar gira o anel.
+const anel = { montado: false, cartas: [], angulo: 0, velocidade: 0.0016, inclinacao: 0, alvoInclinacao: 0 };
+
+async function montarAnel(ofertas) {
+  const pequeno = matchMedia("(max-width: 640px)").matches;
+  const quantas = pequeno ? 10 : 14;
+  // Prefere descontos honestos, revezando lojas e categorias.
+  const boas = ofertas.filter((o) => o.imagem && o.desconto >= 15 && o.desconto <= 70);
+  const base = boas.length >= quantas ? boas : ofertas.filter((o) => o.imagem);
+  const candidatas = revezar(porLoja(base).map((grupo) => variadas(grupo, quantas))).slice(0, quantas * 2);
+  if (!candidatas.length) return;
+  anel.montado = true;
+
+  // Só entram as fotos que carregaram de verdade (algumas lojas recusam).
+  const carregadas = await Promise.all(candidatas.map((oferta) => new Promise((ok) => {
+    const foto = new Image();
+    foto.referrerPolicy = "no-referrer";
+    const relogio = setTimeout(() => ok(null), 5000);
+    foto.onload = () => { clearTimeout(relogio); ok(foto.naturalWidth > 40 ? { oferta, foto } : null); };
+    foto.onerror = () => { clearTimeout(relogio); ok(null); };
+    foto.src = oferta.imagem;
+  })));
+  const escolhidas = carregadas.filter(Boolean).slice(0, quantas);
+  if (escolhidas.length < 5) { anel.montado = false; return; }
+
+  anel.cartas = escolhidas.map(({ oferta, foto }) => {
+    const loja = LOJAS[oferta.loja];
+    foto.alt = "";
+    foto.draggable = false;
+    const carta = el("a", { class: "carta", href: oferta.link, target: "_blank", rel: "sponsored nofollow noopener", tabindex: "-1", title: oferta.titulo },
+      foto,
+      el("img", { class: "carta-loja", src: loja.logo, alt: "" }),
+      el("span", { class: "carta-rodape" },
+        el("span", { class: "carta-preco" }, brl.format(oferta.preco)),
+        oferta.desconto >= 5 && el("span", { class: "carta-off" }, `−${oferta.desconto}%`),
+      ),
+    );
+    return carta;
+  });
+  $("anel").replaceChildren(...anel.cartas);
+  ligarArraste();
+  requestAnimationFrame(girar);
+}
+
+function posicionarCartas(tempo) {
+  const total = anel.cartas.length;
+  const largura = $("anel").offsetWidth;
+  const raio = Math.max(largura * 1.8, (largura * 1.45) / (2 * Math.tan(Math.PI / total)));
+  anel.cartas.forEach((carta, i) => {
+    const teta = anel.angulo + (i / total) * Math.PI * 2;
+    const x = Math.sin(teta) * raio;
+    const z = Math.cos(teta) * raio - raio * 0.35;
+    const frente = (Math.cos(teta) + 1) / 2; // 1 na frente, 0 atrás
+    const y = Math.sin(teta * 2 + tempo / 1400) * 10;
+    carta.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, ${z.toFixed(1)}px) rotateY(${(Math.sin(teta) * 28).toFixed(1)}deg)`;
+    carta.style.opacity = (0.06 + frente ** 1.8 * 0.94).toFixed(2);
+    carta.style.zIndex = String(Math.round(frente * 100));
+    carta.style.pointerEvents = frente > 0.75 ? "auto" : "none";
+  });
+}
+
+function girar(tempo) {
+  const parado = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (parado) { posicionarCartas(0); return; }
+  // Passo medido em quadros de 60 Hz, para girar igual em qualquer tela.
+  const passo = Math.min(4, (tempo - (anel.ultimoTempo ?? tempo)) / 16.67);
+  anel.ultimoTempo = tempo;
+  if (!document.hidden && $("anel").getBoundingClientRect().bottom > 0) {
+    if (!anel.arrastando) anel.angulo += anel.velocidade * passo;
+    // Depois de solto, o anel desacelera até voltar ao giro calmo.
+    anel.velocidade += (0.0016 - anel.velocidade) * Math.min(1, 0.03 * passo);
+    anel.inclinacao += (anel.alvoInclinacao - anel.inclinacao) * Math.min(1, 0.06 * passo);
+    $("anel").style.transform = `rotateX(${anel.inclinacao.toFixed(2)}deg)`;
+    posicionarCartas(tempo);
+  }
+  requestAnimationFrame(girar);
+}
+
+function ligarArraste() {
+  const cena = $("anel-cena");
+  let inicioX = 0, ultimoX = 0, moveu = 0;
+  cena.addEventListener("pointerdown", (evento) => {
+    anel.arrastando = true;
+    inicioX = ultimoX = evento.clientX;
+    moveu = 0;
+    cena.classList.add("arrastando");
+  });
+  addEventListener("pointermove", (evento) => {
+    const caixa = cena.getBoundingClientRect();
+    if (evento.clientY < caixa.bottom) anel.alvoInclinacao = ((evento.clientY - caixa.top) / caixa.height - 0.5) * -8;
+    if (!anel.arrastando) return;
+    const passo = evento.clientX - ultimoX;
+    ultimoX = evento.clientX;
+    moveu = Math.max(moveu, Math.abs(evento.clientX - inicioX));
+    anel.angulo += passo * 0.005;
+    anel.velocidade = passo * 0.005;
+    // Sem animação contínua (movimento reduzido), o arraste reposiciona direto.
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) posicionarCartas(0);
+  });
+  const soltar = () => { anel.arrastando = false; cena.classList.remove("arrastando"); };
+  addEventListener("pointerup", soltar);
+  addEventListener("pointercancel", soltar);
+  // Arrastar não pode abrir a oferta; só o toque parado abre.
+  cena.addEventListener("click", (evento) => { if (moveu > 6) evento.preventDefault(); }, true);
+}
+
+// Inclinação 3D da foto do cartão acompanhando o mouse.
+function ligarInclinacao() {
+  if (!matchMedia("(hover: hover) and (prefers-reduced-motion: no-preference)").matches) return;
+  document.addEventListener("pointermove", (evento) => {
+    const cartao = evento.target.closest?.(".cartao");
+    if (ligarInclinacao.atual && ligarInclinacao.atual !== cartao) ligarInclinacao.atual.querySelector(".cartao-foto").style.transform = "";
+    ligarInclinacao.atual = cartao;
+    if (!cartao) return;
+    const foto = cartao.querySelector(".cartao-foto");
+    const caixa = foto.getBoundingClientRect();
+    const x = (evento.clientX - caixa.left) / caixa.width - 0.5;
+    const y = Math.min(1, (evento.clientY - caixa.top) / caixa.height) - 0.5;
+    foto.style.transform = `rotateY(${(x * 14).toFixed(2)}deg) rotateX(${(y * -14).toFixed(2)}deg)`;
+  });
+}
+
+// Blocos entram suavemente quando chegam na tela.
+function ligarSurgimento() {
+  const alvos = document.querySelectorAll(".garantias-grade > div, .bloco-lojas, .chamada-texto, .chamada-celular, #cupons-bloco, #destaques-bloco .titulo-secao, #ofertas .titulo-secao");
+  if (!("IntersectionObserver" in window)) return;
+  const observador = new IntersectionObserver((entradas) => {
+    for (const entrada of entradas) if (entrada.isIntersecting) { entrada.target.classList.add("visto"); observador.unobserve(entrada.target); }
+  }, { rootMargin: "0px 0px -8% 0px" });
+  alvos.forEach((alvo, i) => { alvo.classList.add("surge"); alvo.style.transitionDelay = `${(i % 3) * 80}ms`; observador.observe(alvo); });
 }
 
 // Só entram cupons completos e dentro da validade.
@@ -225,7 +373,7 @@ function cartao(oferta) {
   const etiquetas = el("div", { class: "etiquetas" });
   if (oferta.cupom) etiquetas.append(el("button", { class: "cupom", type: "button", title: "Copiar cupom", onclick: () => copiarCupom(oferta.cupom) }, `Cupom ${oferta.cupom}`));
   if (oferta.lojaOficial) etiquetas.append(el("span", { class: "etiqueta oficial" }, "Loja oficial"));
-  if (oferta.nota >= 4) etiquetas.append(el("span", { class: "etiqueta nota" }, `★ ${oferta.nota.toFixed(1).replace(".", ",")}${oferta.avaliacoes >= 1000 ? ` (${Math.floor(oferta.avaliacoes / 1000)} mil)` : ""}`));
+  if (oferta.nota >= 4) etiquetas.append(el("span", { class: "etiqueta nota" }, `Nota ${oferta.nota.toFixed(1).replace(".", ",")}${oferta.avaliacoes >= 1000 ? ` (${Math.floor(oferta.avaliacoes / 1000)} mil)` : ""}`));
   if (oferta.freteGratis) etiquetas.append(el("span", { class: "etiqueta frete" }, "Frete grátis"));
   if (oferta.vendidos >= 100) etiquetas.append(el("span", { class: "etiqueta" }, `${oferta.vendidos >= 1000 ? `${Math.floor(oferta.vendidos / 1000)} mil+` : `${oferta.vendidos}+`} vendidos`));
 
@@ -259,6 +407,18 @@ function ficha(rotulo, ativa, aoClicar, extras = {}) {
   return el("button", { class: "ficha", type: "button", "aria-pressed": String(ativa), onclick: aoClicar, disabled: extras.desativada, style: extras.cor && `--cor:${extras.cor}` },
     extras.logo ? logoLoja(extras) : extras.cor && el("i"), rotulo, extras.total != null && el("small", {}, String(extras.total)),
   );
+}
+
+function blocoLoja(nome, logo, total, ativa, aoClicar, desativada = false) {
+  return el("button", { class: "loja-bloco", type: "button", "aria-pressed": String(ativa), onclick: aoClicar, disabled: desativada },
+    el("img", { src: logo, alt: "", width: "44", height: "44", loading: "lazy", decoding: "async" }),
+    el("strong", {}, nome),
+    el("small", {}, total ? `${total} ${total === 1 ? "oferta" : "ofertas"}` : "sem ofertas agora"),
+  );
+}
+
+function irPara(id) {
+  $(id)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
 }
 
 function filtradas({ ignorarLoja = false, ignorarCategoria = false } = {}) {
@@ -325,12 +485,14 @@ function desenhar() {
 
   // As contagens de cada grupo de filtro respeitam os outros filtros ativos.
   const paraLojas = filtradas({ ignorarLoja: true });
+  const escolherLoja = (chave) => { definir({ loja: chave }); irPara("ofertas"); };
   $("lojas").replaceChildren(
-    ficha("Todas", !estado.loja, () => definir({ loja: "" }), { total: paraLojas.length }),
+    blocoLoja("Todas as lojas", "../assets/logo-192.png", paraLojas.length, !estado.loja, () => escolherLoja("")),
+    // Loja sem oferta no momento nem aparece (a não ser a que está escolhida).
     ...Object.entries(LOJAS).map(([chave, loja]) => {
       const total = paraLojas.filter((o) => o.loja === chave).length;
-      return ficha(loja.nome, estado.loja === chave, () => definir({ loja: estado.loja === chave ? "" : chave }), { cor: loja.cor, logo: loja.logo, total, desativada: !total && estado.loja !== chave });
-    }),
+      return (total || estado.loja === chave) && blocoLoja(loja.nome, loja.logo, total, estado.loja === chave, () => escolherLoja(estado.loja === chave ? "" : chave));
+    }).filter(Boolean),
   );
 
   const paraCategorias = filtradas({ ignorarCategoria: true });
@@ -338,7 +500,7 @@ function desenhar() {
   $("categorias").replaceChildren(
     ficha("Tudo", !estado.categoria, () => definir({ categoria: "" })),
     ...nomes.map((nome) => ficha(nome, estado.categoria === nome, () => definir({ categoria: estado.categoria === nome ? "" : nome }))),
-    ...(todas.some((o) => o.lojaOficial) ? [ficha("✓ Só loja oficial", estado.oficial, () => definir({ oficial: !estado.oficial }))] : []),
+    ...(todas.some((o) => o.lojaOficial) ? [ficha("Só loja oficial", estado.oficial, () => definir({ oficial: !estado.oficial }))] : []),
   );
 
   const lista = ordenadas(filtradas());
@@ -371,7 +533,7 @@ function desenhar() {
     return el("section", { class: "vitrine" },
       el("div", { class: "titulo-secao" },
         el("h2", { class: "loja-titulo" }, logoLoja(loja), loja.nome),
-        el("button", { class: "link", type: "button", onclick: () => { definir({ loja: grupo[0].loja }); scrollTo({ top: 0 }); } }, `Ver todas (${grupo.length})`),
+        el("button", { class: "link", type: "button", onclick: () => { definir({ loja: grupo[0].loja }); irPara("ofertas"); } }, `Ver todas (${grupo.length})`),
       ),
       el("div", { class: "trilho" }, ...variadas(grupo, 12).map(cartao)),
     );
@@ -399,7 +561,7 @@ function iniciar() {
   $("busca").value = estado.busca;
   $("ordem").value = estado.ordem;
 
-  for (const id of ["telegram-topo", "telegram-base"]) {
+  for (const id of ["telegram-topo", "telegram-palco", "telegram-base"]) {
     if (linkSeguro(CONFIG.telegram)) $(id).href = CONFIG.telegram;
     else ($(id).closest(".chamada") || $(id)).hidden = true;
   }
@@ -421,6 +583,15 @@ function iniciar() {
     document.documentElement.dataset.theme = novo;
     try { localStorage.setItem("tema", novo); } catch {}
   });
+
+  // O topo fica transparente sobre a abertura escura e sólido no resto da página.
+  const topo = $("topo");
+  const ajustarTopo = () => topo.classList.toggle("solido", scrollY > document.querySelector(".palco").offsetHeight - 70);
+  addEventListener("scroll", ajustarTopo, { passive: true });
+  ajustarTopo();
+  $("abrir-busca").addEventListener("click", () => { irPara("ofertas"); setTimeout(() => $("busca").focus({ preventScroll: true }), 500); });
+  ligarInclinacao();
+  ligarSurgimento();
 
   $("grade").replaceChildren(...Array.from({ length: 10 }, () => el("div", { class: "esqueleto" })));
   carregar();

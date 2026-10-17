@@ -1,4 +1,4 @@
-﻿// ───── Configuração ─────
+// ───── Configuração ─────
 const CONFIG = {
   // Link de convite do grupo (t.me/...). Vazio esconde os botões do Telegram.
   telegram: "https://t.me/diegolapromocoes",
@@ -131,12 +131,18 @@ async function carregar() {
   }));
   const limite = Date.now() - CONFIG.validadeHoras * 3_600_000;
   const porId = new Map();
-  for (const bruta of respostas.flat()) {
-    const oferta = normalizar(bruta);
-    if (!oferta || oferta.publicadoEm < limite) continue;
-    const atual = porId.get(oferta.id);
-    if (!atual || oferta.publicadoEm > atual.publicadoEm) porId.set(oferta.id, oferta);
-  }
+  respostas.forEach((lista, i) => {
+    // Os arquivos "feed" são as postagens que o bot fez no grupo do Telegram.
+    const doGrupo = /\/feed[^/]*\.json$/.test(CONFIG.fontes[i]);
+    for (const bruta of lista) {
+      const oferta = normalizar(bruta);
+      if (!oferta || oferta.publicadoEm < limite) continue;
+      const atual = porId.get(oferta.id);
+      oferta.doGrupo = doGrupo || Boolean(atual?.doGrupo);
+      if (!atual || oferta.publicadoEm > atual.publicadoEm) porId.set(oferta.id, oferta);
+      else if (doGrupo) atual.doGrupo = true;
+    }
+  });
   estado.ofertas = [...porId.values()].sort((a, b) => b.publicadoEm - a.publicadoEm);
   estado.cupons = await carregarCupons();
   for (const oferta of estado.ofertas) {
@@ -149,16 +155,136 @@ async function carregar() {
   preencherCelular();
 }
 
-// As mensagens do celular da chamada são ofertas de verdade que estão no ar.
+// ───── iPhone da chamada: o grupo do Telegram ao vivo ─────
+// A tela repete as postagens reais do bot (mesmo texto e botão), uma a uma,
+// com "enviando foto…" no topo antes de cada uma, como no app.
+const telegram = { fila: [], proxima: 0, relogio: 0, naTela: false, ligado: false };
+
 function preencherCelular() {
-  const curtas = escolherEmAlta(estado.ofertas.filter((o) => o.desconto >= 20 && o.desconto <= 70), 3).slice(0, 3);
-  if (curtas.length < 3) return;
-  document.querySelectorAll(".celular .msg").forEach((msg, i) => {
-    // Tira códigos de modelo (S429049631) do começo do nome.
-    const palavras = curtas[i].titulo.split(/\s+/).filter((p) => !/\d{4,}/.test(p));
-    const nome = palavras.slice(0, 4).join(" ").replace(/[,;:\-–]+$/, "");
-    msg.textContent = `${nome} por ${brl.format(curtas[i].preco)} (−${curtas[i].desconto}%)`;
+  const doGrupo = estado.ofertas.filter((o) => o.doGrupo);
+  const hoje = new Date().setHours(0, 0, 0, 0);
+  const postadasHoje = doGrupo.filter((o) => o.publicadoEm >= hoje).length;
+  const nota = $("tg-contagem");
+  nota.hidden = postadasHoje < 10;
+  nota.replaceChildren("Hoje o bot já postou ", el("b", {}, `${postadasHoje.toLocaleString("pt-BR")} ofertas`), " no grupo.");
+
+  // Prefere o que está em alta e tem desconto; sem foto não entra na tela.
+  const base = doGrupo.length >= 6 ? doGrupo : estado.ofertas;
+  const comFoto = base.filter((o) => o.imagem && o.loja !== "amazon");
+  const boas = comFoto.filter((o) => o.desconto >= 15 && o.desconto <= 70);
+  telegram.fila = escolherEmAlta(boas.length >= 6 ? boas : comFoto, 12).slice(0, 12);
+  if (!telegram.ligado && telegram.fila.length) ligarTelegram();
+}
+
+function textoQuantos(n) {
+  return n >= 1000 ? `${Math.floor(n / 1000)} mil+ vendidos` : `${n}+ vendidos`;
+}
+
+function mensagemTelegram(oferta, hora) {
+  const loja = LOJAS[oferta.loja];
+  const prova = [
+    oferta.nota >= 4 ? `⭐ ${oferta.nota.toFixed(1).replace(".", ",")}` : "", // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+    oferta.vendidos >= 100 ? textoQuantos(oferta.vendidos) : "",
+    oferta.lojaOficial ? "✅ Loja oficial" : "", // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+  ].filter(Boolean).join(" · ");
+  const preco = oferta.precoDe
+    ? `💥 De ${brl.format(oferta.precoDe)} por ${brl.format(oferta.preco)} (-${oferta.desconto}%)` // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+    : `💥 Por ${brl.format(oferta.preco)}`; // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+  let dominio = "";
+  try { dominio = new URL(oferta.link).hostname.replace(/^www\./, ""); } catch {}
+  const foto = el("img", { class: "tg-foto", src: oferta.imagem, alt: "", referrerpolicy: "no-referrer", decoding: "async" });
+  return el("div", { class: "tg-msg" },
+    el("img", { class: "tg-avatar", src: "../assets/logo-64.png", alt: "" }),
+    el("div", { class: "tg-coluna" },
+      el("div", { class: "tg-bolha" },
+        el("span", { class: "tg-nome" }, "Diegola Promoções"),
+        foto,
+        el("div", { class: "tg-texto" },
+          el("p", { class: "tg-produto" }, `🛍️ ${oferta.titulo}`), // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+          prova && el("p", {}, prova),
+          el("p", { class: "tg-espaco" }),
+          el("p", {}, preco),
+          el("p", { class: "tg-link" }, `🛒 Compre aqui 👉 ${dominio}`), // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+          el("span", { class: "tg-hora" }, hora),
+        ),
+      ),
+      el("span", { class: "tg-botao" }, `🛒 Garantir oferta na ${loja.nome}`), // taste-skill-ignore: mesmo texto que o bot posta no Telegram
+    ),
+  );
+}
+
+function ligarTelegram() {
+  telegram.ligado = true;
+  const chat = $("tg-chat");
+  const lista = el("div", { class: "tg-lista" }, ...chat.children);
+  chat.replaceChildren(lista);
+  const topico = $("tg-topico");
+  const parado = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const horaAgora = () => new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+  $("ios-hora").textContent = horaAgora().replace(/^0/, "");
+
+  const postar = (animar) => {
+    const oferta = telegram.fila[telegram.proxima++ % telegram.fila.length];
+    const msg = mensagemTelegram(oferta, horaAgora());
+    lista.append(msg);
+    topico.textContent = `Promoções ${LOJAS[oferta.loja].nome}`;
+    topico.classList.remove("digitando");
+    // Mensagens que já saíram por cima da tela vão embora.
+    while (lista.querySelectorAll(".tg-msg").length > 5) lista.querySelector(".tg-msg").remove();
+    if (!animar) return;
+    // O chat sobe de leve para abrir espaço, como no app.
+    const altura = msg.offsetHeight + 10;
+    lista.style.transition = "none";
+    lista.style.transform = `translateY(${altura}px)`;
+    lista.offsetHeight;
+    lista.style.transition = "transform .55s cubic-bezier(.2, .8, .2, 1)";
+    lista.style.transform = "";
+    msg.classList.add("chegando");
+  };
+
+  // Começa com duas mensagens já na tela.
+  postar(false); postar(false);
+  if (parado) return;
+  const ciclo = () => {
+    telegram.relogio = setTimeout(() => {
+      if (!telegram.naTela || document.hidden) return ciclo();
+      topico.textContent = "enviando foto…";
+      topico.classList.add("digitando");
+      telegram.relogio = setTimeout(() => { postar(true); ciclo(); }, 1100);
+    }, 2600);
+  };
+  ciclo();
+}
+
+// O celular vira de leve na direção do mouse (ou do dedo) e balança sozinho.
+function ligarIphone() {
+  const cena = $("chamada-cena");
+  const iphone = $("iphone");
+  if (!cena || !iphone) return;
+  cena.addEventListener("click", () => { if (linkSeguro(CONFIG.telegram)) open(CONFIG.telegram, "_blank", "noopener"); });
+  new IntersectionObserver(([entrada]) => { telegram.naTela = entrada.isIntersecting; }).observe(cena);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const alvo = { x: 0, y: 0 }, atual = { x: 0, y: 0 };
+  cena.closest(".chamada").addEventListener("pointermove", (evento) => {
+    const caixa = cena.getBoundingClientRect();
+    alvo.x = Math.max(-1, Math.min(1, (evento.clientX - caixa.left) / caixa.width * 2 - 1));
+    alvo.y = Math.max(-1, Math.min(1, (evento.clientY - caixa.top) / caixa.height * 2 - 1));
   });
+  cena.closest(".chamada").addEventListener("pointerleave", () => { alvo.x = 0; alvo.y = 0; });
+  const passo = (t) => {
+    requestAnimationFrame(passo);
+    if (!telegram.naTela) return;
+    atual.x += (alvo.x - atual.x) * 0.06;
+    atual.y += (alvo.y - atual.y) * 0.06;
+    const balanco = Math.sin(t / 1800);
+    const ry = -18 + atual.x * 16 + balanco * 4;
+    const rx = 6 - atual.y * 10 + Math.cos(t / 2300) * 2;
+    iphone.style.setProperty("--ry", `${ry.toFixed(2)}deg`);
+    iphone.style.setProperty("--rx", `${rx.toFixed(2)}deg`);
+    iphone.style.translate = `0 ${(balanco * -8).toFixed(1)}px`;
+    iphone.style.setProperty("--brilho", `${(60 - ry * 2).toFixed(1)}%`);
+  };
+  requestAnimationFrame(passo);
 }
 
 // ───── Carrossel 3D da abertura ─────
@@ -426,8 +552,8 @@ function cartao(oferta) {
   const loja = LOJAS[oferta.loja];
   const foto = el("div", { class: "cartao-foto" });
   if (oferta.imagem) {
-    foto.append(el("img", { src: oferta.imagem, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer", onerror: (evento) => evento.target.remove() }));
-  }
+    foto.append(el("img", { src: oferta.imagem, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer", onerror: (evento) => evento.target.replaceWith(el("img", { class: "foto-reserva", src: loja.logo, alt: "" })) }));
+  } else foto.append(el("img", { class: "foto-reserva", src: loja.logo, alt: "" }));
   if (oferta.desconto >= 5) foto.append(el("span", { class: "selo-desconto" }, `−${oferta.desconto}%`));
 
   const etiquetas = el("div", { class: "etiquetas" });
@@ -667,6 +793,7 @@ function iniciar() {
   $("abrir-busca").addEventListener("click", () => { irPara("ofertas"); setTimeout(() => $("busca").focus({ preventScroll: true }), 500); });
   ligarInclinacao();
   ligarSurgimento();
+  ligarIphone();
 
   $("grade").replaceChildren(...Array.from({ length: 10 }, () => el("div", { class: "esqueleto" })));
   carregar();

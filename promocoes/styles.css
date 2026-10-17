@@ -1,4 +1,4 @@
-﻿/* Linguagem visual inspirada no site da Tesla: branco, cinza-carvão, um azul só
+/* Linguagem visual inspirada no site da Tesla: branco, cinza-carvão, um azul só
    para a ação principal, cantos quase retos, nada de sombra nem degradê.
    A emoção fica com as fotos dos produtos e com o carrossel 3D da abertura. */
 :root {
@@ -12,6 +12,7 @@
   --apagado: #8e8e8e;
   --azul: #3e6ae1;
   --azul-forte: #3457b1;
+  --azul-texto: #3457b1;
   --desconto: #171a20;
   --carvao: #171a20;
   --foto: #ffffff;
@@ -31,9 +32,10 @@
     --texto: #f4f4f4;
     --texto-2: #d0d1d2;
     --texto-suave: #a2a4a8;
-    --apagado: #6f7175;
+    --apagado: #8b8d91;
     --desconto: #f4f4f4;
     --foto: #ffffff;
+    --azul-texto: #8aa6f0;
     color-scheme: dark;
   }
 }
@@ -46,9 +48,10 @@
   --texto: #f4f4f4;
   --texto-2: #d0d1d2;
   --texto-suave: #a2a4a8;
-  --apagado: #6f7175;
+  --apagado: #8b8d91;
   --desconto: #f4f4f4;
   --foto: #ffffff;
+  --azul-texto: #8aa6f0;
   color-scheme: dark;
 }
 
@@ -60,7 +63,7 @@ body {
   margin: 0;
   background: var(--fundo);
   color: var(--texto-2);
-  font: 400 15px/1.5 var(--fonte);
+  font: 400 16px/1.5 var(--fonte);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -96,12 +99,12 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 /* ───── Abertura com o carrossel 3D ───── */
 .palco { position: relative; display: grid; grid-template-rows: 1fr auto auto; justify-items: center; height: 100svh; min-height: 620px; padding: 92px 24px 28px; overflow: hidden; background: var(--carvao); color: #fff; isolation: isolate; contain: layout paint; }
 .palco-texto { position: relative; z-index: 2; align-self: start; text-align: center; }
-.palco h1 { color: #fff; font-size: clamp(30px, 4.2vw, 48px); line-height: 1.15; text-wrap: balance; }
+.palco h1 { color: #fff; font-size: clamp(38px, 6.2vw, 92px); line-height: 1; letter-spacing: -.035em; text-wrap: balance; }
 .resumo { text-wrap: balance; }
-.resumo { margin-top: 10px; font-size: 16px; color: #d0d1d2; }
+.resumo { margin-top: 14px; font-size: 18px; color: #d0d1d2; }
 .resumo b { color: #fff; font-weight: 500; }
 .palco-acoes { position: relative; z-index: 2; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
-.palco .botao.secundario { background: rgb(255 255 255 / 88%); color: var(--carvao); }
+.palco .botao.secundario { background: #e6e7e8; color: var(--carvao); }
 .palco .botao.secundario:hover { background: #fff; }
 .palco-dica { position: relative; z-index: 2; margin-top: 18px; font-size: 13px; color: #8e8e8e; }
 
@@ -115,16 +118,16 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .carta img { flex: 1; min-height: 0; width: 100%; object-fit: contain; padding: 14px; pointer-events: none; }
 .carta-rodape { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; padding: 9px 12px 11px; background: #f4f4f4; }
 .carta-preco { font-size: 16px; font-weight: 500; }
-.carta-off { font-size: 12px; font-weight: 500; color: var(--azul); }
+.carta-off { font-size: 13px; font-weight: 500; color: var(--azul); }
 .carta-loja { position: absolute; top: 10px; left: 10px; width: 22px; height: 22px; border-radius: 5px; padding: 0; flex: none; }
 /* Chão espelhado: um brilho discreto sob o anel, como o piso polido das fotos da Tesla. */
 .anel-cena::after { content: ""; position: absolute; left: 50%; bottom: 14%; width: min(1100px, 120vw); height: 160px; translate: -50% 0; border-radius: 50%; background: radial-gradient(closest-side, rgb(62 106 225 / 24%), rgb(62 106 225 / 8%) 60%, transparent); /* taste-skill-ignore: luz do piso sob o carrossel 3D */ z-index: -1; }
 
 /* ───── Garantias ───── */
 .garantias { background: var(--fundo); }
-.garantias-grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding-block: 56px; text-align: center; }
-.garantias strong { display: block; font-size: 22px; font-weight: 500; color: var(--texto); }
-.garantias span { display: block; margin-top: 4px; font-size: 14px; color: var(--texto-suave); }
+.garantias-grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; padding-block: 72px 64px; text-align: center; }
+.garantias strong { display: block; font-size: clamp(24px, 2.4vw, 32px); font-weight: 500; letter-spacing: -.02em; color: var(--texto); }
+.garantias span { display: block; margin-top: 6px; font-size: 16px; color: var(--texto-suave); }
 
 /* ───── Lojas em blocos grandes ───── */
 .bloco-lojas { padding-top: 8px; }
@@ -142,7 +145,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 /* ───── Seções ───── */
 .secao, .vitrine { padding-top: 72px; }
 .titulo-secao { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
-.titulo-secao h2 { font-size: clamp(24px, 2.6vw, 32px); line-height: 1.2; }
+.titulo-secao h2 { font-size: clamp(24px, 2.8vw, 36px); line-height: 1.15; letter-spacing: -.02em; }
 .titulo-secao > span { color: var(--texto-suave); font-size: 14px; }
 .loja-titulo { display: inline-flex; align-items: center; gap: 12px; }
 .loja-logo { width: 20px; height: 20px; border-radius: 5px; object-fit: cover; flex: none; }
@@ -173,22 +176,22 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .cartao:hover .cartao-foto img { transform: translateZ(40px) scale(1.04); }
 .selo-desconto { position: absolute; top: 12px; left: 12px; padding: 4px 8px; border-radius: var(--raio); background: var(--carvao); color: #fff; font-weight: 500; font-size: 13px; }
 .cartao-corpo { display: flex; flex-direction: column; gap: 8px; padding: 14px 2px 0; flex: 1; }
-.cartao-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; color: var(--texto-suave); white-space: nowrap; }
+.cartao-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--texto-suave); white-space: nowrap; }
 .loja { display: inline-flex; align-items: center; gap: 7px; min-width: 0; overflow: hidden; text-overflow: ellipsis; font-weight: 500; color: var(--texto-2); }
 .loja .loja-logo { width: 16px; height: 16px; border-radius: 4px; }
 .cartao-meta time { flex: none; }
-.cartao-titulo { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.9em; font-size: 14px; font-weight: 400; line-height: 1.45; color: var(--texto-2); }
+.cartao-titulo { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.9em; font-size: 15px; font-weight: 400; line-height: 1.45; color: var(--texto-2); }
 /* O título é o link principal; o ::after faz o cartão inteiro clicável. */
 .cartao-titulo a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 .precos { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; margin-top: auto; }
 .preco { font-size: 22px; font-weight: 500; color: var(--texto); }
 .preco-de { color: var(--apagado); text-decoration: line-through; font-size: 13px; }
-.preco-em { color: var(--apagado); font-size: 11.5px; }
+.preco-em { color: var(--apagado); font-size: 13px; line-height: 1.35; }
 .etiquetas { display: flex; flex-wrap: wrap; gap: 6px; min-height: 22px; }
-.etiqueta { padding: 2px 8px; border-radius: var(--raio); background: var(--superficie); font-size: 12px; color: var(--texto-suave); }
-.etiqueta.oficial, .etiqueta.frete { color: var(--azul); }
+.etiqueta { padding: 2px 8px; border-radius: var(--raio); background: var(--superficie); font-size: 13px; color: var(--texto-suave); }
+.etiqueta.oficial, .etiqueta.frete { color: var(--azul-texto); }
 .etiqueta.nota { color: var(--texto-2); }
-.cupom { position: relative; z-index: 2; display: inline-flex; align-items: center; padding: 2px 8px; border: 1px dashed var(--azul); border-radius: var(--raio); background: none; color: var(--azul); font-size: 12px; font-weight: 500; cursor: pointer; }
+.cupom { position: relative; z-index: 2; display: inline-flex; align-items: center; padding: 2px 8px; border: 1px dashed var(--azul-texto); border-radius: var(--raio); background: none; color: var(--azul-texto); font-size: 13px; font-weight: 500; cursor: pointer; }
 .ir { display: flex; align-items: center; justify-content: center; height: 40px; margin-top: 4px; border-radius: var(--raio); background: var(--superficie); color: var(--texto-2); font-size: 14px; font-weight: 500; transition: background-color var(--tempo), color var(--tempo); }
 .cartao:hover .ir { background: var(--azul); color: #fff; }
 
@@ -199,7 +202,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .cupons-grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 .cupom-cartao { display: grid; gap: 8px; align-content: start; padding: 20px; border-radius: var(--raio-grande); background: var(--superficie); }
 .cupom-cartao strong { font-size: 16px; font-weight: 500; color: var(--texto); }
-.cupom-cartao small { color: var(--texto-suave); font-size: 13px; }
+.cupom-cartao small { color: var(--texto-suave); font-size: 14px; }
 .cupom-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 4px; }
 .cupom-acoes .cupom { font-size: 13px; padding: 6px 12px; letter-spacing: .04em; }
 .cupom-acoes .link { font-size: 13px; }
@@ -215,24 +218,108 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .destaques .etiqueta, .destaques .ir { background: #22252b; color: #d0d1d2; }
 .destaques .selo-desconto { background: var(--azul); }
 
-/* ───── Chamada do Telegram com o celular em 3D ───── */
-.chamada { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 48px; margin-top: 120px; padding: 80px max(24px, calc((100vw - 1320px) / 2 + 24px)); background: var(--superficie); overflow: hidden; }
-.chamada h2 { font-size: clamp(26px, 3vw, 40px); line-height: 1.15; max-width: 16ch; }
-.chamada p { margin: 14px 0 28px; font-size: 16px; color: var(--texto-suave); max-width: 44ch; }
-.chamada-celular { display: grid; place-items: center; perspective: 1200px; }
-.celular { width: 230px; aspect-ratio: 9 / 18.5; padding: 10px; border-radius: 36px; background: var(--carvao); transform: rotateY(-24deg) rotateX(8deg) rotateZ(2deg); transform-style: preserve-3d; animation: flutuar 7s ease-in-out infinite; }
-.celular-tela { display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; height: 100%; padding: 16px 12px; border-radius: 28px; background: #0e1013; overflow: hidden; }
-.msg { align-self: flex-start; max-width: 88%; padding: 9px 12px; border-radius: 14px 14px 14px 4px; background: #22252b; color: #f4f4f4; font-size: 12.5px; line-height: 1.35; transform: translateZ(30px); opacity: 0; animation: chegar 7s infinite; }
-.msg:nth-child(2) { animation-delay: .8s; }
-.msg:nth-child(3) { animation-delay: 1.6s; background: var(--azul); }
-@keyframes flutuar { 50% { transform: rotateY(-14deg) rotateX(4deg) rotateZ(0deg) translateY(-12px); } }
-@keyframes chegar { 0% { opacity: 0; translate: 0 16px; } 8%, 85% { opacity: 1; translate: 0 0; } 100% { opacity: 0; } }
+/* ───── Chamada do Telegram: iPhone em 3D com o grupo de verdade na tela ───── */
+.chamada { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: 48px; margin-top: 120px; padding: 72px max(24px, calc((100vw - 1320px) / 2 + 24px)); background: var(--superficie); overflow: hidden; }
+.chamada h2 { font-size: clamp(32px, 4.4vw, 60px); line-height: 1.02; letter-spacing: -.03em; max-width: 12ch; }
+.chamada-texto > p { margin: 20px 0 32px; font-size: 18px; line-height: 1.55; color: var(--texto-2); max-width: 40ch; }
+.chamada .chamada-nota { margin: 18px 0 0; font-size: 15px; color: var(--texto-suave); }
+.chamada-nota b { color: var(--texto); font-weight: 500; }
+
+/* O celular é um bloco de verdade: frente, traseira e as duas laterais de
+   titânio, girado pelo JS (--ry/--rx) conforme o mouse. */
+.chamada-celular { position: relative; display: grid; place-items: center; min-height: 700px; perspective: 1500px; cursor: pointer; }
+.iphone {
+  --prof: 11px;
+  --ry: -18deg; --rx: 6deg;
+  position: relative; width: 300px; height: 620px;
+  transform-style: preserve-3d;
+  transform: rotateY(var(--ry)) rotateX(var(--rx)) rotateZ(-1deg);
+}
+.iphone-frente, .iphone-traseira, .iphone-lado { position: absolute; backface-visibility: hidden; }
+.iphone-frente {
+  inset: 0; padding: 12px; border-radius: 54px; background: #050506;
+  transform: translateZ(calc(var(--prof) / 2));
+  /* Aro de titânio em volta do vidro. */
+  box-shadow: inset 0 0 0 3px #9b9da2, inset 0 0 0 4.5px #3a3b3f; /* taste-skill-ignore: aro do celular */
+}
+.iphone-traseira { inset: 0; border-radius: 54px; background: #6e7075; transform: translateZ(calc(var(--prof) / -2)) rotateY(180deg); }
+.iphone-lado { top: 46px; bottom: 46px; width: var(--prof); background: linear-gradient(90deg, #4b4d52, #b9bbc0 45%, #6c6e73); /* taste-skill-ignore: metal da lateral do celular */ }
+.iphone-lado.esquerdo { left: calc(var(--prof) / -2); transform: rotateY(-90deg); }
+.iphone-lado.direito { right: calc(var(--prof) / -2); transform: rotateY(90deg); }
+.iphone-botao { position: absolute; width: 4px; border-radius: 2px; background: #8d8f94; }
+.iphone-botao.acao { left: -3px; top: 112px; height: 30px; }
+.iphone-botao.volume-mais { left: -3px; top: 162px; height: 54px; }
+.iphone-botao.volume-menos { left: -3px; top: 228px; height: 54px; }
+.iphone-botao.lateral { right: -3px; top: 180px; height: 86px; }
+.iphone-chao { position: absolute; bottom: 18px; left: 50%; width: 260px; height: 34px; translate: -50% 0; border-radius: 50%; background: rgb(0 0 0 / 38%); filter: blur(18px); z-index: -1; }
+
+/* Tela: Telegram no tema escuro, do jeito que aparece no iPhone. */
+.iphone-tela {
+  position: relative; display: flex; flex-direction: column; height: 100%;
+  border-radius: 42px; overflow: hidden; background: #0e1621; color: #f5f5f5;
+  font: 400 12.5px/1.36 -apple-system, "SF Pro Text", "Segoe UI", var(--fonte);
+}
+/* Reflexo do vidro, que anda conforme o celular gira. */
+.iphone-tela::after { content: ""; position: absolute; inset: 0; z-index: 5; pointer-events: none; background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / 7%) 45%, transparent 60%); /* taste-skill-ignore: reflexo do vidro */ background-size: 260% 100%; background-position: var(--brilho, 60%) 0; }
+.ios-status { position: relative; display: flex; align-items: center; justify-content: space-between; height: 48px; padding: 6px 26px 0 34px; background: #17212b; font-size: 14.5px; font-weight: 600; letter-spacing: -.01em; }
+.ilha { position: absolute; top: 10px; left: 50%; width: 92px; height: 27px; translate: -50% 0; border-radius: 16px; background: #000; }
+.ios-icones { display: flex; align-items: center; gap: 5px; }
+.ios-icones svg { width: 16px; height: 11px; fill: #fff; stroke: none; }
+.bateria { position: relative; width: 23px; height: 11.5px; padding: 1.5px; border-radius: 3.5px; box-shadow: inset 0 0 0 1px rgb(255 255 255 / 45%); /* taste-skill-ignore: contorno da bateria do iOS */ }
+.bateria i { display: block; width: 78%; height: 100%; border-radius: 1.5px; background: #fff; }
+.bateria::after { content: ""; position: absolute; right: -3px; top: 3.5px; width: 1.5px; height: 4px; border-radius: 0 1px 1px 0; background: rgb(255 255 255 / 45%); }
+
+.tg-topo { display: grid; grid-template-columns: 58px 1fr 58px; align-items: center; height: 50px; padding-inline: 8px; background: #17212b; }
+.tg-voltar { display: flex; align-items: center; gap: 4px; color: #5aa7ec; }
+.tg-voltar svg { width: 10px; height: 17px; stroke: currentColor; stroke-width: 2.4; }
+.tg-voltar b { min-width: 22px; padding: 1px 6px; border-radius: 10px; background: #5aa7ec; color: #fff; font-size: 11.5px; font-weight: 600; text-align: center; }
+.tg-titulo { display: grid; justify-items: center; min-width: 0; }
+.tg-titulo strong { font-size: 14.5px; font-weight: 600; color: #fff; white-space: nowrap; }
+.tg-titulo small { font-size: 11.5px; color: #7f91a4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; transition: color .2s; }
+.tg-titulo small.digitando { color: #5aa7ec; }
+.tg-foto-grupo { justify-self: end; width: 34px; height: 34px; border-radius: 50%; }
+
+/* Papel de parede do Telegram: desenhos bem apagados sobre o azul-noite. */
+.tg-chat {
+  position: relative; flex: 1; min-height: 0; overflow: hidden;
+  background-color: #0e1621;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' fill='none' stroke='%23ffffff' stroke-opacity='.05' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 22h16l-2 12H20z M22 22a4 4 0 0 1 8 0'/%3E%3Ccircle cx='86' cy='26' r='7'/%3E%3Cpath d='M83 26h6M86 23v6'/%3E%3Cpath d='m60 64 4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1z'/%3E%3Cpath d='M16 84h18l-4 14H20z M14 80h22'/%3E%3Cpath d='M92 78l14 6-14 6-3-6z'/%3E%3Cpath d='M40 104c4-6 10-6 14 0'/%3E%3C/svg%3E");
+}
+.tg-lista { position: absolute; inset: auto 0 0; display: flex; flex-direction: column; gap: 10px; padding: 10px 8px 10px 6px; will-change: transform; }
+.tg-data { align-self: center; padding: 3px 10px; border-radius: 11px; background: rgb(24 37 51 / 85%); color: #c7d2dc; font-size: 11.5px; font-weight: 500; }
+
+.tg-msg { display: flex; align-items: flex-end; gap: 6px; max-width: 90%; }
+.tg-msg.chegando { animation: tg-chegar .55s cubic-bezier(.2, .8, .2, 1) both; transform-origin: 0 100%; }
+@keyframes tg-chegar { from { opacity: 0; transform: translateY(18px) scale(.94); } }
+.tg-avatar { flex: none; width: 30px; height: 30px; border-radius: 50%; }
+.tg-coluna { display: grid; gap: 3px; min-width: 0; }
+.tg-bolha { overflow: hidden; border-radius: 15px 15px 15px 5px; background: #182533; }
+.tg-nome { display: block; padding: 6px 10px 5px; color: #6ab3f3; font-weight: 600; }
+.tg-foto { display: block; width: 100%; aspect-ratio: 4 / 3; padding: 10px; object-fit: contain; background: #fff; }
+.tg-texto { padding: 6px 10px 7px; overflow-wrap: anywhere; }
+.tg-texto p { margin: 0; }
+.tg-texto .tg-produto { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.tg-texto .tg-espaco { height: 6px; }
+.tg-link { color: #6ab3f3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tg-hora { float: right; margin: 4px 0 -2px 8px; color: #6d7f8f; font-size: 10.5px; }
+.tg-botao { position: relative; display: block; padding: 8px 10px; border-radius: 9px; background: rgb(24 37 51 / 80%); color: #fff; font-weight: 500; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tg-botao::after { content: "↗"; position: absolute; top: 2px; right: 5px; font-size: 9px; color: #c7d2dc; }
+
+.tg-entrada { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 9px; padding: 7px 12px 28px; background: #17212b; color: #7f91a4; }
+.tg-entrada svg { width: 22px; height: 22px; stroke-width: 1.7; }
+.tg-campo { height: 32px; padding: 7px 13px; border-radius: 17px; background: #0e1621; box-shadow: inset 0 0 0 1px #24313f; /* taste-skill-ignore: campo do Telegram */ color: #6d7f8f; font-size: 13.5px; }
+.ios-barra { position: absolute; bottom: 8px; left: 50%; width: 118px; height: 4.5px; translate: -50% 0; border-radius: 3px; background: #fff; z-index: 6; }
 
 /* ───── Rodapé ───── */
 .rodape { padding: 56px 0 64px; color: var(--texto-suave); font-size: 13px; }
 .rodape-grade { display: grid; grid-template-columns: minmax(220px, 1fr) 2fr; gap: 24px 64px; }
 .rodape .marca { display: inline-block; margin-bottom: 12px; color: var(--texto); }
 .rodape-avisos { display: grid; gap: 8px; align-content: start; }
+/* Fechamento: o nome volta em tamanho de vitrine, de ponta a ponta. */
+.rodape-nome { margin: 56px 0 -0.04em; font-size: min(18.5vw, 260px); font-weight: 500; line-height: .8; letter-spacing: .06em; text-align: center; color: var(--superficie-2); white-space: nowrap; overflow: hidden; user-select: none; }
+.rodape { padding-bottom: 0; overflow: hidden; }
+/* Foto que não carregou dá lugar ao logo da loja. */
+.cartao-foto .foto-reserva { inset: 0; margin: auto; width: 34%; height: auto; aspect-ratio: 1; padding: 0; border-radius: 18%; mix-blend-mode: normal; }
 
 .aviso { position: fixed; left: 50%; bottom: 24px; z-index: 30; translate: -50% 0; padding: 12px 18px; border-radius: var(--raio); background: var(--carvao); color: #fff; font-size: 14px; font-weight: 500; opacity: 0; pointer-events: none; transition: opacity var(--tempo); }
 .aviso.visivel { opacity: 1; }
@@ -244,12 +331,18 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .surge { opacity: 0; translate: 0 24px; transition: opacity .7s cubic-bezier(.2, .7, .2, 1), translate .7s cubic-bezier(.2, .7, .2, 1); }
 .surge.visto { opacity: 1; translate: 0 0; }
 
+@media (min-width: 1200px) {
+  .chamada-celular { min-height: 780px; }
+  .iphone { scale: 1.12; }
+}
+
 /* ───── Tablet e celular ───── */
 @media (max-width: 900px) {
   .topo-links { display: none; }
   .topo-acoes { margin-left: auto; }
   .chamada { grid-template-columns: 1fr; text-align: center; padding-block: 64px; }
-  .chamada h2, .chamada p { margin-inline: auto; }
+  .chamada h2, .chamada-texto > p { margin-inline: auto; }
+  .chamada .chamada-nota { margin-top: 18px; }
   .chamada-celular { order: 2; }
 }
 
@@ -283,8 +376,10 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   .preco { font-size: 18px; }
   .ir { height: 36px; font-size: 13px; }
   .destaques { margin-top: 64px; padding-block: 52px 56px; }
-  .chamada { margin-top: 80px; gap: 32px; }
-  .celular { width: 190px; }
+  .chamada { margin-top: 80px; gap: 8px; }
+  .chamada-texto > p { font-size: 16px; }
+  .chamada-celular { min-height: 560px; }
+  .iphone { scale: .82; }
   .rodape-grade { grid-template-columns: 1fr; }
   .cupons-grade { grid-template-columns: 1fr; }
 }
@@ -297,5 +392,4 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .surge { opacity: 1; translate: none; }
-  .msg { opacity: 1; }
 }

@@ -503,10 +503,23 @@ function porLoja(lista) {
   return Object.keys(LOJAS).map((loja) => lista.filter((o) => o.loja === loja)).filter((grupo) => grupo.length);
 }
 
-// Amostra variada de uma loja: uma oferta de cada categoria por vez.
+// Amostra variada de uma loja: uma oferta de cada categoria por vez, mas
+// sempre dentro do lote mais novo primeiro (a Amazon chega em lotes de 100
+// com o mesmo horário, e revezar tudo junto trazia produto antigo para a frente).
 function variadas(lista, quantidade) {
-  const categorias = [...new Set(lista.map((o) => o.categoria))];
-  return revezar(categorias.map((categoria) => lista.filter((o) => o.categoria === categoria))).slice(0, quantidade);
+  const lotes = new Map();
+  for (const oferta of [...lista].sort((a, b) => b.publicadoEm - a.publicadoEm)) {
+    const hora = Math.floor(oferta.publicadoEm / 3_600_000);
+    if (!lotes.has(hora)) lotes.set(hora, []);
+    lotes.get(hora).push(oferta);
+  }
+  const saida = [];
+  for (const lote of lotes.values()) {
+    const categorias = [...new Set(lote.map((o) => o.categoria))];
+    saida.push(...revezar(categorias.map((categoria) => lote.filter((o) => o.categoria === categoria))));
+    if (saida.length >= quantidade) break;
+  }
+  return saida.slice(0, quantidade);
 }
 
 function ordenadas(lista) {

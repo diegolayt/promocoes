@@ -1,5 +1,1277 @@
 [
  {
+  "id": "amazon-B0DMTGYBNF",
+  "loja": "amazon",
+  "titulo": "Carmed Chocotone 10g",
+  "imagem": "https://m.media-amazon.com/images/I/71VNJ+nBesL._AC_SL500_.jpg",
+  "preco": 6.31,
+  "link": "https://www.amazon.com.br/dp/B0DMTGYBNF?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 226,
+  "categoria": "Mercado",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07TZ9QKY7",
+  "loja": "amazon",
+  "titulo": "DaySpring - Little Inspirations - O Come Let Us Adore Him - 16 cartões de Natal em caixa, KJV (10369)",
+  "imagem": "https://m.media-amazon.com/images/I/81ToGUkRzUL._AC_SL500_.jpg",
+  "preco": 19.4,
+  "link": "https://www.amazon.com.br/dp/B07TZ9QKY7?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 638,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09YGS255J",
+  "loja": "amazon",
+  "titulo": "Hallmark Cartões de Natal em caixa, Christmas Keeps Us Believing (16 cartões e envelopes)",
+  "imagem": "https://m.media-amazon.com/images/I/91kjSLPPNYL._AC_SL500_.jpg",
+  "preco": 74.02,
+  "link": "https://www.amazon.com.br/dp/B09YGS255J?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 117,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FPPCBRML",
+  "loja": "amazon",
+  "titulo": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Azul",
+  "imagem": "https://m.media-amazon.com/images/I/61n+FriejZL._AC_SL500_.jpg",
+  "preco": 999.0,
+  "link": "https://www.amazon.com.br/dp/B0FPPCBRML?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 751,
+  "categoria": "Celulares",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0C7XPTW5K",
+  "loja": "amazon",
+  "titulo": "Echo Show 15 (Geração mais recente) | Smart display Full HD de 15,6” com Alexa, experiência Fire TV e controle remoto por voz, com Acesso Antecipado à Alexa+",
+  "imagem": "https://m.media-amazon.com/images/I/510kKaOeNmL._AC_SL500_.jpg",
+  "preco": 2999.0,
+  "link": "https://www.amazon.com.br/dp/B0C7XPTW5K?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 319,
+  "categoria": "Áudio e TV",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B086J78G67",
+  "loja": "amazon",
+  "titulo": "Mouse com Fio Multi Classic Box USB 1200 DPI com Design Compacto e Cabo de 1,2m – Preto MO300",
+  "imagem": "https://m.media-amazon.com/images/I/415cNkqCWlL._AC_SL500_.jpg",
+  "preco": 9.89,
+  "link": "https://www.amazon.com.br/dp/B086J78G67?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 14523,
+  "categoria": "Informática",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DH8J5YGH",
+  "loja": "amazon",
+  "titulo": "PlayStation®5 Pro",
+  "imagem": "https://m.media-amazon.com/images/I/51dfg52K-cL._AC_SL500_.jpg",
+  "preco": 7299.0,
+  "link": "https://www.amazon.com.br/dp/B0DH8J5YGH?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 845,
+  "categoria": "Games",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B00HGNXC8Q",
+  "loja": "amazon",
+  "titulo": "Máquina de Lavar Panasonic 15kg Branca Função Vanish NA-F150B1W 127v",
+  "imagem": "https://m.media-amazon.com/images/I/61gXZ2VqfdL._AC_SL500_.jpg",
+  "preco": 1903.04,
+  "link": "https://www.amazon.com.br/dp/B00HGNXC8Q?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 387,
+  "categoria": "Eletrodomésticos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0HF1LQFDD",
+  "loja": "amazon",
+  "titulo": "Stanley Garrafa Térmica Quick Flip Black 710ml",
+  "imagem": "https://m.media-amazon.com/images/I/51pimE-7XRL._AC_SL500_.jpg",
+  "preco": 161.0,
+  "link": "https://www.amazon.com.br/dp/B0HF1LQFDD?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 13956,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07DTNB6SY",
+  "loja": "amazon",
+  "titulo": "Saponáceo Cremoso Cif, 450ml | Limpeza Milagrosa, Remove 100% da Sujeira",
+  "imagem": "https://m.media-amazon.com/images/I/611kXr75+ZL._AC_SL500_.jpg",
+  "preco": 14.99,
+  "link": "https://www.amazon.com.br/dp/B07DTNB6SY?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 19996,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B078HFQHKX",
+  "loja": "amazon",
+  "titulo": "Banqueta Plástica Dobrável, Branca, Altura 450 Mm, Vonder",
+  "imagem": "https://m.media-amazon.com/images/I/51JVtIIWSoL._AC_SL500_.jpg",
+  "preco": 70.3,
+  "link": "https://www.amazon.com.br/dp/B078HFQHKX?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 14296,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07G5K5FY2",
+  "loja": "amazon",
+  "titulo": "JIMO Combate Acaros Pulgas Carrapatos Interrompe Crescimento Sem Fragrancia Aerossol 300ml",
+  "imagem": "https://m.media-amazon.com/images/I/61eP8JFXYuL._AC_SL500_.jpg",
+  "preco": 36.16,
+  "link": "https://www.amazon.com.br/dp/B07G5K5FY2?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 1325,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07M73V8QT",
+  "loja": "amazon",
+  "titulo": "Nanlac Comfor - Fórmula Infantil, 800G",
+  "imagem": "https://m.media-amazon.com/images/I/61NKHNAQL1L._AC_SL500_.jpg",
+  "preco": 68.9,
+  "link": "https://www.amazon.com.br/dp/B07M73V8QT?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1409,
+  "categoria": "Mercado",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-8501923281",
+  "loja": "amazon",
+  "titulo": "Nunca minta",
+  "imagem": "https://m.media-amazon.com/images/I/81-Hk3onFyL._AC_SL500_.jpg",
+  "preco": 41.9,
+  "link": "https://www.amazon.com.br/dp/8501923281?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 29259,
+  "categoria": "Livros",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CB716LLZ",
+  "loja": "amazon",
+  "titulo": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intensa e Prolongada",
+  "imagem": "https://m.media-amazon.com/images/I/61ftpr2TpXL._AC_SL500_.jpg",
+  "preco": 43.71,
+  "link": "https://www.amazon.com.br/dp/B0CB716LLZ?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 12618,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09SMBB1KN",
+  "loja": "amazon",
+  "titulo": "ISDIN Protetor Solar Facial Fusion Water 5 Stars",
+  "imagem": "https://m.media-amazon.com/images/I/616A9KPmehL._AC_SL500_.jpg",
+  "preco": 57.9,
+  "link": "https://www.amazon.com.br/dp/B09SMBB1KN?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 12142,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B093QCF4PM",
+  "loja": "amazon",
+  "titulo": "Candide, Laptop Infantil, Patrulha Canina, Brinquedo Educativo - Bilíngue",
+  "imagem": "https://m.media-amazon.com/images/I/61DxXmGX-+L._AC_SL500_.jpg",
+  "preco": 47.99,
+  "link": "https://www.amazon.com.br/dp/B093QCF4PM?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 4271,
+  "categoria": "Brinquedos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07G7GK7LG",
+  "loja": "amazon",
+  "titulo": "Óculos de Natação, Speedo, Legend, Lentes Antifog com Proteção UV, Vedação P",
+  "imagem": "https://m.media-amazon.com/images/I/61QoMLEaoCL._AC_SL500_.jpg",
+  "preco": 39.9,
+  "link": "https://www.amazon.com.br/dp/B07G7GK7LG?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 2448,
+  "categoria": "Esportes",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BFT7XG6C",
+  "loja": "amazon",
+  "titulo": "Tech T-shirt Gola U Masculino",
+  "imagem": "https://m.media-amazon.com/images/I/41NMLoCbJIL._AC_SL500_.jpg",
+  "preco": 89.9,
+  "link": "https://www.amazon.com.br/dp/B0BFT7XG6C?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 2315,
+  "categoria": "Moda",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FJ7SSWVZ",
+  "loja": "amazon",
+  "titulo": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
+  "imagem": "https://m.media-amazon.com/images/I/614n+ijd0+L._AC_SL500_.jpg",
+  "preco": 19.9,
+  "link": "https://www.amazon.com.br/dp/B0FJ7SSWVZ?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 1951,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B093G83Q3P",
+  "loja": "amazon",
+  "titulo": "Fralda Pom Pom Protek Proteção de Mãe Jumbo M 28 Unidades",
+  "imagem": "https://m.media-amazon.com/images/I/71OUTkqoiwL._AC_SL500_.jpg",
+  "preco": 18.99,
+  "link": "https://www.amazon.com.br/dp/B093G83Q3P?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 24492,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07HFFL237",
+  "loja": "amazon",
+  "titulo": "Pipicat Granulado Sanitario Floral 4 kg",
+  "imagem": "https://m.media-amazon.com/images/I/812TfRH0PmL._AC_SL500_.jpg",
+  "preco": 18.99,
+  "link": "https://www.amazon.com.br/dp/B07HFFL237?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 1886,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07QXL7QV5",
+  "loja": "amazon",
+  "titulo": "EDA Abraçadeira De Nylon 2 5 X 150 Mm Com 100 Peças Preta Eda",
+  "imagem": "https://m.media-amazon.com/images/I/71AWgBmEFdL._AC_SL500_.jpg",
+  "preco": 3.05,
+  "link": "https://www.amazon.com.br/dp/B07QXL7QV5?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 2108,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07YDVZYNN",
+  "loja": "amazon",
+  "titulo": "CAPACETE FECHADO PRO TORK SPORT MOTO 788 PRETO - AMARELO TAM. 60",
+  "imagem": "https://m.media-amazon.com/images/I/61Gob3pEYUL._AC_SL500_.jpg",
+  "preco": 82.0,
+  "link": "https://www.amazon.com.br/dp/B07YDVZYNN?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 8899,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B077Q2T5RS",
+  "loja": "amazon",
+  "titulo": "COLA BASTAO STICK ULTRA 10G CART1UN",
+  "imagem": "https://m.media-amazon.com/images/I/51j-w8NcPqL._AC_SL500_.jpg",
+  "preco": 6.21,
+  "link": "https://www.amazon.com.br/dp/B077Q2T5RS?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 2229,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CTMTYY1D",
+  "loja": "amazon",
+  "titulo": "JBL, Fone de Ouvido Com Fio, Intra-Auricular, Tune 310 C - Preto",
+  "imagem": "https://m.media-amazon.com/images/I/51SDun4IwwL._AC_SL500_.jpg",
+  "preco": 119.0,
+  "link": "https://www.amazon.com.br/dp/B0CTMTYY1D?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 6485,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FPJ6Q4Y1",
+  "loja": "amazon",
+  "titulo": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
+  "imagem": "https://m.media-amazon.com/images/I/61FgV036jaL._AC_SL500_.jpg",
+  "preco": 1049.0,
+  "link": "https://www.amazon.com.br/dp/B0FPJ6Q4Y1?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1316,
+  "categoria": "Celulares",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B099LK8V8G",
+  "loja": "amazon",
+  "titulo": "Cabo de 1,8 m para o Amazon Echo Show 15",
+  "imagem": "https://m.media-amazon.com/images/I/51nQ3PC111L._AC_SL500_.jpg",
+  "preco": 69.0,
+  "link": "https://www.amazon.com.br/dp/B099LK8V8G?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 4274,
+  "categoria": "Áudio e TV",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0G4SLJNFF",
+  "loja": "amazon",
+  "titulo": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
+  "imagem": "https://m.media-amazon.com/images/I/51TU36U5C1L._AC_SL500_.jpg",
+  "preco": 1503.25,
+  "link": "https://www.amazon.com.br/dp/B0G4SLJNFF?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 560,
+  "categoria": "Informática",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0D739FJLG",
+  "loja": "amazon",
+  "titulo": "Controle sem fio 8BitDo Ultimate 2C Bluetooth para PC e Android - Verde, joysticks Hall Effect, 81HD02",
+  "imagem": "https://m.media-amazon.com/images/I/51DTcaDKELL._AC_SL500_.jpg",
+  "preco": 178.94,
+  "link": "https://www.amazon.com.br/dp/B0D739FJLG?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 5669,
+  "categoria": "Games",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0813S9VWG",
+  "loja": "amazon",
+  "titulo": "Colormaq Maquina de Lavar Roupa Semi Automatica Tanquinho 10kg LCS10 Prata 127V",
+  "imagem": "https://m.media-amazon.com/images/I/41eiaZL-8UL._AC_SL500_.jpg",
+  "preco": 499.9,
+  "link": "https://www.amazon.com.br/dp/B0813S9VWG?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 817,
+  "categoria": "Eletrodomésticos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0H5TGYNPL",
+  "loja": "amazon",
+  "titulo": "Kit 6 Copos de Vidro Canelado 420 ml com Borda Dourada para Água, Sucos e Drinks, Mesa Posta Elegante",
+  "imagem": "https://m.media-amazon.com/images/I/71+tqBymsSL._AC_SL500_.jpg",
+  "preco": 29.99,
+  "link": "https://www.amazon.com.br/dp/B0H5TGYNPL?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 349,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0C7WGXZ8Q",
+  "loja": "amazon",
+  "titulo": "Limpador Perfumado Veja Banho de Cheiro 2L",
+  "imagem": "https://m.media-amazon.com/images/I/71+bDVOWL1L._AC_SL500_.jpg",
+  "preco": 10.07,
+  "link": "https://www.amazon.com.br/dp/B0C7WGXZ8Q?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 891,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B076X58FPZ",
+  "loja": "amazon",
+  "titulo": "Estante Plástica Modular Multiuso 4 Prateleiras Agraplast 851 para Lavanderia, Garagem e Casa - Preta",
+  "imagem": "https://m.media-amazon.com/images/I/51ZdmJe+S7L._AC_SL500_.jpg",
+  "preco": 47.7,
+  "link": "https://www.amazon.com.br/dp/B076X58FPZ?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 2342,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0B77XS45T",
+  "loja": "amazon",
+  "titulo": "Inseticida SBP Ultra Insetos Rasteiros Spray 360ml, Cor: Laranja",
+  "imagem": "https://m.media-amazon.com/images/I/411ksJiLELL._AC_SL500_.jpg",
+  "preco": 22.79,
+  "link": "https://www.amazon.com.br/dp/B0B77XS45T?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1904,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FMLBQ136",
+  "loja": "amazon",
+  "titulo": "KitKat Creme Crocante de Chocolate – Pasta para Passar, 330 g",
+  "imagem": "https://m.media-amazon.com/images/I/61VAMMzECnL._AC_SL500_.jpg",
+  "preco": 23.9,
+  "link": "https://www.amazon.com.br/dp/B0FMLBQ136?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3114,
+  "categoria": "Mercado",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-8537818003",
+  "loja": "amazon",
+  "titulo": "Como as democracias morrem",
+  "imagem": "https://m.media-amazon.com/images/I/71BZMhhozxL._AC_SL500_.jpg",
+  "preco": 60.73,
+  "link": "https://www.amazon.com.br/dp/8537818003?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 13425,
+  "categoria": "Livros",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DPB55MCY",
+  "loja": "amazon",
+  "titulo": "Bepantol Derma Rosa Mosqueta Hidratante Multirrestaurador 20g | Rosa Mosqueta 20g, Com dexpantenol, Uniformiza o tom, Rápida absorção, Facial e corporal, Rotina de skincare",
+  "imagem": "https://m.media-amazon.com/images/I/616r4cZDGML._AC_SL500_.jpg",
+  "preco": 33.99,
+  "link": "https://www.amazon.com.br/dp/B0DPB55MCY?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 7089,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07Y1NTK1Z",
+  "loja": "amazon",
+  "titulo": "Wella Professionals Oil Reflections Light Óleo Capilar 100 ml (Packaging May Vary)",
+  "imagem": "https://m.media-amazon.com/images/I/41Edpw7VSIL._AC_SL500_.jpg",
+  "preco": 131.96,
+  "link": "https://www.amazon.com.br/dp/B07Y1NTK1Z?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 3552,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0C7LVR36H",
+  "loja": "amazon",
+  "titulo": "GGB Jogo de Cartas Educativo Cadê?",
+  "imagem": "https://m.media-amazon.com/images/I/61VYCtRT+cL._AC_SL500_.jpg",
+  "preco": 14.36,
+  "link": "https://www.amazon.com.br/dp/B0C7LVR36H?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 2962,
+  "categoria": "Brinquedos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B08G1WCKKH",
+  "loja": "amazon",
+  "titulo": "Óleo Singer 100ml",
+  "imagem": "https://m.media-amazon.com/images/I/51PxWtclOIL._AC_SL500_.jpg",
+  "preco": 13.9,
+  "link": "https://www.amazon.com.br/dp/B08G1WCKKH?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1169,
+  "categoria": "Esportes",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DD53CRSX",
+  "loja": "amazon",
+  "titulo": "Lupo Kit de meias esportivas de algodão respirável com 6 pares",
+  "imagem": "https://m.media-amazon.com/images/I/71W6FmrDjKL._AC_SL500_.jpg",
+  "preco": 59.99,
+  "link": "https://www.amazon.com.br/dp/B0DD53CRSX?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1531,
+  "categoria": "Moda",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09BDJ5V5D",
+  "loja": "amazon",
+  "titulo": "Vitafor - Omegafor Plus - 240 Cápsulas",
+  "imagem": "https://m.media-amazon.com/images/I/51oBtMDTfqL._AC_SL500_.jpg",
+  "preco": 227.65,
+  "link": "https://www.amazon.com.br/dp/B09BDJ5V5D?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 12004,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09DQ6CMG2",
+  "loja": "amazon",
+  "titulo": "Fralda Pampers Confort Sec Tamanho XG 148 Unidades",
+  "imagem": "https://m.media-amazon.com/images/I/71C6P-MXsbL._AC_SL500_.jpg",
+  "preco": 215.89,
+  "link": "https://www.amazon.com.br/dp/B09DQ6CMG2?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 7059,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BCHB3X2W",
+  "loja": "amazon",
+  "titulo": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+  "imagem": "https://m.media-amazon.com/images/I/612wuQDl9qL._AC_SL500_.jpg",
+  "preco": 43.59,
+  "link": "https://www.amazon.com.br/dp/B0BCHB3X2W?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3758,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0F61QC5SR",
+  "loja": "amazon",
+  "titulo": "Luva Nitrilica Preta Premium | Sem Pó Antiderrapante | 100 Unidades Descartável | P, M e G",
+  "imagem": "https://m.media-amazon.com/images/I/61iWrdvAXNL._AC_SL500_.jpg",
+  "preco": 32.89,
+  "link": "https://www.amazon.com.br/dp/B0F61QC5SR?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 1012,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0912K61MW",
+  "loja": "amazon",
+  "titulo": "vonixx V-ECO FAST 500ML",
+  "imagem": "https://m.media-amazon.com/images/I/61d6sRpGQPL._AC_SL500_.jpg",
+  "preco": 24.37,
+  "link": "https://www.amazon.com.br/dp/B0912K61MW?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 998,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07V6VB66C",
+  "loja": "amazon",
+  "titulo": "Papel Fotográfico Glossy 115g Masterprint A4 - Pacote c/ 50 Folhas",
+  "imagem": "https://m.media-amazon.com/images/I/51Diu0C0WhL._AC_SL500_.jpg",
+  "preco": 15.0,
+  "link": "https://www.amazon.com.br/dp/B07V6VB66C?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 1093,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0C3DMVVVZ",
+  "loja": "amazon",
+  "titulo": "I2GO, Headphone Bass 300, Bluetooth, Microfone Integrado, Controle Multimídia, Até 10h de bateria, Tecnologia Dual Connect, Entrada cabo auxiliar P2 (incluso), Dobrável, Preto",
+  "imagem": "https://m.media-amazon.com/images/I/61lg3DwB7zL._AC_SL500_.jpg",
+  "preco": 89.9,
+  "link": "https://www.amazon.com.br/dp/B0C3DMVVVZ?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 2289,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BXWRD4PP",
+  "loja": "amazon",
+  "titulo": "Duracell Pilhas Optimum AAA Palito Pack 12 Unidades – Dura Mais – Para Controle de Videogame e Brinquedos",
+  "imagem": "https://m.media-amazon.com/images/I/81a81Q9dE-L._AC_SL500_.jpg",
+  "preco": 79.9,
+  "link": "https://www.amazon.com.br/dp/B0BXWRD4PP?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 624,
+  "categoria": "Áudio e TV",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B099LF68JS",
+  "loja": "amazon",
+  "titulo": "Suporte inclinável desenvolvido para o Amazon Echo Show 15",
+  "imagem": "https://m.media-amazon.com/images/I/31eFcz3Z+nL._AC_SL500_.jpg",
+  "preco": 149.0,
+  "link": "https://www.amazon.com.br/dp/B099LF68JS?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 7463,
+  "categoria": "Áudio e TV",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0D6NLHV8N",
+  "loja": "amazon",
+  "titulo": "JBL, Fone de Ouvido Com Fio, Quantum 100M2, Headset Gamer, Over Ear, Microfone Removível - Preto",
+  "imagem": "https://m.media-amazon.com/images/I/61uBAfuJUfL._AC_SL500_.jpg",
+  "preco": 169.9,
+  "link": "https://www.amazon.com.br/dp/B0D6NLHV8N?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 8042,
+  "categoria": "Informática",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B08M141D9N",
+  "loja": "amazon",
+  "titulo": "Pro Controller Nintendo Switch",
+  "imagem": "https://m.media-amazon.com/images/I/415igOk3NuL._AC_SL500_.jpg",
+  "preco": 329.9,
+  "link": "https://www.amazon.com.br/dp/B08M141D9N?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 6700,
+  "categoria": "Games",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0B3SJY9QN",
+  "loja": "amazon",
+  "titulo": "SUGGAR DEPURADOR DE AR SLIM 60CM 3 VEL. INOX 110V DPS161IX",
+  "imagem": "https://m.media-amazon.com/images/I/41CJ9AvQjYL._AC_SL500_.jpg",
+  "preco": 408.9,
+  "link": "https://www.amazon.com.br/dp/B0B3SJY9QN?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 854,
+  "categoria": "Eletrodomésticos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0GSH6DCCJ",
+  "loja": "amazon",
+  "titulo": "Kit 10 Potes de Vidro Borossilicato 640ml Herméticos com 4 Travas Ideal para Marmitas e Conservação de Alimentos, Vedação Total, Refratário para Forno e Freezer",
+  "imagem": "https://m.media-amazon.com/images/I/71sfm0MbB8L._AC_SL500_.jpg",
+  "preco": 87.88,
+  "link": "https://www.amazon.com.br/dp/B0GSH6DCCJ?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 1359,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09B15RDJ6",
+  "loja": "amazon",
+  "titulo": "MONDIAL Ventilador de Mesa 40cm Super Power, Preto/Prata, 140W, 110V - VSP-40-B",
+  "imagem": "https://m.media-amazon.com/images/I/81r2JL+Ru5L._AC_SL500_.jpg",
+  "preco": 142.49,
+  "link": "https://www.amazon.com.br/dp/B09B15RDJ6?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 19211,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0793YSV8P",
+  "loja": "amazon",
+  "titulo": "Mesinha Didática Poliplac Mini Mesa Crianças Com Cadeiras",
+  "imagem": "https://m.media-amazon.com/images/I/61C7HzmtRDL._AC_SL500_.jpg",
+  "preco": 188.8,
+  "link": "https://www.amazon.com.br/dp/B0793YSV8P?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 2433,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07SFXGV8V",
+  "loja": "amazon",
+  "titulo": "Forth Frutas, Fertilizante, Adubo para Plantas Frutíferas, Nutritivo, Micronutrientes, NPK, Balde, 3kg",
+  "imagem": "https://m.media-amazon.com/images/I/61rAcI1zcdL._AC_SL500_.jpg",
+  "preco": 55.0,
+  "link": "https://www.amazon.com.br/dp/B07SFXGV8V?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3323,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B081QW8VZQ",
+  "loja": "amazon",
+  "titulo": "Garoto Cacau Em Pó 200G",
+  "imagem": "https://m.media-amazon.com/images/I/81LpxrSI+VL._AC_SL500_.jpg",
+  "preco": 47.9,
+  "link": "https://www.amazon.com.br/dp/B081QW8VZQ?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 937,
+  "categoria": "Mercado",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-8501116432",
+  "loja": "amazon",
+  "titulo": "A paciente silenciosa",
+  "imagem": "https://m.media-amazon.com/images/I/91R8S52UP6L._AC_SL500_.jpg",
+  "preco": 42.0,
+  "link": "https://www.amazon.com.br/dp/8501116432?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 54904,
+  "categoria": "Livros",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DJMP5Z6Z",
+  "loja": "amazon",
+  "titulo": "Máscara Acidificante de Equilíbrio do pH 250g | Amend Essencial | Equilibra o pH capilar, sela cutículas e combate a porosidade dos fios.",
+  "imagem": "https://m.media-amazon.com/images/I/41oo+GAtYeL._AC_SL500_.jpg",
+  "preco": 37.7,
+  "link": "https://www.amazon.com.br/dp/B0DJMP5Z6Z?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3458,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BG312BMR",
+  "loja": "amazon",
+  "titulo": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
+  "imagem": "https://m.media-amazon.com/images/I/41pSxYgVPwL._AC_SL500_.jpg",
+  "preco": 139.89,
+  "link": "https://www.amazon.com.br/dp/B0BG312BMR?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 2375,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0B7247SVT",
+  "loja": "amazon",
+  "titulo": "Arcor Bala 7Belo Mastigável Sabor Framboesa, 500g",
+  "imagem": "https://m.media-amazon.com/images/I/61+Io2V+w4L._AC_SL500_.jpg",
+  "preco": 16.48,
+  "link": "https://www.amazon.com.br/dp/B0B7247SVT?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 633,
+  "categoria": "Brinquedos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07KXXR415",
+  "loja": "amazon",
+  "titulo": "Touca de Natação, Speedo, Xtrafit Cap, Tecido Elástico com Proteção UV e Secagem Rápida, Conforto Anatômico",
+  "imagem": "https://m.media-amazon.com/images/I/51taKxfC9xL._AC_SL500_.jpg",
+  "preco": 39.9,
+  "link": "https://www.amazon.com.br/dp/B07KXXR415?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3353,
+  "categoria": "Esportes",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CC2R7V5R",
+  "loja": "amazon",
+  "titulo": "Kit 6 Pares Meia Cano Médio Alto Atoalhada Esportiva Algodão Masculina Feminina Unissex Adulto Academia Dia a Dia Puma",
+  "imagem": "https://m.media-amazon.com/images/I/91qgLNRYZOL._AC_SL500_.jpg",
+  "preco": 55.99,
+  "link": "https://www.amazon.com.br/dp/B0CC2R7V5R?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 2621,
+  "categoria": "Moda",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BHL6FKYY",
+  "loja": "amazon",
+  "titulo": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resistência, Suplementos Naturais - DUX HUMAN HEALTH",
+  "imagem": "https://m.media-amazon.com/images/I/61bsDAbRQfL._AC_SL500_.jpg",
+  "preco": 53.0,
+  "link": "https://www.amazon.com.br/dp/B0BHL6FKYY?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 19974,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0D61LL8FW",
+  "loja": "amazon",
+  "titulo": "Mustela Refil Gel Lavante Suave 400ml - Sabonete Líquido Corpo e Cabelo para bebês e crianças – feito com 93% de ingredientes de origem natural - Mustela Bebê e Criança",
+  "imagem": "https://m.media-amazon.com/images/I/51j5q7LsTPL._AC_SL500_.jpg",
+  "preco": 45.79,
+  "link": "https://www.amazon.com.br/dp/B0D61LL8FW?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 3275,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07S8BMFPD",
+  "loja": "amazon",
+  "titulo": "NexGard Antipulgas e Carrapatos para Cães de 10.1 a 25kg - 3 tabletes",
+  "imagem": "https://m.media-amazon.com/images/I/71ycX-Yb0PL._AC_SL500_.jpg",
+  "preco": 174.99,
+  "link": "https://www.amazon.com.br/dp/B07S8BMFPD?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 7854,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FP9FF295",
+  "loja": "amazon",
+  "titulo": "Calibrador Compressor Bomba De Ar Portátil Digital Mini Com Lanterna LED para Encher Pneus de Carro, Moto, Bike, Bicicleta, Bola e Piscina Inflável",
+  "imagem": "https://m.media-amazon.com/images/I/51RHJAuAPmL._AC_SL500_.jpg",
+  "preco": 63.9,
+  "link": "https://www.amazon.com.br/dp/B0FP9FF295?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 1639,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BSB128CV",
+  "loja": "amazon",
+  "titulo": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Novo Acabamento",
+  "imagem": "https://m.media-amazon.com/images/I/51qQsufyFLL._AC_SL500_.jpg",
+  "preco": 26.7,
+  "link": "https://www.amazon.com.br/dp/B0BSB128CV?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1739,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0F3JYMQ8H",
+  "loja": "amazon",
+  "titulo": "CIS Markee Marcador Permanente - Preto - Blister com 1 unidade",
+  "imagem": "https://m.media-amazon.com/images/I/41wUFhuTvzL._AC_SL500_.jpg",
+  "preco": 6.14,
+  "link": "https://www.amazon.com.br/dp/B0F3JYMQ8H?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 788,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FS268X4B",
+  "loja": "amazon",
+  "titulo": "FONE DE OUVIDO PHILIPS TWS – TAT1139BK",
+  "imagem": "https://m.media-amazon.com/images/I/41zUAqrxZPL._AC_SL500_.jpg",
+  "preco": 125.0,
+  "link": "https://www.amazon.com.br/dp/B0FS268X4B?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 558,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0GQW2J4SK",
+  "loja": "amazon",
+  "titulo": "Apple iPhone 17 de 256 GB — Preto",
+  "imagem": "https://m.media-amazon.com/images/I/41HPi5vrxSL._AC_SL500_.jpg",
+  "preco": 6332.22,
+  "link": "https://www.amazon.com.br/dp/B0GQW2J4SK?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 918,
+  "categoria": "Celulares",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07T99CGDF",
+  "loja": "amazon",
+  "titulo": "Samsung Cabo USB tipo C EP-DA705BBEGWW para USB tipo C, 1 m, 60 W, preto",
+  "imagem": "https://m.media-amazon.com/images/I/61jmtmDUR1L._AC_SL500_.jpg",
+  "preco": 21.58,
+  "link": "https://www.amazon.com.br/dp/B07T99CGDF?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 11658,
+  "categoria": "Informática",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DR8V899R",
+  "loja": "amazon",
+  "titulo": "Controle sem fio 8BitDo Ultimate 2 para Windows e Android - joysticks TMR, Bluetooth e 2.4GHz, Preto",
+  "imagem": "https://m.media-amazon.com/images/I/718TLhNbG-L._AC_SL500_.jpg",
+  "preco": 335.9,
+  "link": "https://www.amazon.com.br/dp/B0DR8V899R?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3592,
+  "categoria": "Games",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07W7CC8F7",
+  "loja": "amazon",
+  "titulo": "Lavadora Automática COLORMAQ 12Kg Branca 127V",
+  "imagem": "https://m.media-amazon.com/images/I/61f1PP9w-DL._AC_SL500_.jpg",
+  "preco": 1378.99,
+  "link": "https://www.amazon.com.br/dp/B07W7CC8F7?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 1122,
+  "categoria": "Eletrodomésticos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09CB7MJMX",
+  "loja": "amazon",
+  "titulo": "Electrolux Cafeteira Elétrica Inox filtro permanente removivel corta pingos capacidade 600ml 15 xicaras função manter aquecido sistema ECM10 220v",
+  "imagem": "https://m.media-amazon.com/images/I/71cM7xwJqXL._AC_SL500_.jpg",
+  "preco": 111.25,
+  "link": "https://www.amazon.com.br/dp/B09CB7MJMX?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 2636,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07RJYGV3F",
+  "loja": "amazon",
+  "titulo": "Glade Aromatizador de Ambiente Automático, Lavanda e Baunilha, Refil 260ml",
+  "imagem": "https://m.media-amazon.com/images/I/51+QIHS0GZL._AC_SL500_.jpg",
+  "preco": 28.41,
+  "link": "https://www.amazon.com.br/dp/B07RJYGV3F?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 12546,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07DKNT84M",
+  "loja": "amazon",
+  "titulo": "SCOTCH 3M Protetor Anti-Impacto Redondo Grande Transparente 16 Unidades | Fixação adesiva resistente, Amortece impacto e ruído, Impermeável, Protege contra batidas e riscos, Aplicação forte e rápida",
+  "imagem": "https://m.media-amazon.com/images/I/715AcZ2qmYL._AC_SL500_.jpg",
+  "preco": 17.95,
+  "link": "https://www.amazon.com.br/dp/B07DKNT84M?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 3166,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B075X2WXB1",
+  "loja": "amazon",
+  "titulo": "Vonder, Pulverizador 500ml, Branco PU500",
+  "imagem": "https://m.media-amazon.com/images/I/41ig1ekSbaL._AC_SL500_.jpg",
+  "preco": 14.69,
+  "link": "https://www.amazon.com.br/dp/B075X2WXB1?tag=diegola00-20",
+  "nota": 4.5,
+  "avaliacoes": 5341,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07H45XJ2D",
+  "loja": "amazon",
+  "titulo": "Nescafe Dolce Gusto, Espresso, 10 Cápsulas",
+  "imagem": "https://m.media-amazon.com/images/I/51TdB1sPWnL._AC_SL500_.jpg",
+  "preco": 16.9,
+  "link": "https://www.amazon.com.br/dp/B07H45XJ2D?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 5527,
+  "categoria": "Mercado",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-6555111100",
+  "loja": "amazon",
+  "titulo": "A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade",
+  "imagem": "https://m.media-amazon.com/images/I/71+XpBxCYGL._AC_SL500_.jpg",
+  "preco": 32.99,
+  "link": "https://www.amazon.com.br/dp/6555111100?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 29553,
+  "categoria": "Livros",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DV1JZFXS",
+  "loja": "amazon",
+  "titulo": "L'Oréal Paris Elseve Sérum Leave-in Liso dos Sonhos com Tecnologia Ativada por Calor, Antifrizz, Protetor Térmico e Barreira Contra Umidade, 100ml",
+  "imagem": "https://m.media-amazon.com/images/I/71E7jaMsugL._AC_SL500_.jpg",
+  "preco": 30.9,
+  "link": "https://www.amazon.com.br/dp/B0DV1JZFXS?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 10145,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B01CNVYGN0",
+  "loja": "amazon",
+  "titulo": "Óleo Capilar Sebastian Professional Dark Oil, 100ml | Brilho e maciez, Absorção rápida, Para todos os tipos de cabelo",
+  "imagem": "https://m.media-amazon.com/images/I/41rZEPOL99L._AC_SL500_.jpg",
+  "preco": 133.78,
+  "link": "https://www.amazon.com.br/dp/B01CNVYGN0?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 8846,
+  "categoria": "Beleza",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BLJ4FDT4",
+  "loja": "amazon",
+  "titulo": "LEGO Creator Ônibus Espacial 3em1: Nave Espacial 31134 | Brinquedos de Construção para Meninos e Meninas, Anos 6+, 144 Peças, Brinquedo Espacial, Presente para Crianças",
+  "imagem": "https://m.media-amazon.com/images/I/71lhVag75AL._AC_SL500_.jpg",
+  "preco": 86.99,
+  "link": "https://www.amazon.com.br/dp/B0BLJ4FDT4?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 9234,
+  "categoria": "Brinquedos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CLTSRYQW",
+  "loja": "amazon",
+  "titulo": "Mikasa Bola de Vôlei de Quadra Oficial",
+  "imagem": "https://m.media-amazon.com/images/I/51U3+JoFOoL._AC_SL500_.jpg",
+  "preco": 159.9,
+  "link": "https://www.amazon.com.br/dp/B0CLTSRYQW?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 943,
+  "categoria": "Esportes",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0DD1P3LLL",
+  "loja": "amazon",
+  "titulo": "Tech T-shirt Gola V Masculino Insider",
+  "imagem": "https://m.media-amazon.com/images/I/51BFCRvwXVL._AC_SL500_.jpg",
+  "preco": 71.43,
+  "link": "https://www.amazon.com.br/dp/B0DD1P3LLL?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 423,
+  "categoria": "Moda",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CFSDVHFR",
+  "loja": "amazon",
+  "titulo": "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
+  "imagem": "https://m.media-amazon.com/images/I/71QqJWEdmOL._AC_SL500_.jpg",
+  "preco": 13.29,
+  "link": "https://www.amazon.com.br/dp/B0CFSDVHFR?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1460,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B08NQNXMPL",
+  "loja": "amazon",
+  "titulo": "Mustela Gel Lavante Suave 500ml Sabonete Líquido Corpo e Cabelo Infantil",
+  "imagem": "https://m.media-amazon.com/images/I/51YVzVZI1sL._AC_SL500_.jpg",
+  "preco": 66.45,
+  "link": "https://www.amazon.com.br/dp/B08NQNXMPL?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 27575,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07NGRY9TZ",
+  "loja": "amazon",
+  "titulo": "Zoetis Apoquel 5 4Mg 20Compr Para Cães",
+  "imagem": "https://m.media-amazon.com/images/I/51Zwu4KT8dS._AC_SL500_.jpg",
+  "preco": 142.99,
+  "link": "https://www.amazon.com.br/dp/B07NGRY9TZ?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 3049,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0BQJVKVQR",
+  "loja": "amazon",
+  "titulo": "TP-Link Tapo C500 Câmera de Segurança Wi-Fi Externa 360°, Full HD 1080p, Visão Noturna Colorida de Até 30 m, Detecção de Pessoas, IP65, Áudio Bidirecional, Alexa e MicroSD de Até 512 GB",
+  "imagem": "https://m.media-amazon.com/images/I/41hQ4O29nKL._AC_SL500_.jpg",
+  "preco": 236.38,
+  "link": "https://www.amazon.com.br/dp/B0BQJVKVQR?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 18246,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0C1LM1YPC",
+  "loja": "amazon",
+  "titulo": "Kit Limpeza e Hidratação de Couro Hidracouro Higicouro Vonixx",
+  "imagem": "https://m.media-amazon.com/images/I/71W1WBj1A1L._AC_SL500_.jpg",
+  "preco": 67.92,
+  "link": "https://www.amazon.com.br/dp/B0C1LM1YPC?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 577,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B07WPW4JFK",
+  "loja": "amazon",
+  "titulo": "Papel Fotográfico, Inkjet, A4, Glossy, Adesivo 130 g, Masterprint, 302010041, Multicor, pacote de 50",
+  "imagem": "https://m.media-amazon.com/images/I/71gdiYw094L._AC_SL500_.jpg",
+  "preco": 21.99,
+  "link": "https://www.amazon.com.br/dp/B07WPW4JFK?tag=diegola00-20",
+  "nota": 4.9,
+  "avaliacoes": 1187,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B09G79WMV5",
+  "loja": "amazon",
+  "titulo": "Tonante Suporte De Parede Para Guitarra, Baixo e Violão - TNS1954-5",
+  "imagem": "https://m.media-amazon.com/images/I/51J4wfKLSZL._AC_SL500_.jpg",
+  "preco": 22.79,
+  "link": "https://www.amazon.com.br/dp/B09G79WMV5?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 2475,
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0FPHYC9FQ",
+  "loja": "amazon",
+  "titulo": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Preto",
+  "imagem": "https://m.media-amazon.com/images/I/61AYtRHD0SL._AC_SL500_.jpg",
+  "preco": 824.85,
+  "link": "https://www.amazon.com.br/dp/B0FPHYC9FQ?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 1018,
+  "categoria": "Celulares",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CJ3BDN7T",
+  "loja": "amazon",
+  "titulo": "Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro, Conexão Bluetooth e Pilha Inclusa - Grafite",
+  "imagem": "https://m.media-amazon.com/images/I/51pIShw4V8L._AC_SL500_.jpg",
+  "preco": 115.28,
+  "link": "https://www.amazon.com.br/dp/B0CJ3BDN7T?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 7172,
+  "categoria": "Informática",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B00Z0UWV3O",
+  "loja": "amazon",
+  "titulo": "Câmbio Logitech G Driving Force - Compatível com Volantes Logitech G29, G920 e G923 para PS5, PS4, Xbox Series X|S, Xbox One e PC",
+  "imagem": "https://m.media-amazon.com/images/I/71cPMlKPk-L._AC_SL500_.jpg",
+  "preco": 352.99,
+  "link": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=diegola00-20",
+  "nota": 4.8,
+  "avaliacoes": 37700,
+  "categoria": "Games",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0816YJYQB",
+  "loja": "amazon",
+  "titulo": "SUGGAR DEPURADOR DE AR SLIM DE EMBUTIR 60CM INOX 220V DE62IX",
+  "imagem": "https://m.media-amazon.com/images/I/51ciFDrjQLL._AC_SL500_.jpg",
+  "preco": 649.0,
+  "link": "https://www.amazon.com.br/dp/B0816YJYQB?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 1006,
+  "categoria": "Eletrodomésticos",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CYP2141M",
+  "loja": "amazon",
+  "titulo": "Brinox - Frigideira 20X4Cm 0,8L Ceramic Life Suprema - Vanilla",
+  "imagem": "https://m.media-amazon.com/images/I/31oO3OWJKIL._AC_SL500_.jpg",
+  "preco": 54.99,
+  "link": "https://www.amazon.com.br/dp/B0CYP2141M?tag=diegola00-20",
+  "nota": 4.6,
+  "avaliacoes": 794,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
+  "id": "amazon-B0CK2R6D9F",
+  "loja": "amazon",
+  "titulo": "Detergente para Lava-Louças em Pastilhas JIMO, 25 Pastilhas | Multicamadas, Concentrado, Desengordurante, Mais Brilho e Proteção às Louças",
+  "imagem": "https://m.media-amazon.com/images/I/71wi+iSIYqL._AC_SL500_.jpg",
+  "preco": 29.9,
+  "link": "https://www.amazon.com.br/dp/B0CK2R6D9F?tag=diegola00-20",
+  "nota": 4.7,
+  "avaliacoes": 2303,
+  "categoria": "Casa",
+  "precoEm": "2026-10-22T15:10:43-03:00",
+  "publicadoEm": "2026-10-22T15:10:43-03:00"
+ },
+ {
   "id": "amazon-B07FXTPPTY",
   "loja": "amazon",
   "titulo": "Lang Hearts Come Home Cartões de Natal em caixa (1004831)",
@@ -9,7 +1281,7 @@
   "nota": 4.8,
   "avaliacoes": 175,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -22,7 +1294,7 @@
   "nota": 4.6,
   "avaliacoes": 5235,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -35,7 +1307,7 @@
   "nota": 4.7,
   "avaliacoes": 350,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -48,7 +1320,7 @@
   "nota": 4.8,
   "avaliacoes": 1414,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -61,7 +1333,7 @@
   "nota": 4.5,
   "avaliacoes": 199,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -74,7 +1346,7 @@
   "nota": 4.8,
   "avaliacoes": 3114,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -87,7 +1359,7 @@
   "nota": 4.6,
   "avaliacoes": 868,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -95,12 +1367,12 @@
   "loja": "amazon",
   "titulo": "DaySpring - Thomas Kinkade – God's Love Still Shines Bright – 50 cartões de Natal em massa, NRSV (J7189)",
   "imagem": "https://m.media-amazon.com/images/I/81+adW3F8FL._AC_SL500_.jpg",
-  "preco": 31.27,
+  "preco": 31.15,
   "link": "https://www.amazon.com.br/dp/B09GZ7PVFJ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 112,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -113,7 +1385,7 @@
   "nota": 4.8,
   "avaliacoes": 1003,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -126,7 +1398,7 @@
   "nota": 4.6,
   "avaliacoes": 165,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -139,7 +1411,7 @@
   "nota": 4.5,
   "avaliacoes": 2627,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -152,7 +1424,7 @@
   "nota": 4.8,
   "avaliacoes": 445,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -160,12 +1432,12 @@
   "loja": "amazon",
   "titulo": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI 1000, 3 Botões Programáveis, Cor Preto, Peso total 830,1 g",
   "imagem": "https://m.media-amazon.com/images/I/51IPtedWrsL._AC_SL500_.jpg",
-  "preco": 149.0,
+  "preco": 119.9,
   "link": "https://www.amazon.com.br/dp/B0BPTK4P38?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 11338,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -178,7 +1450,7 @@
   "nota": 4.8,
   "avaliacoes": 959,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -204,7 +1476,7 @@
   "nota": 4.8,
   "avaliacoes": 6244,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -217,7 +1489,7 @@
   "nota": 4.8,
   "avaliacoes": 7312,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -243,7 +1515,7 @@
   "nota": 4.7,
   "avaliacoes": 1488,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -256,7 +1528,7 @@
   "nota": 4.7,
   "avaliacoes": 2016,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -269,7 +1541,7 @@
   "nota": 4.8,
   "avaliacoes": 2736,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -282,7 +1554,7 @@
   "nota": 4.8,
   "avaliacoes": 20391,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -295,7 +1567,7 @@
   "nota": 4.8,
   "avaliacoes": 4578,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -308,7 +1580,7 @@
   "nota": 4.8,
   "avaliacoes": 5519,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -321,7 +1593,7 @@
   "nota": 4.8,
   "avaliacoes": 4537,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -346,7 +1618,7 @@
   "link": "https://www.amazon.com.br/dp/B081H54LD8?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 4459,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -358,7 +1630,7 @@
   "link": "https://www.amazon.com.br/dp/B0BFXKZQ2Y?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 12193,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -370,7 +1642,7 @@
   "link": "https://www.amazon.com.br/dp/B0BFT7T8K8?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 764,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -394,7 +1666,7 @@
   "link": "https://www.amazon.com.br/dp/B07Y5LQGLC?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 2292,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -406,7 +1678,7 @@
   "link": "https://www.amazon.com.br/dp/B07D3WCMVD?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 12901,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -418,7 +1690,7 @@
   "link": "https://www.amazon.com.br/dp/B0C3HCD34R?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 77180,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -444,7 +1716,7 @@
   "nota": 4.7,
   "avaliacoes": 1058,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -457,7 +1729,7 @@
   "nota": 4.8,
   "avaliacoes": 411,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -483,7 +1755,7 @@
   "nota": 4.7,
   "avaliacoes": 379,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -496,7 +1768,7 @@
   "nota": 4.5,
   "avaliacoes": 787,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -509,7 +1781,7 @@
   "nota": 4.8,
   "avaliacoes": 11452,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -522,7 +1794,7 @@
   "nota": 4.8,
   "avaliacoes": 1534,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -535,7 +1807,7 @@
   "nota": 4.5,
   "avaliacoes": 11515,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -548,7 +1820,7 @@
   "nota": 4.8,
   "avaliacoes": 8156,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -561,7 +1833,7 @@
   "nota": 4.6,
   "avaliacoes": 1387,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -574,7 +1846,7 @@
   "nota": 4.8,
   "avaliacoes": 2078,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -587,7 +1859,7 @@
   "nota": 4.8,
   "avaliacoes": 11014,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -613,7 +1885,7 @@
   "nota": 4.7,
   "avaliacoes": 1744,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -626,7 +1898,7 @@
   "nota": 4.7,
   "avaliacoes": 444,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -634,11 +1906,11 @@
   "loja": "amazon",
   "titulo": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
   "imagem": "https://m.media-amazon.com/images/I/81UashXoAxL._AC_SL500_.jpg",
-  "preco": 41.39,
+  "preco": 41.2,
   "link": "https://www.amazon.com.br/dp/B07L5WFHXW?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 81118,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -650,7 +1922,7 @@
   "link": "https://www.amazon.com.br/dp/B08K4JSQ2M?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 8808,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -662,7 +1934,7 @@
   "link": "https://www.amazon.com.br/dp/B0DPXVL7LK?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 6129,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -674,7 +1946,7 @@
   "link": "https://www.amazon.com.br/dp/B08BGPB681?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 653,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -686,7 +1958,7 @@
   "link": "https://www.amazon.com.br/dp/B0F9Z3D8TZ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 518,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -710,7 +1982,7 @@
   "link": "https://www.amazon.com.br/dp/B0FQGMGVCT?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 615,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -723,7 +1995,7 @@
   "nota": 4.9,
   "avaliacoes": 23986,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -736,7 +2008,7 @@
   "nota": 4.7,
   "avaliacoes": 38664,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -775,7 +2047,7 @@
   "nota": 4.6,
   "avaliacoes": 6685,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -788,7 +2060,7 @@
   "nota": 4.8,
   "avaliacoes": 4890,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -814,7 +2086,7 @@
   "nota": 4.6,
   "avaliacoes": 19525,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -827,7 +2099,7 @@
   "nota": 4.8,
   "avaliacoes": 7882,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -840,7 +2112,7 @@
   "nota": 4.6,
   "avaliacoes": 2696,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -853,7 +2125,7 @@
   "nota": 4.8,
   "avaliacoes": 33444,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -866,7 +2138,7 @@
   "nota": 4.7,
   "avaliacoes": 10032,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -874,12 +2146,12 @@
   "loja": "amazon",
   "titulo": "Candide, Laptop Infantil, Barbie, Brinquedo Educativo - Bilíngue",
   "imagem": "https://m.media-amazon.com/images/I/61ubj7qnXCL._AC_SL500_.jpg",
-  "preco": 57.99,
+  "preco": 57.95,
   "link": "https://www.amazon.com.br/dp/B08GKYKZBF?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 2352,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -900,12 +2172,12 @@
   "loja": "amazon",
   "titulo": "Chinelo Havaianas Brasil | Sandálias casuais",
   "imagem": "https://m.media-amazon.com/images/I/61C29XgjRKL._AC_SL500_.jpg",
-  "preco": 46.88,
+  "preco": 39.99,
   "link": "https://www.amazon.com.br/dp/B000RM6ZIW?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 28425,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -917,7 +2189,7 @@
   "link": "https://www.amazon.com.br/dp/B0CF71CJ2L?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 41839,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -929,7 +2201,7 @@
   "link": "https://www.amazon.com.br/dp/B07DHSCLPR?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 24733,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -937,11 +2209,11 @@
   "loja": "amazon",
   "titulo": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
   "imagem": "https://m.media-amazon.com/images/I/61HFU+cefsL._AC_SL500_.jpg",
-  "preco": 85.9,
+  "preco": 82.9,
   "link": "https://www.amazon.com.br/dp/B0977T9WTB?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 10327,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -953,7 +2225,7 @@
   "link": "https://www.amazon.com.br/dp/B07CTN7X2Y?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 22090,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -965,7 +2237,7 @@
   "link": "https://www.amazon.com.br/dp/B08K3Q8CMC?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3057,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -977,7 +2249,7 @@
   "link": "https://www.amazon.com.br/dp/B08YHD24HC?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 5939,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -989,7 +2261,7 @@
   "link": "https://www.amazon.com.br/dp/B0CP7P4RRQ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3574,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1002,7 +2274,7 @@
   "nota": 4.6,
   "avaliacoes": 116403,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1015,7 +2287,7 @@
   "nota": 4.7,
   "avaliacoes": 3259,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1028,7 +2300,7 @@
   "nota": 4.8,
   "avaliacoes": 31387,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1054,7 +2326,7 @@
   "nota": 4.8,
   "avaliacoes": 3899,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1067,7 +2339,7 @@
   "nota": 4.8,
   "avaliacoes": 495,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1080,7 +2352,7 @@
   "nota": 4.6,
   "avaliacoes": 2411,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1093,7 +2365,7 @@
   "nota": 4.6,
   "avaliacoes": 6623,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1106,7 +2378,7 @@
   "nota": 4.7,
   "avaliacoes": 5011,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1119,7 +2391,7 @@
   "nota": 4.8,
   "avaliacoes": 29018,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1127,12 +2399,12 @@
   "loja": "amazon",
   "titulo": "NIVEA KIT Sabonete Líquido Óleo de Banho 200ml - 2 Unidades",
   "imagem": "https://m.media-amazon.com/images/I/71tXUZBmJ6L._AC_SL500_.jpg",
-  "preco": 68.78,
+  "preco": 66.78,
   "link": "https://www.amazon.com.br/dp/B0F56WW6Q3?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 41365,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1145,7 +2417,7 @@
   "nota": 4.8,
   "avaliacoes": 12759,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1158,7 +2430,7 @@
   "nota": 4.9,
   "avaliacoes": 3661,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1171,7 +2443,7 @@
   "nota": 4.8,
   "avaliacoes": 2265,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1184,7 +2456,7 @@
   "nota": 4.5,
   "avaliacoes": 744,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1196,7 +2468,7 @@
   "link": "https://www.amazon.com.br/dp/B07939CW22?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 24675,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1208,7 +2480,7 @@
   "link": "https://www.amazon.com.br/dp/B07D2FKWBT?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 17035,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1216,11 +2488,11 @@
   "loja": "amazon",
   "titulo": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Carne Ao Molho - Com 15 Sachês 85g",
   "imagem": "https://m.media-amazon.com/images/I/61mNnwoG-EL._AC_SL500_.jpg",
-  "preco": 40.42,
+  "preco": 38.41,
   "link": "https://www.amazon.com.br/dp/B07PN67ZGJ?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 4943,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1244,7 +2516,7 @@
   "link": "https://www.amazon.com.br/dp/B08B1VX8RY?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3456,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1256,7 +2528,7 @@
   "link": "https://www.amazon.com.br/dp/B0F68W8CPQ?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 1170,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1268,7 +2540,7 @@
   "link": "https://www.amazon.com.br/dp/B0FNWCYLZN?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 10384,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T12:10:54-03:00"
  },
  {
@@ -1281,7 +2553,7 @@
   "nota": 4.6,
   "avaliacoes": 305,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1294,7 +2566,7 @@
   "nota": 4.6,
   "avaliacoes": 330,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1307,7 +2579,7 @@
   "nota": 4.5,
   "avaliacoes": 2147,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1346,7 +2618,7 @@
   "nota": 4.4,
   "avaliacoes": 248,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1359,7 +2631,7 @@
   "nota": 4.7,
   "avaliacoes": 1740,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1372,7 +2644,7 @@
   "nota": 4.7,
   "avaliacoes": 1364,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1385,7 +2657,7 @@
   "nota": 4.6,
   "avaliacoes": 153,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1398,7 +2670,7 @@
   "nota": 4.7,
   "avaliacoes": 1531,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1411,7 +2683,7 @@
   "nota": 4.6,
   "avaliacoes": 136,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1424,7 +2696,7 @@
   "nota": 4.8,
   "avaliacoes": 370,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1437,7 +2709,7 @@
   "nota": 4.8,
   "avaliacoes": 1238,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1450,7 +2722,7 @@
   "nota": 4.8,
   "avaliacoes": 364,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1463,7 +2735,7 @@
   "nota": 4.7,
   "avaliacoes": 332,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1471,12 +2743,12 @@
   "loja": "amazon",
   "titulo": "Sortimento de cartões de Natal em caixa da Image Arts, Home for the Holidays (4 desenhos, 24 cartões com envelopes)",
   "imagem": "https://m.media-amazon.com/images/I/91qI4qGel1L._AC_SL500_.jpg",
-  "preco": 66.68,
+  "preco": 66.88,
   "link": "https://www.amazon.com.br/dp/B0747XMNSL?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 2740,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1489,7 +2761,7 @@
   "nota": 4.8,
   "avaliacoes": 160,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1515,7 +2787,7 @@
   "nota": 4.5,
   "avaliacoes": 157,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1528,7 +2800,7 @@
   "nota": 4.8,
   "avaliacoes": 798,
   "categoria": "Celulares",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1554,7 +2826,7 @@
   "nota": 4.8,
   "avaliacoes": 6619,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1567,7 +2839,7 @@
   "nota": 4.8,
   "avaliacoes": 9829,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1580,7 +2852,7 @@
   "nota": 4.7,
   "avaliacoes": 1253,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1593,7 +2865,7 @@
   "nota": 4.8,
   "avaliacoes": 21312,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1606,7 +2878,7 @@
   "nota": 4.6,
   "avaliacoes": 48710,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1619,7 +2891,7 @@
   "nota": 4.5,
   "avaliacoes": 1972,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1632,7 +2904,7 @@
   "nota": 4.6,
   "avaliacoes": 6186,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1645,7 +2917,7 @@
   "nota": 4.8,
   "avaliacoes": 7474,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1658,7 +2930,7 @@
   "nota": 4.6,
   "avaliacoes": 2307,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1671,7 +2943,7 @@
   "nota": 4.8,
   "avaliacoes": 2344,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1684,7 +2956,7 @@
   "nota": 4.8,
   "avaliacoes": 6072,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1710,7 +2982,7 @@
   "nota": 4.7,
   "avaliacoes": 14978,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1723,7 +2995,7 @@
   "nota": 4.7,
   "avaliacoes": 3706,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1735,7 +3007,7 @@
   "link": "https://www.amazon.com.br/dp/B07DVJC66X?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 80443,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1747,7 +3019,7 @@
   "link": "https://www.amazon.com.br/dp/B09BBDVPB1?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 53215,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1759,7 +3031,7 @@
   "link": "https://www.amazon.com.br/dp/B0BWQ5VHJQ?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 3279,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1771,7 +3043,7 @@
   "link": "https://www.amazon.com.br/dp/B076VK3TRX?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 6498,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1783,7 +3055,7 @@
   "link": "https://www.amazon.com.br/dp/B07YM4MJ3K?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 5084,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1795,7 +3067,7 @@
   "link": "https://www.amazon.com.br/dp/B078GSK31B?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 9187,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1807,7 +3079,7 @@
   "link": "https://www.amazon.com.br/dp/B0DQP41H2M?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 1454,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1815,12 +3087,12 @@
   "loja": "amazon",
   "titulo": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto",
   "imagem": "https://m.media-amazon.com/images/I/61cnqHlVvEL._AC_SL500_.jpg",
-  "preco": 200.97,
+  "preco": 201.0,
   "link": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 609,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1833,7 +3105,7 @@
   "nota": 4.8,
   "avaliacoes": 3233,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1846,7 +3118,7 @@
   "nota": 4.7,
   "avaliacoes": 354,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1859,7 +3131,7 @@
   "nota": 4.5,
   "avaliacoes": 4754,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1872,7 +3144,7 @@
   "nota": 4.7,
   "avaliacoes": 568,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1885,7 +3157,7 @@
   "nota": 4.8,
   "avaliacoes": 946,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1898,7 +3170,7 @@
   "nota": 4.8,
   "avaliacoes": 14519,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1911,7 +3183,7 @@
   "nota": 4.7,
   "avaliacoes": 1673,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1924,7 +3196,7 @@
   "nota": 4.7,
   "avaliacoes": 13357,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1937,7 +3209,7 @@
   "nota": 4.7,
   "avaliacoes": 2438,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1950,7 +3222,7 @@
   "nota": 4.6,
   "avaliacoes": 2965,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1963,7 +3235,7 @@
   "nota": 4.8,
   "avaliacoes": 7885,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1976,7 +3248,7 @@
   "nota": 4.8,
   "avaliacoes": 10201,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -1984,12 +3256,12 @@
   "loja": "amazon",
   "titulo": "Buba, Chocalho Com Mordedor Coelhinho",
   "imagem": "https://m.media-amazon.com/images/I/51UTOXmFfuL._AC_SL500_.jpg",
-  "preco": 26.76,
+  "preco": 26.78,
   "link": "https://www.amazon.com.br/dp/B0CRZC7GRL?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 2147,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2002,7 +3274,7 @@
   "nota": 4.7,
   "avaliacoes": 1671,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2015,7 +3287,7 @@
   "nota": 4.8,
   "avaliacoes": 2085,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2027,7 +3299,7 @@
   "link": "https://www.amazon.com.br/dp/B0C4CFDJVJ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 9275,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2039,7 +3311,7 @@
   "link": "https://www.amazon.com.br/dp/B07FN7T2LK?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 11933,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2051,7 +3323,7 @@
   "link": "https://www.amazon.com.br/dp/B07WRS2BQ5?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 4162,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2087,7 +3359,7 @@
   "link": "https://www.amazon.com.br/dp/B077P298K1?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 1011,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2099,7 +3371,7 @@
   "link": "https://www.amazon.com.br/dp/B0GRHD48QF?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 304,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2107,12 +3379,12 @@
   "loja": "amazon",
   "titulo": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
   "imagem": "https://m.media-amazon.com/images/I/51+W7A115SL._AC_SL500_.jpg",
-  "preco": 33.9,
+  "preco": 28.0,
   "link": "https://www.amazon.com.br/dp/B084S6BCJN?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 36706,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2125,7 +3397,7 @@
   "nota": 4.7,
   "avaliacoes": 15259,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2138,7 +3410,7 @@
   "nota": 4.8,
   "avaliacoes": 731,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2151,7 +3423,7 @@
   "nota": 4.8,
   "avaliacoes": 5765,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2159,12 +3431,12 @@
   "loja": "amazon",
   "titulo": "SUGGAR LAVADORA DE ROUPAS LAVAMAX ECO 10KG 110V BRANCA LE1021BR",
   "imagem": "https://m.media-amazon.com/images/I/51Xzw3t1fvL._AC_SL500_.jpg",
-  "preco": 525.29,
+  "preco": 519.99,
   "link": "https://www.amazon.com.br/dp/B0D15458G5?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 798,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2177,7 +3449,7 @@
   "nota": 4.6,
   "avaliacoes": 24023,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2190,7 +3462,7 @@
   "nota": 4.8,
   "avaliacoes": 7335,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2216,7 +3488,7 @@
   "nota": 4.6,
   "avaliacoes": 1131,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2229,7 +3501,7 @@
   "nota": 4.8,
   "avaliacoes": 5750,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2242,7 +3514,7 @@
   "nota": 4.9,
   "avaliacoes": 12615,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2255,7 +3527,7 @@
   "nota": 4.8,
   "avaliacoes": 1508,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2268,7 +3540,7 @@
   "nota": 4.8,
   "avaliacoes": 5363,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2281,7 +3553,7 @@
   "nota": 4.7,
   "avaliacoes": 1546,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2307,7 +3579,7 @@
   "nota": 4.5,
   "avaliacoes": 551,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2319,7 +3591,7 @@
   "link": "https://www.amazon.com.br/dp/B08R9XTH39?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 24330,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2331,7 +3603,7 @@
   "link": "https://www.amazon.com.br/dp/B0C9W3MZV2?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3154,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2339,11 +3611,11 @@
   "loja": "amazon",
   "titulo": "WHISKAS Ração Carne Gatos Adultos 2,7 kg",
   "imagem": "https://m.media-amazon.com/images/I/61ypdtO-HAL._AC_SL500_.jpg",
-  "preco": 34.21,
+  "preco": 36.58,
   "link": "https://www.amazon.com.br/dp/B0B91Z6VRQ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 2725,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2355,7 +3627,7 @@
   "link": "https://www.amazon.com.br/dp/B017KU45CG?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 5366,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2367,7 +3639,7 @@
   "link": "https://www.amazon.com.br/dp/B09N9TNCCB?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 2926,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2379,7 +3651,7 @@
   "link": "https://www.amazon.com.br/dp/B07CL78X36?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 654,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2391,7 +3663,7 @@
   "link": "https://www.amazon.com.br/dp/B075X4PKN1?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 3781,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2404,7 +3676,7 @@
   "nota": 4.7,
   "avaliacoes": 9912,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2417,7 +3689,7 @@
   "nota": 4.6,
   "avaliacoes": 4527,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2430,7 +3702,7 @@
   "nota": 4.8,
   "avaliacoes": 37253,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2443,7 +3715,7 @@
   "nota": 4.8,
   "avaliacoes": 5850,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2456,7 +3728,7 @@
   "nota": 4.7,
   "avaliacoes": 543,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2469,7 +3741,7 @@
   "nota": 4.7,
   "avaliacoes": 17064,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2482,7 +3754,7 @@
   "nota": 4.8,
   "avaliacoes": 7385,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2495,7 +3767,7 @@
   "nota": 4.8,
   "avaliacoes": 674,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2508,7 +3780,7 @@
   "nota": 4.6,
   "avaliacoes": 732,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2521,7 +3793,7 @@
   "nota": 4.9,
   "avaliacoes": 4897,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2534,7 +3806,7 @@
   "nota": 4.8,
   "avaliacoes": 17768,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2547,7 +3819,7 @@
   "nota": 4.8,
   "avaliacoes": 43719,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-22T09:10:06-03:00"
  },
  {
@@ -2560,7 +3832,7 @@
   "nota": 4.4,
   "avaliacoes": 137,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2612,7 +3884,7 @@
   "nota": 4.5,
   "avaliacoes": 304,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2625,7 +3897,7 @@
   "nota": 4.6,
   "avaliacoes": 228,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2638,7 +3910,7 @@
   "nota": 4.7,
   "avaliacoes": 239,
   "categoria": "Casa",
-  "precoEm": "2026-10-21T19:08:21-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2664,7 +3936,7 @@
   "nota": 4.5,
   "avaliacoes": 157,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2690,7 +3962,7 @@
   "nota": 4.7,
   "avaliacoes": 1740,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2698,12 +3970,12 @@
   "loja": "amazon",
   "titulo": "Lindos rolos de papel de embrulho de Natal para presentes de tamanho",
   "imagem": "https://m.media-amazon.com/images/I/91FD+MRBJ4L._AC_SL500_.jpg",
-  "preco": 67.82,
+  "preco": 67.03,
   "link": "https://www.amazon.com.br/dp/B0FFNDGTHH?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 257,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2716,7 +3988,7 @@
   "nota": 4.6,
   "avaliacoes": 146,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2737,12 +4009,12 @@
   "loja": "amazon",
   "titulo": "Panettone Bauducco 908g",
   "imagem": "https://m.media-amazon.com/images/I/81IMPn8sSjL._AC_SL500_.jpg",
-  "preco": 58.33,
+  "preco": 61.95,
   "link": "https://www.amazon.com.br/dp/B0BH9CDRZ1?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 279,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2755,7 +4027,7 @@
   "nota": 4.6,
   "avaliacoes": 178,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2781,7 +4053,7 @@
   "nota": 4.8,
   "avaliacoes": 360,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2794,7 +4066,7 @@
   "nota": 4.6,
   "avaliacoes": 1613,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2807,7 +4079,7 @@
   "nota": 4.4,
   "avaliacoes": 516,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2820,7 +4092,7 @@
   "nota": 4.8,
   "avaliacoes": 19620,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2833,7 +4105,7 @@
   "nota": 4.7,
   "avaliacoes": 32732,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2846,7 +4118,7 @@
   "nota": 4.5,
   "avaliacoes": 2458,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2859,7 +4131,7 @@
   "nota": 4.8,
   "avaliacoes": 929,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2885,7 +4157,7 @@
   "nota": 4.8,
   "avaliacoes": 29720,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2898,7 +4170,7 @@
   "nota": 4.7,
   "avaliacoes": 17669,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2911,7 +4183,7 @@
   "nota": 4.6,
   "avaliacoes": 3850,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2924,7 +4196,7 @@
   "nota": 4.6,
   "avaliacoes": 336,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2937,7 +4209,7 @@
   "nota": 4.7,
   "avaliacoes": 1631,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2950,7 +4222,7 @@
   "nota": 4.8,
   "avaliacoes": 7841,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2963,7 +4235,7 @@
   "nota": 4.8,
   "avaliacoes": 7753,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2976,7 +4248,7 @@
   "nota": 4.8,
   "avaliacoes": 10227,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2989,7 +4261,7 @@
   "nota": 4.8,
   "avaliacoes": 22475,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -2997,12 +4269,12 @@
   "loja": "amazon",
   "titulo": "K-Othrine® Gel Baratas – Eficaz Contra Baratas de Cozinha e de Esgoto – 10g",
   "imagem": "https://m.media-amazon.com/images/I/51bZaAXWOnL._AC_SL500_.jpg",
-  "preco": 21.9,
+  "preco": 20.75,
   "link": "https://www.amazon.com.br/dp/B0F2B9YNT5?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 308,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3023,11 +4295,11 @@
   "loja": "amazon",
   "titulo": "OMO Lava-Roupas Líquido Ultra Power Frasco 1,8L",
   "imagem": "https://m.media-amazon.com/images/I/71y1o6ee9IL._AC_SL500_.jpg",
-  "preco": 23.98,
+  "preco": 29.99,
   "link": "https://www.amazon.com.br/dp/B0CBCRP3BS?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 14144,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3051,7 +4323,7 @@
   "link": "https://www.amazon.com.br/dp/B07Y5NF2FZ?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 11284,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3063,7 +4335,7 @@
   "link": "https://www.amazon.com.br/dp/B0BBJPCMQM?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 2193,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3075,7 +4347,7 @@
   "link": "https://www.amazon.com.br/dp/B077PY5SQS?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 1616,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3087,7 +4359,7 @@
   "link": "https://www.amazon.com.br/dp/B01CZXF4XW?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 37656,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3112,7 +4384,7 @@
   "nota": 4.7,
   "avaliacoes": 5846,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3125,7 +4397,7 @@
   "nota": 4.6,
   "avaliacoes": 537,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3133,12 +4405,12 @@
   "loja": "amazon",
   "titulo": "Combo Teclado e Mouse Sem Fio Logitech MK250 Bluetooth com Conectividade Rápida e Fácil, Design Compacto, Mouse Ambidestro, Layout ABNT2, Construção Durável, Compatível com PC e Mac - Grafite",
   "imagem": "https://m.media-amazon.com/images/I/618iLr2V14L._AC_SL500_.jpg",
-  "preco": 164.0,
+  "preco": 129.9,
   "link": "https://www.amazon.com.br/dp/B0FLFWP47Z?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 1184,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3151,7 +4423,7 @@
   "nota": 4.8,
   "avaliacoes": 872,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3159,12 +4431,12 @@
   "loja": "amazon",
   "titulo": "SUGGAR DEPURADOR DE AR SLIM 80CM 3 VEL. PRETO 220V DPS182PT",
   "imagem": "https://m.media-amazon.com/images/I/41reXjYlagL._AC_SL500_.jpg",
-  "preco": 450.85,
+  "preco": 429.0,
   "link": "https://www.amazon.com.br/dp/B0B3SJ8YLP?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 2923,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3177,7 +4449,7 @@
   "nota": 4.7,
   "avaliacoes": 994,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3190,7 +4462,7 @@
   "nota": 4.8,
   "avaliacoes": 7245,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3203,7 +4475,7 @@
   "nota": 4.8,
   "avaliacoes": 1497,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3216,7 +4488,7 @@
   "nota": 4.7,
   "avaliacoes": 8414,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3229,7 +4501,7 @@
   "nota": 4.8,
   "avaliacoes": 10278,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3237,12 +4509,12 @@
   "loja": "amazon",
   "titulo": "De quanta terra precisa um homem? e outras histórias",
   "imagem": "https://m.media-amazon.com/images/I/61N9GLW2AyS._AC_SL500_.jpg",
-  "preco": 15.0,
+  "preco": 17.57,
   "link": "https://www.amazon.com.br/dp/6555522372?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 9212,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3255,7 +4527,7 @@
   "nota": 4.8,
   "avaliacoes": 82280,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3268,7 +4540,7 @@
   "nota": 4.8,
   "avaliacoes": 78595,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3281,7 +4553,7 @@
   "nota": 4.7,
   "avaliacoes": 3093,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3294,7 +4566,7 @@
   "nota": 4.7,
   "avaliacoes": 1337,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3319,7 +4591,7 @@
   "link": "https://www.amazon.com.br/dp/B07F3DK2CK?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 15293,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3343,7 +4615,7 @@
   "link": "https://www.amazon.com.br/dp/B08T1TW43G?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 2395,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3355,7 +4627,7 @@
   "link": "https://www.amazon.com.br/dp/B07XLML2YS?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 152113,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3367,7 +4639,7 @@
   "link": "https://www.amazon.com.br/dp/B0779CJSQW?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 756,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3379,7 +4651,7 @@
   "link": "https://www.amazon.com.br/dp/B0791LY2TH?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 1954,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3391,7 +4663,7 @@
   "link": "https://www.amazon.com.br/dp/B0CWLV49MY?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 1398,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3404,7 +4676,7 @@
   "nota": 4.9,
   "avaliacoes": 34206,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3417,7 +4689,7 @@
   "nota": 4.7,
   "avaliacoes": 2217,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3430,7 +4702,7 @@
   "nota": 4.7,
   "avaliacoes": 1833,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3443,7 +4715,7 @@
   "nota": 4.7,
   "avaliacoes": 1158,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3456,7 +4728,7 @@
   "nota": 4.6,
   "avaliacoes": 849,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3469,7 +4741,7 @@
   "nota": 4.6,
   "avaliacoes": 8669,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3482,7 +4754,7 @@
   "nota": 4.6,
   "avaliacoes": 14461,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3495,7 +4767,7 @@
   "nota": 4.8,
   "avaliacoes": 1176,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3508,7 +4780,7 @@
   "nota": 4.6,
   "avaliacoes": 4039,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3521,7 +4793,7 @@
   "nota": 4.9,
   "avaliacoes": 10692,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3534,7 +4806,7 @@
   "nota": 4.8,
   "avaliacoes": 23808,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3547,7 +4819,7 @@
   "nota": 4.8,
   "avaliacoes": 11331,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3560,7 +4832,7 @@
   "nota": 4.8,
   "avaliacoes": 27886,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3573,7 +4845,7 @@
   "nota": 4.8,
   "avaliacoes": 3968,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3586,7 +4858,7 @@
   "nota": 4.8,
   "avaliacoes": 4280,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3599,7 +4871,7 @@
   "nota": 4.6,
   "avaliacoes": 739,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3611,7 +4883,7 @@
   "link": "https://www.amazon.com.br/dp/B07NGL3FDY?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 7900,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3619,11 +4891,11 @@
   "loja": "amazon",
   "titulo": "Granado Sabonete Líquido Bebê, Tradicional, 500ml",
   "imagem": "https://m.media-amazon.com/images/I/51EXy5ZJQSL._AC_SL500_.jpg",
-  "preco": 34.29,
+  "preco": 29.99,
   "link": "https://www.amazon.com.br/dp/B08LK15F8N?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 35594,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3635,7 +4907,7 @@
   "link": "https://www.amazon.com.br/dp/B07XQ7M2P7?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 5354,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3647,7 +4919,7 @@
   "link": "https://www.amazon.com.br/dp/B0BZSTPW7X?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 1016,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3659,7 +4931,7 @@
   "link": "https://www.amazon.com.br/dp/B07YCLFHQW?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 1433,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3671,7 +4943,7 @@
   "link": "https://www.amazon.com.br/dp/B082WYM73K?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 381,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3683,7 +4955,7 @@
   "link": "https://www.amazon.com.br/dp/B0DK3RXTW4?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 1401,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3709,7 +4981,7 @@
   "nota": 4.8,
   "avaliacoes": 1721,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3722,7 +4994,7 @@
   "nota": 4.8,
   "avaliacoes": 12881,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3735,7 +5007,7 @@
   "nota": 4.8,
   "avaliacoes": 27626,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3748,7 +5020,7 @@
   "nota": 4.7,
   "avaliacoes": 1413,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3774,7 +5046,7 @@
   "nota": 4.9,
   "avaliacoes": 8433,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3800,7 +5072,7 @@
   "nota": 4.7,
   "avaliacoes": 25208,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3813,7 +5085,7 @@
   "nota": 4.8,
   "avaliacoes": 819,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3826,7 +5098,7 @@
   "nota": 4.7,
   "avaliacoes": 24258,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T19:08:21-03:00"
  },
  {
@@ -3839,7 +5111,7 @@
   "nota": 4.4,
   "avaliacoes": 149,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3852,7 +5124,7 @@
   "nota": 4.7,
   "avaliacoes": 424,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3878,7 +5150,7 @@
   "nota": 4.5,
   "avaliacoes": 131,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3891,7 +5163,7 @@
   "nota": 4.6,
   "avaliacoes": 394,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3904,7 +5176,7 @@
   "nota": 4.5,
   "avaliacoes": 245,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3930,7 +5202,7 @@
   "nota": 4.5,
   "avaliacoes": 157,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3943,7 +5215,7 @@
   "nota": 4.4,
   "avaliacoes": 216,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3956,7 +5228,7 @@
   "nota": 4.6,
   "avaliacoes": 1191,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3969,7 +5241,7 @@
   "nota": 4.5,
   "avaliacoes": 716,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3982,7 +5254,7 @@
   "nota": 4.8,
   "avaliacoes": 301,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -3995,7 +5267,7 @@
   "nota": 4.5,
   "avaliacoes": 119,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4008,7 +5280,7 @@
   "nota": 4.5,
   "avaliacoes": 149,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4021,7 +5293,7 @@
   "nota": 4.8,
   "avaliacoes": 3073,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4034,7 +5306,7 @@
   "nota": 4.7,
   "avaliacoes": 1740,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4047,7 +5319,7 @@
   "nota": 4.6,
   "avaliacoes": 6451,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4060,7 +5332,7 @@
   "nota": 4.6,
   "avaliacoes": 146,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4073,7 +5345,7 @@
   "nota": 4.6,
   "avaliacoes": 5047,
   "categoria": "Celulares",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4086,7 +5358,7 @@
   "nota": 4.8,
   "avaliacoes": 5077,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4094,12 +5366,12 @@
   "loja": "amazon",
   "titulo": "EPSON Multifuncional EcoTank L3250 - Tanque de Tinta Colorida, Wi-Fi Direct, USB, Bivolt,Preto.",
   "imagem": "https://m.media-amazon.com/images/I/51Go2vIg0ML._AC_SL500_.jpg",
-  "preco": 1121.43,
+  "preco": 1079.0,
   "link": "https://www.amazon.com.br/dp/B098YHFT9S?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 30798,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4112,7 +5384,7 @@
   "nota": 4.9,
   "avaliacoes": 1291,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4138,7 +5410,7 @@
   "nota": 4.6,
   "avaliacoes": 10159,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4151,7 +5423,7 @@
   "nota": 4.8,
   "avaliacoes": 6938,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4164,7 +5436,7 @@
   "nota": 4.8,
   "avaliacoes": 844,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4177,7 +5449,7 @@
   "nota": 4.6,
   "avaliacoes": 1612,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4190,7 +5462,7 @@
   "nota": 4.8,
   "avaliacoes": 2263,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4203,7 +5475,7 @@
   "nota": 4.8,
   "avaliacoes": 32971,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4216,7 +5488,7 @@
   "nota": 4.8,
   "avaliacoes": 11912,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4229,7 +5501,7 @@
   "nota": 4.8,
   "avaliacoes": 17912,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4242,7 +5514,7 @@
   "nota": 4.5,
   "avaliacoes": 5775,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4255,7 +5527,7 @@
   "nota": 4.7,
   "avaliacoes": 4505,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4268,7 +5540,7 @@
   "nota": 4.8,
   "avaliacoes": 42505,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4280,7 +5552,7 @@
   "link": "https://www.amazon.com.br/dp/B07D5LTDT4?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 25094,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4292,7 +5564,7 @@
   "link": "https://www.amazon.com.br/dp/B07MJ251Z8?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 13554,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4304,7 +5576,7 @@
   "link": "https://www.amazon.com.br/dp/B07XZDZWTG?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 21896,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4316,7 +5588,7 @@
   "link": "https://www.amazon.com.br/dp/B0785W3BLR?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 12586,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4328,7 +5600,7 @@
   "link": "https://www.amazon.com.br/dp/B076X7T368?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 13386,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4340,7 +5612,7 @@
   "link": "https://www.amazon.com.br/dp/B07V69MJTR?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 9927,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4348,11 +5620,11 @@
   "loja": "amazon",
   "titulo": "Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Buds 2, Intra Auricular, Sem Fio, Resistente À Água e Poeira - Preto",
   "imagem": "https://m.media-amazon.com/images/I/414+kOLlS5L._AC_SL500_.jpg",
-  "preco": 234.99,
+  "preco": 245.0,
   "link": "https://www.amazon.com.br/dp/B0DHL63KWK?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 8517,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4365,7 +5637,7 @@
   "nota": 4.7,
   "avaliacoes": 4394,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4378,7 +5650,7 @@
   "nota": 4.9,
   "avaliacoes": 17405,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4391,7 +5663,7 @@
   "nota": 4.9,
   "avaliacoes": 37937,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4404,7 +5676,7 @@
   "nota": 4.5,
   "avaliacoes": 503,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4417,7 +5689,7 @@
   "nota": 4.7,
   "avaliacoes": 985,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4430,7 +5702,7 @@
   "nota": 4.9,
   "avaliacoes": 10558,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4443,7 +5715,7 @@
   "nota": 4.8,
   "avaliacoes": 22961,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4456,7 +5728,7 @@
   "nota": 4.5,
   "avaliacoes": 2344,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4469,7 +5741,7 @@
   "nota": 4.6,
   "avaliacoes": 7077,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4482,7 +5754,7 @@
   "nota": 4.8,
   "avaliacoes": 3393,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4495,7 +5767,7 @@
   "nota": 4.8,
   "avaliacoes": 4380,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4503,12 +5775,12 @@
   "loja": "amazon",
   "titulo": "Dove Sabonete em Barra Original 90g 6 Unidades",
   "imagem": "https://m.media-amazon.com/images/I/61c8REdcT0L._AC_SL500_.jpg",
-  "preco": 22.99,
+  "preco": 27.99,
   "link": "https://www.amazon.com.br/dp/B07LFFGZ93?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 14961,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4521,7 +5793,7 @@
   "nota": 4.8,
   "avaliacoes": 15580,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4534,7 +5806,7 @@
   "nota": 4.8,
   "avaliacoes": 8111,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4542,12 +5814,12 @@
   "loja": "amazon",
   "titulo": "Corda de pular sem emaranhados, cabo de corda de salto rápido com rolamentos de esferas para mulheres, homens e crianças, corda de salto de aço ajustável com alças de espuma para fitness, exercícios em casa e corpo fino",
   "imagem": "https://m.media-amazon.com/images/I/71wm42EtoNL._AC_SL500_.jpg",
-  "preco": 7.59,
+  "preco": 7.5,
   "link": "https://www.amazon.com.br/dp/B09DF9NWC7?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 23916,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4568,11 +5840,11 @@
   "loja": "amazon",
   "titulo": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
   "imagem": "https://m.media-amazon.com/images/I/71bXBFl912L._AC_SL500_.jpg",
-  "preco": 75.69,
+  "preco": 59.7,
   "link": "https://www.amazon.com.br/dp/B07DYHDXX8?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 68008,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4584,7 +5856,7 @@
   "link": "https://www.amazon.com.br/dp/B082L13YPQ?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 19203,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4592,11 +5864,11 @@
   "loja": "amazon",
   "titulo": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
   "imagem": "https://m.media-amazon.com/images/I/51azdgMu30L._AC_SL500_.jpg",
-  "preco": 62.9,
+  "preco": 63.9,
   "link": "https://www.amazon.com.br/dp/B07XVX9G17?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 4715,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4608,7 +5880,7 @@
   "link": "https://www.amazon.com.br/dp/B09V1SM8QB?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 22966,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4620,7 +5892,7 @@
   "link": "https://www.amazon.com.br/dp/B0BW4NDV3N?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 2922,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4632,7 +5904,7 @@
   "link": "https://www.amazon.com.br/dp/B08CZW8H1L?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 14611,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4644,7 +5916,7 @@
   "link": "https://www.amazon.com.br/dp/B0GR11L1VP?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 513,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4657,7 +5929,7 @@
   "nota": 4.6,
   "avaliacoes": 8083,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4670,7 +5942,7 @@
   "nota": 4.7,
   "avaliacoes": 10388,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4683,7 +5955,7 @@
   "nota": 4.9,
   "avaliacoes": 1997,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4696,7 +5968,7 @@
   "nota": 4.8,
   "avaliacoes": 2216,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4709,7 +5981,7 @@
   "nota": 4.6,
   "avaliacoes": 4480,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4722,7 +5994,7 @@
   "nota": 4.8,
   "avaliacoes": 10437,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4730,12 +6002,12 @@
   "loja": "amazon",
   "titulo": "Lâmpada Inteligente Smart Color 10W Elgin RGB Wifi Compatível com Alexa e Google Home",
   "imagem": "https://m.media-amazon.com/images/I/61i1yPAlVLL._AC_SL500_.jpg",
-  "preco": 37.87,
+  "preco": 35.99,
   "link": "https://www.amazon.com.br/dp/B088C4QZV2?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 61240,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4748,7 +6020,7 @@
   "nota": 4.7,
   "avaliacoes": 2388,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4761,7 +6033,7 @@
   "nota": 4.7,
   "avaliacoes": 3600,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4774,7 +6046,7 @@
   "nota": 4.8,
   "avaliacoes": 2301,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4787,7 +6059,7 @@
   "nota": 4.8,
   "avaliacoes": 37565,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4795,12 +6067,12 @@
   "loja": "amazon",
   "titulo": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor de Marcas Escurecidas Clinicamente Comprovado 380mL",
   "imagem": "https://m.media-amazon.com/images/I/41jEssG9EDL._AC_SL500_.jpg",
-  "preco": 29.9,
+  "preco": 29.99,
   "link": "https://www.amazon.com.br/dp/B0D8RHX3C6?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 18013,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4813,7 +6085,7 @@
   "nota": 4.8,
   "avaliacoes": 30720,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4826,7 +6098,7 @@
   "nota": 4.8,
   "avaliacoes": 1997,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4834,12 +6106,12 @@
   "loja": "amazon",
   "titulo": "Mor Life - Colchão Inflável Multiuso Casal com Fole",
   "imagem": "https://m.media-amazon.com/images/I/517OVjk1QZL._AC_SL500_.jpg",
-  "preco": 119.9,
+  "preco": 119.87,
   "link": "https://www.amazon.com.br/dp/B07JFKXM6N?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 7548,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4852,7 +6124,7 @@
   "nota": 4.5,
   "avaliacoes": 624,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4864,7 +6136,7 @@
   "link": "https://www.amazon.com.br/dp/B0C6NJWJ11?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 14132,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4872,11 +6144,11 @@
   "loja": "amazon",
   "titulo": "Bepantol Baby Pomada Assadura Bebe, Hipoalergênica, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente testado, Barreira protetora, Sem fragrâncias e corantes",
   "imagem": "https://m.media-amazon.com/images/I/61m5QAg1xHL._AC_SL500_.jpg",
-  "preco": 43.8,
+  "preco": 43.9,
   "link": "https://www.amazon.com.br/dp/B07MQG6SWC?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 1577,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4888,7 +6160,7 @@
   "link": "https://www.amazon.com.br/dp/B0DM6WQ1CY?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 957,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4900,7 +6172,7 @@
   "link": "https://www.amazon.com.br/dp/B07JN19LDF?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 13462,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4912,7 +6184,7 @@
   "link": "https://www.amazon.com.br/dp/B07WZQC1NJ?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 16936,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4924,7 +6196,7 @@
   "link": "https://www.amazon.com.br/dp/B0DLH82DBW?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 534,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4936,7 +6208,7 @@
   "link": "https://www.amazon.com.br/dp/B0CP7QXWPN?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 7766,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4949,7 +6221,7 @@
   "nota": 4.7,
   "avaliacoes": 11675,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4962,7 +6234,7 @@
   "nota": 4.7,
   "avaliacoes": 1917,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4975,7 +6247,7 @@
   "nota": 4.6,
   "avaliacoes": 783,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -4988,7 +6260,7 @@
   "nota": 4.7,
   "avaliacoes": 27488,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5001,7 +6273,7 @@
   "nota": 4.5,
   "avaliacoes": 5857,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5014,7 +6286,7 @@
   "nota": 4.5,
   "avaliacoes": 28264,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5040,7 +6312,7 @@
   "nota": 4.6,
   "avaliacoes": 19282,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5053,7 +6325,7 @@
   "nota": 4.6,
   "avaliacoes": 3606,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5066,7 +6338,7 @@
   "nota": 4.9,
   "avaliacoes": 9278,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5079,7 +6351,7 @@
   "nota": 4.7,
   "avaliacoes": 30652,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5092,7 +6364,7 @@
   "nota": 4.9,
   "avaliacoes": 8204,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5105,7 +6377,7 @@
   "nota": 4.7,
   "avaliacoes": 24390,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T09:10:17-03:00"
  },
  {
@@ -5113,12 +6385,12 @@
   "loja": "amazon",
   "titulo": "Árvore de Natal Luxo Pinheiro 1,80m 800 Galhos — Cheia, Realista e Elegante Natal Encantador Decoração de Casa Decoração Natalina Inesquecível Base de Ferro Reforçada Resistente Linha Super Premium®",
   "imagem": "https://m.media-amazon.com/images/I/61qaDlQrLYL._AC_SL500_.jpg",
-  "preco": 132.9,
+  "preco": 113.99,
   "link": "https://www.amazon.com.br/dp/B0FHFZF567?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 697,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5131,7 +6403,7 @@
   "nota": 4.6,
   "avaliacoes": 130,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5144,7 +6416,7 @@
   "nota": 4.8,
   "avaliacoes": 252,
   "categoria": "Casa",
-  "precoEm": "2026-10-21T19:08:21-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5157,7 +6429,7 @@
   "nota": 4.4,
   "avaliacoes": 217,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5170,7 +6442,7 @@
   "nota": 4.8,
   "avaliacoes": 122,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5183,7 +6455,7 @@
   "nota": 4.7,
   "avaliacoes": 813,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5196,7 +6468,7 @@
   "nota": 4.8,
   "avaliacoes": 1863,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5209,7 +6481,7 @@
   "nota": 4.7,
   "avaliacoes": 216,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5235,7 +6507,7 @@
   "nota": 4.4,
   "avaliacoes": 146,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5248,7 +6520,7 @@
   "nota": 4.4,
   "avaliacoes": 1369,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5261,7 +6533,7 @@
   "nota": 4.6,
   "avaliacoes": 144,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5274,7 +6546,7 @@
   "nota": 4.5,
   "avaliacoes": 131,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5287,7 +6559,7 @@
   "nota": 4.7,
   "avaliacoes": 1642,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5300,7 +6572,7 @@
   "nota": 4.6,
   "avaliacoes": 6450,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5313,7 +6585,7 @@
   "nota": 4.5,
   "avaliacoes": 199,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5326,7 +6598,7 @@
   "nota": 4.8,
   "avaliacoes": 176,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5339,7 +6611,7 @@
   "nota": 4.9,
   "avaliacoes": 2041,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5347,12 +6619,12 @@
   "loja": "amazon",
   "titulo": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
   "imagem": "https://m.media-amazon.com/images/I/61ldkLk4JYL._AC_SL500_.jpg",
-  "preco": 899.9,
+  "preco": 779.9,
   "link": "https://www.amazon.com.br/dp/B0FPYV6K68?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3118,
   "categoria": "Celulares",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5365,7 +6637,7 @@
   "nota": 4.8,
   "avaliacoes": 95280,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5378,7 +6650,7 @@
   "nota": 4.7,
   "avaliacoes": 12202,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5391,7 +6663,7 @@
   "nota": 4.8,
   "avaliacoes": 8951,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5404,7 +6676,7 @@
   "nota": 4.8,
   "avaliacoes": 9849,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5417,7 +6689,7 @@
   "nota": 4.7,
   "avaliacoes": 4843,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5430,7 +6702,7 @@
   "nota": 4.8,
   "avaliacoes": 5030,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5438,12 +6710,12 @@
   "loja": "amazon",
   "titulo": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
   "imagem": "https://m.media-amazon.com/images/I/61Ggc5CthJL._AC_SL500_.jpg",
-  "preco": 14.99,
+  "preco": 12.8,
   "link": "https://www.amazon.com.br/dp/B086CB6BXW?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 5068,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5456,7 +6728,7 @@
   "nota": 4.8,
   "avaliacoes": 1640,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5469,7 +6741,7 @@
   "nota": 4.9,
   "avaliacoes": 26294,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5482,7 +6754,7 @@
   "nota": 4.7,
   "avaliacoes": 17356,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5495,7 +6767,7 @@
   "nota": 4.8,
   "avaliacoes": 48392,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5508,7 +6780,7 @@
   "nota": 4.8,
   "avaliacoes": 27242,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5521,7 +6793,7 @@
   "nota": 4.8,
   "avaliacoes": 71427,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5534,7 +6806,7 @@
   "nota": 4.5,
   "avaliacoes": 3453,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5547,7 +6819,7 @@
   "nota": 4.7,
   "avaliacoes": 20241,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5559,7 +6831,7 @@
   "link": "https://www.amazon.com.br/dp/B07DTN9W36?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 26614,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5567,11 +6839,11 @@
   "loja": "amazon",
   "titulo": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
   "imagem": "https://m.media-amazon.com/images/I/61GqSAiDmHL._AC_SL500_.jpg",
-  "preco": 41.31,
+  "preco": 36.62,
   "link": "https://www.amazon.com.br/dp/B099KTRZP7?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 48687,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5583,7 +6855,7 @@
   "link": "https://www.amazon.com.br/dp/B07J4J9XKZ?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 36584,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5595,7 +6867,7 @@
   "link": "https://www.amazon.com.br/dp/B0779BRVVS?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 21585,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5603,11 +6875,11 @@
   "loja": "amazon",
   "titulo": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
   "imagem": "https://m.media-amazon.com/images/I/61U64V3mR6L._AC_SL500_.jpg",
-  "preco": 21.29,
+  "preco": 21.07,
   "link": "https://www.amazon.com.br/dp/B08VBK2Z35?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 2808,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5619,7 +6891,7 @@
   "link": "https://www.amazon.com.br/dp/B076133XTB?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 5167,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5627,11 +6899,11 @@
   "loja": "amazon",
   "titulo": "Samsung Galaxy Buds Core, Fone de Ouvido, sem fio, cancelamento de ruído, interprete inteligente",
   "imagem": "https://m.media-amazon.com/images/I/31zLQOfTQ2L._AC_SL500_.jpg",
-  "preco": 248.97,
+  "preco": 249.0,
   "link": "https://www.amazon.com.br/dp/B0FP8T2RDC?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 3358,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5644,7 +6916,7 @@
   "nota": 4.8,
   "avaliacoes": 33569,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5657,7 +6929,7 @@
   "nota": 4.8,
   "avaliacoes": 70724,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5670,7 +6942,7 @@
   "nota": 4.8,
   "avaliacoes": 643,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5683,7 +6955,7 @@
   "nota": 4.5,
   "avaliacoes": 1747,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5709,7 +6981,7 @@
   "nota": 4.9,
   "avaliacoes": 26790,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5722,7 +6994,7 @@
   "nota": 4.6,
   "avaliacoes": 7543,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5735,7 +7007,7 @@
   "nota": 4.7,
   "avaliacoes": 1017,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5748,7 +7020,7 @@
   "nota": 4.9,
   "avaliacoes": 6274,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5761,7 +7033,7 @@
   "nota": 4.8,
   "avaliacoes": 92046,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5774,7 +7046,7 @@
   "nota": 4.8,
   "avaliacoes": 122653,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5787,7 +7059,7 @@
   "nota": 4.8,
   "avaliacoes": 88853,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5800,7 +7072,7 @@
   "nota": 4.9,
   "avaliacoes": 37205,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5813,7 +7085,7 @@
   "nota": 4.6,
   "avaliacoes": 9797,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5826,7 +7098,7 @@
   "nota": 4.8,
   "avaliacoes": 6711,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5838,7 +7110,7 @@
   "link": "https://www.amazon.com.br/dp/B08PFT7QV4?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 12353,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5850,7 +7122,7 @@
   "link": "https://www.amazon.com.br/dp/B07D2FXHM1?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 24752,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5862,7 +7134,7 @@
   "link": "https://www.amazon.com.br/dp/B07YP1K82Z?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 5570,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5870,11 +7142,11 @@
   "loja": "amazon",
   "titulo": "WAP Extratora Portátil Spot Cleaner W3, 3 em 1, Borrifa, Esfrega e Extrai, com Sistema de Autolimpeza, 1450W 127V",
   "imagem": "https://m.media-amazon.com/images/I/71YOp9GJX2L._AC_SL500_.jpg",
-  "preco": 469.99,
+  "preco": 499.99,
   "link": "https://www.amazon.com.br/dp/B0CH3WBKN6?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 3846,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5886,7 +7158,7 @@
   "link": "https://www.amazon.com.br/dp/B07VG9Q91Z?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 1360,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5898,7 +7170,7 @@
   "link": "https://www.amazon.com.br/dp/B076X67XSW?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 19446,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5910,7 +7182,7 @@
   "link": "https://www.amazon.com.br/dp/B0CRTYZG5C?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 43842,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5923,7 +7195,7 @@
   "nota": 4.9,
   "avaliacoes": 12895,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5936,7 +7208,7 @@
   "nota": 4.8,
   "avaliacoes": 10384,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5944,12 +7216,12 @@
   "loja": "amazon",
   "titulo": "Cartucho de Tinta HP 664 Preto Original (F6V29AB) Para Impressora Deskjet 2136, 2676, 3776, 5076, 527",
   "imagem": "https://m.media-amazon.com/images/I/61PXGpDplBL._AC_SL500_.jpg",
-  "preco": 74.9,
+  "preco": 80.39,
   "link": "https://www.amazon.com.br/dp/B074HMBWQG?tag=diegola00-20",
   "nota": 4.7,
   "avaliacoes": 16636,
   "categoria": "Informática",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5962,7 +7234,7 @@
   "nota": 4.8,
   "avaliacoes": 4104,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -5970,12 +7242,12 @@
   "loja": "amazon",
   "titulo": "SUGGAR DEPURADOR DE AR SLIM 60CM 3 VEL. PRATA 110V DPS161PR",
   "imagem": "https://m.media-amazon.com/images/I/41YbqUz1KGL._AC_SL500_.jpg",
-  "preco": 365.11,
+  "preco": 346.32,
   "link": "https://www.amazon.com.br/dp/B0B3SK926K?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 5518,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-21T01:49:07-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6001,7 +7273,7 @@
   "nota": 4.8,
   "avaliacoes": 5015,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6014,7 +7286,7 @@
   "nota": 4.7,
   "avaliacoes": 1850,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6027,7 +7299,7 @@
   "nota": 4.9,
   "avaliacoes": 698,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6040,7 +7312,7 @@
   "nota": 4.7,
   "avaliacoes": 24977,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6053,7 +7325,7 @@
   "nota": 4.8,
   "avaliacoes": 16850,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6066,7 +7338,7 @@
   "nota": 4.8,
   "avaliacoes": 1871,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6079,7 +7351,7 @@
   "nota": 4.8,
   "avaliacoes": 5284,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6087,12 +7359,12 @@
   "loja": "amazon",
   "titulo": "Asmodee, Bananagrams de Palavras Cruzadas, Jogo para 1 a 8 Jogadores | A Partir de 8 Anos, Partidas de 10 a 15 Minutos, Jogo Familiar Rápido, Ideal para Família e Galera",
   "imagem": "https://m.media-amazon.com/images/I/614TZANI0DL._AC_SL500_.jpg",
-  "preco": 114.99,
+  "preco": 112.0,
   "link": "https://www.amazon.com.br/dp/B0BWPRVDKQ?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 412,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6105,7 +7377,7 @@
   "nota": 4.6,
   "avaliacoes": 5264,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6130,7 +7402,7 @@
   "link": "https://www.amazon.com.br/dp/B07MBXDB51?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 44751,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6142,7 +7414,7 @@
   "link": "https://www.amazon.com.br/dp/B095R9CKYR?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 24424,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6154,7 +7426,7 @@
   "link": "https://www.amazon.com.br/dp/B07HFFX8V9?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 5764,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6166,7 +7438,7 @@
   "link": "https://www.amazon.com.br/dp/B07CV2JXNH?tag=diegola00-20",
   "nota": 4.9,
   "avaliacoes": 20903,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6178,7 +7450,7 @@
   "link": "https://www.amazon.com.br/dp/B07RRYYBWG?tag=diegola00-20",
   "nota": 4.5,
   "avaliacoes": 603,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6190,7 +7462,7 @@
   "link": "https://www.amazon.com.br/dp/B0DHL93XCN?tag=diegola00-20",
   "nota": 4.6,
   "avaliacoes": 9620,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6203,7 +7475,7 @@
   "nota": 4.8,
   "avaliacoes": 13225,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6216,7 +7488,7 @@
   "nota": 4.8,
   "avaliacoes": 16377,
   "categoria": "Áudio e TV",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6229,7 +7501,7 @@
   "nota": 4.9,
   "avaliacoes": 16187,
   "categoria": "Games",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6242,7 +7514,7 @@
   "nota": 4.8,
   "avaliacoes": 1189,
   "categoria": "Eletrodomésticos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6255,7 +7527,7 @@
   "nota": 4.9,
   "avaliacoes": 54284,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6268,7 +7540,7 @@
   "nota": 4.8,
   "avaliacoes": 26881,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6294,7 +7566,7 @@
   "nota": 4.8,
   "avaliacoes": 1795,
   "categoria": "Casa",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6307,7 +7579,7 @@
   "nota": 4.7,
   "avaliacoes": 16806,
   "categoria": "Mercado",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6320,7 +7592,7 @@
   "nota": 4.8,
   "avaliacoes": 19397,
   "categoria": "Livros",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6333,7 +7605,7 @@
   "nota": 4.8,
   "avaliacoes": 32220,
   "categoria": "Beleza",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6346,7 +7618,7 @@
   "nota": 4.8,
   "avaliacoes": 27133,
   "categoria": "Brinquedos",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6359,7 +7631,7 @@
   "nota": 4.5,
   "avaliacoes": 1962,
   "categoria": "Esportes",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6372,7 +7644,7 @@
   "nota": 4.8,
   "avaliacoes": 3896,
   "categoria": "Moda",
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  },
  {
@@ -6384,7 +7656,7 @@
   "link": "https://www.amazon.com.br/dp/B07FNFPSWL?tag=diegola00-20",
   "nota": 4.8,
   "avaliacoes": 27846,
-  "precoEm": "2026-10-22T12:10:54-03:00",
+  "precoEm": "2026-10-22T15:10:43-03:00",
   "publicadoEm": "2026-10-21T01:49:07-03:00"
  }
 ]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "cachorro",
+    "canal": "Cão Caramelo",
+    "tema": "Cachorro",
+    "titulo": "Cachorro Educado em 30 Dias",
+    "gancho": "Seu cachorro não é teimoso. Ele só ainda não entendeu o que você quer.",
+    "resumo": "Plano de 30 dias com sessões de 5 minutos: vem quando chama, para de pular, de puxar a guia e de fazer xixi fora do lugar.",
+    "cor": "#E58A1F",
+    "preco": "R$ 27,90",
+    "parcela": "6x de R$ 5,24",
+    "url": "/cachorro/",
+    "capa": "/cachorro/capa.jpg"
+  },
+  {
+    "id": "gato",
+    "canal": "Gato Sem Segredo",
+    "tema": "Gato",
+    "titulo": "Gato Calmo em 30 Dias",
+    "gancho": "Seu gato não é frio nem rancoroso. Ele só fala outra língua.",
+    "resumo": "Entenda a língua do seu gato e acabe com a mordida do nada, o xixi fora da caixa, o sofá arranhado e o miado de madrugada.",
+    "cor": "#7A64E0",
+    "preco": "R$ 27,90",
+    "parcela": "6x de R$ 5,24",
+    "url": "/gato/",
+    "capa": "/gato/capa.jpg"
+  },
+  {
+    "id": "orquidea",
+    "canal": "Orquídeas em Flor",
+    "tema": "Orquídea",
+    "titulo": "Orquídea Florindo o Ano Todo",
+    "gancho": "Sua orquídea não parou de florir por falta de dedo verde.",
+    "resumo": "Rega sem erro, luz certa, adubo, replante e o truque da noite fresca que faz a haste nova aparecer.",
+    "cor": "#C8457F",
+    "preco": "R$ 27,90",
+    "parcela": "6x de R$ 5,24",
+    "url": "/orquidea/",
+    "capa": "/orquidea/capa.jpg"
+  },
+  {
+    "id": "autismo",
+    "canal": "Mundo Atípico",
+    "tema": "Autismo e TDAH",
+    "titulo": "Autismo e TDAH: o Guia dos Pais",
+    "gancho": "Será autismo? Será TDAH? Você não precisa passar por essa dúvida sozinho.",
+    "resumo": "Reconheça os sinais, entenda a diferença entre os dois, saiba o caminho da avaliação e ajude seu filho em casa e na escola.",
+    "cor": "#2F7FA8",
+    "preco": "R$ 27,90",
+    "parcela": "6x de R$ 5,24",
+    "url": "/autismo/",
+    "capa": "/autismo/capa.jpg"
+  }
+]

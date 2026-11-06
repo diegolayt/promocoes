@@ -9,18 +9,32 @@
   <meta property="og:site_name" content="Diegola">
   <meta property="og:title" content="Diegola: e-books práticos e as melhores promoções do dia">
   <meta property="og:description" content="Guias práticos e ofertas selecionadas, atualizadas o dia todo.">
+  <meta property="og:url" content="https://diegola.com.br/">
+  <meta property="og:image" content="https://diegola.com.br/cachorro/capa.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://diegola.com.br/">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ff5a1f">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","@id":"https://diegola.com.br/#org","name":"Diegola","url":"https://diegola.com.br/","logo":"https://diegola.com.br/assets/logo-192.png","sameAs":["https://t.me/diegolapromocoes"]},
+    {"@type":"WebSite","@id":"https://diegola.com.br/#site","name":"Diegola","url":"https://diegola.com.br/","publisher":{"@id":"https://diegola.com.br/#org"},"inLanguage":"pt-BR",
+     "potentialAction":{"@type":"SearchAction","target":"https://diegola.com.br/promocoes/?q={search_term_string}","query-input":"required name=search_term_string"}}
+  ]}
+  </script>
   <link rel="icon" type="image/png" href="assets/logo-64.png">
   <link rel="apple-touch-icon" href="assets/logo-192.png">
   <script>
-    // Links antigos com filtro (diegola.com.br/?...) continuam indo pras promoções.
-    if (location.search || location.hash) location.replace("promocoes/" + location.search + location.hash);
+    // Links antigos com filtro (diegola.com.br/?loja=...) continuam indo pras promoções.
+    // Parâmetros de rastreio (utm, src, fbclid...) ficam na página inicial.
+    (function () {
+      var resto = location.search.slice(1).split("&").filter(function (p) { return p && !/^(utm_[a-z]+|src|fbclid|gclid|ttclid|si|ref|igshid)=/i.test(p); });
+      if (resto.length || location.hash.length > 1) location.replace("promocoes/" + location.search + location.hash);
+    })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&display=swap">
-  <link rel="stylesheet" href="/ebooks/site.css?v=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="/ebooks/site.css?v=2">
 </head>
 <body>
   <header class="topo">
@@ -49,11 +63,11 @@
 
       <section class="painel p-promo">
         <div>
-          <div class="olho sobe" style="--d:.1s">Promoções</div>
+          <div class="olho sobe" style="--d:.1s"><span style="width:8px;height:8px;border-radius:50%;background:#2bd96b"></span>Promoções ao vivo</div>
           <h2 class="sobe" style="--d:.18s">As melhores ofertas do dia.</h2>
           <p class="sobe" style="--d:.26s">Produtos bem avaliados, lojas oficiais e desconto de verdade, atualizados o dia todo.</p>
           <div class="acoes sobe" style="--d:.34s">
-            <a class="bt claro" href="/promocoes/">Ver promoções <span class="seta">→</span></a>
+            <a class="bt amarelo" href="/promocoes/">Ver promoções <span class="seta">→</span></a>
             <a class="bt linha" href="https://t.me/diegolapromocoes" target="_blank" rel="noopener">Grupo no Telegram</a>
           </div>
         </div>
@@ -69,7 +83,7 @@
         <div><h2>Nossos e-books</h2><p>Cada guia nasceu de um canal no YouTube e responde as dúvidas que mais aparecem nos comentários.</p></div>
         <a class="bt cinza" href="/ebooks/">Ver todos <span class="seta">→</span></a>
       </div>
-      <div class="grade-ebooks" id="lista-ebooks"></div>
+      <div class="grade-ebooks" id="lista-ebooks"><a class="ebook" href="/cachorro/" style="--cor:#E58A1F"><div class="corpo"><span class="canal">Canal Cão Caramelo</span><h3>Cachorro Educado em 30 Dias</h3><p class="resumo">Plano de 30 dias com sessões de 5 minutos: vem quando chama, para de pular, de puxar a guia e de fazer xixi fora do lugar.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/gato/" style="--cor:#7A64E0"><div class="corpo"><span class="canal">Canal Gato Sem Segredo</span><h3>Gato Calmo em 30 Dias</h3><p class="resumo">Entenda a língua do seu gato e acabe com a mordida do nada, o xixi fora da caixa, o sofá arranhado e o miado de madrugada.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/orquidea/" style="--cor:#C8457F"><div class="corpo"><span class="canal">Canal Orquídeas em Flor</span><h3>Orquídea Florindo o Ano Todo</h3><p class="resumo">Rega sem erro, luz certa, adubo, replante e o truque da noite fresca que faz a haste nova aparecer.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/autismo/" style="--cor:#2F7FA8"><div class="corpo"><span class="canal">Canal Mundo Atípico</span><h3>Autismo e TDAH: o Guia dos Pais</h3><p class="resumo">Reconheça os sinais, entenda a diferença entre os dois, saiba o caminho da avaliação e ajude seu filho em casa e na escola.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a></div>
     </section>
   </main>
 
@@ -77,16 +91,19 @@
     <div class="w"><span>© 2026 Diegola</span><span><a href="/ebooks/">E-books</a><a href="/promocoes/">Promoções</a><a href="https://t.me/diegolapromocoes" target="_blank" rel="noopener">Telegram</a></span></div>
   </footer>
 
-  <script src="/ebooks/vitrine.js?v=1" defer></script>
+  <script src="/ebooks/vitrine.js?v=2" defer></script>
   <script>
     // 6 fotos de ofertas reais com bom desconto no painel de promoções
     fetch("/data/ofertas.json").then(function (r) { return r.json(); }).then(function (j) {
       var l = (Array.isArray(j) ? j : (j.itens || j.ofertas || [])).filter(function (x) { return x.imagem && x.preco && x.precoDe; });
       var n = function (v) { return typeof v === "number" ? v : parseFloat(String(v).replace(/[^\d,]/g, "").replace(",", ".")); };
+      l = l.filter(function (x) { var d = 1 - n(x.preco) / n(x.precoDe); return d >= .15 && d <= .7; });
       l.sort(function (a, b) { return (1 - n(a.preco) / n(a.precoDe)) < (1 - n(b.preco) / n(b.precoDe)) ? 1 : -1; });
       var caixa = document.getElementById("vitrine-mini");
       caixa.innerHTML = l.slice(0, 6).map(function (x, i) {
-        return '<div class="item" style="animation-delay:' + (.45 + i * .07) + 's"><img src="' + String(x.imagem).replace(/"/g, "") + '" alt="" loading="lazy" referrerpolicy="no-referrer"></div>';
+        var off = Math.round((1 - n(x.preco) / n(x.precoDe)) * 100);
+        var valor = n(x.preco).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+        return '<a class="item" href="/promocoes/" style="animation-delay:' + (.45 + i * .07) + 's"><img src="' + String(x.imagem).replace(/"/g, "") + '" alt="" loading="lazy" referrerpolicy="no-referrer">' + (off >= 5 ? '<span class="off">-' + off + '%</span>' : "") + '<span class="valor">' + valor + '</span></a>';
       }).join("");
     }).catch(function () {});
   </script>

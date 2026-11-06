@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#010102">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Portal dos Canais</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%235e6ad2'/%3E%3Crect x='7' y='16' width='4' height='9' rx='2' fill='white'/%3E%3Crect x='14' y='11' width='4' height='14' rx='2' fill='white'/%3E%3Crect x='21' y='7' width='4' height='18' rx='2' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ ENTRADA ============ -->
+<main id="tela-senha" class="entrada">
+  <canvas id="fundo" aria-hidden="true"></canvas>
+  <div class="brilho" aria-hidden="true"></div>
+
+  <form id="form-senha" class="cofre" autocomplete="on">
+    <div class="marca anim" style="--i:0">
+      <svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
+        <rect class="logo-fundo" width="48" height="48" rx="12"/>
+        <rect class="logo-barra b1" x="11" y="24" width="6" height="13" rx="3"/>
+        <rect class="logo-barra b2" x="21" y="17" width="6" height="20" rx="3"/>
+        <rect class="logo-barra b3" x="31" y="11" width="6" height="26" rx="3"/>
+      </svg>
+    </div>
+    <h1 class="anim" style="--i:1">Portal dos Canais</h1>
+    <p class="lead anim" style="--i:2">Todos os seus canais, vídeos e vendas num só lugar.</p>
+
+    <label class="campo anim" style="--i:3">
+      <span class="campo-icone" aria-hidden="true">
+        <svg id="cadeado" viewBox="0 0 24 24"><path class="arco" d="M8 11V8a4 4 0 0 1 8 0v3"/><rect x="5" y="11" width="14" height="10" rx="2.5"/><circle cx="12" cy="16" r="1.4" class="furo"/></svg>
+      </span>
+      <input id="campo-senha" type="password" autocomplete="current-password" placeholder="Senha de acesso" required aria-label="Senha">
+      <button type="button" id="ver-senha" class="olho" aria-label="Mostrar senha">
+        <svg viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+      </button>
+    </label>
+
+    <div class="linha-opcoes anim" style="--i:4">
+      <label class="chave"><input id="lembrar" type="checkbox" checked><span class="trilho"><span class="bolinha"></span></span>Lembrar neste aparelho</label>
+    </div>
+
+    <button type="submit" id="entrar" class="botao-primario anim" style="--i:5">
+      <span class="txt">Entrar</span>
+      <svg class="seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      <span class="giro" aria-hidden="true"></span>
+    </button>
+    <p id="erro-senha" class="erro" role="alert" hidden>Senha errada.</p>
+
+    <ul class="selos anim" style="--i:6">
+      <li><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z" class="cheio"/></svg>YouTube</li>
+      <li><svg viewBox="0 0 24 24"><path d="M4 7h16l-1.5 11h-13z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>Kiwify</li>
+      <li><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>Criptografado</li>
+    </ul>
+  </form>
+</main>
+
+<!-- ============ PAINEL ============ -->
+<div id="painel" hidden>
+  <nav class="topo">
+    <div class="topo-dentro">
+      <div class="topo-marca">
+        <svg class="logo pequeno" viewBox="0 0 48 48" aria-hidden="true">
+          <rect class="logo-fundo" width="48" height="48" rx="12"/>
+          <rect class="logo-barra" x="11" y="24" width="6" height="13" rx="3"/>
+          <rect class="logo-barra" x="21" y="17" width="6" height="20" rx="3"/>
+          <rect class="logo-barra" x="31" y="11" width="6" height="26" rx="3"/>
+        </svg>
+        <span>Portal dos Canais</span>
+      </div>
+      <div class="periodo" role="group" aria-label="Período">
+        <span class="periodo-marcador" aria-hidden="true"></span>
+        <button data-dias="7">7 dias</button>
+        <button data-dias="28" class="ativo">28 dias</button>
+        <button data-dias="90">90 dias</button>
+      </div>
+      <div class="topo-dir">
+        <span id="status-ao-vivo" class="ao-vivo"><span class="pulso"></span><span id="atualizado"></span></span>
+        <button id="sair" class="botao-sec" aria-label="Sair">
+          <svg viewBox="0 0 24 24"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 17l5-5-5-5M15 12H4"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="conteudo">
+    <header class="ola surge">
+      <p class="sobrancelha" id="sobrancelha"></p>
+      <h2 id="saudacao"></h2>
+      <p class="ola-resumo" id="resumo"></p>
+    </header>
+
+    <div id="avisos" class="avisos surge" hidden></div>
+
+    <section class="kpis" id="kpis"></section>
+
+    <section class="canais-cards" id="canais-cards"></section>
+
+    <section class="painel-bloco surge">
+      <div class="bloco-cab">
+        <div><h3>Canais lado a lado</h3><p class="sub">O melhor de cada coluna fica marcado.</p></div>
+      </div>
+      <div class="rolar"><table id="tab-canais" class="tabela"></table></div>
+    </section>
+
+    <section class="duas">
+      <div class="painel-bloco surge">
+        <div class="bloco-cab"><div><h3>Visualizações por dia</h3><div id="leg-views" class="legenda"></div></div></div>
+        <div id="graf-views" class="grafico"></div>
+      </div>
+      <div class="painel-bloco surge">
+        <div class="bloco-cab"><div><h3>Faturamento líquido</h3><p class="sub">Por canal, no período.</p></div></div>
+        <div id="graf-receita" class="barras"></div>
+      </div>
+    </section>
+
+    <section class="painel-bloco surge">
+      <div class="bloco-cab">
+        <div><h3>Vídeos</h3><p class="sub">Números desde a publicação. Toque na nota de SEO para ver o que falta.</p></div>
+        <div class="filtros" id="filtro-canal" role="group" aria-label="Filtrar canal"></div>
+      </div>
+      <div class="rolar"><table id="tab-videos" class="tabela"></table></div>
+    </section>
+
+    <section class="painel-bloco surge">
+      <div class="bloco-cab">
+        <div><h3>Vendas recentes</h3><p class="sub">Sem dados do comprador. O vídeo aparece quando o link da descrição leva <code>?src=ID_DO_VIDEO</code>.</p></div>
+      </div>
+      <div class="rolar"><table id="tab-vendas" class="tabela"></table></div>
+    </section>
+
+    <footer class="rodape">Portal dos Canais · dados protegidos com criptografia AES-256 no seu navegador</footer>
+  </div>
+
+  <div id="dica" class="dica" hidden></div>
+</div>
+
+<div id="cortina" class="cortina" aria-hidden="true"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

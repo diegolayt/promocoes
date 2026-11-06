@@ -1,5 +1,5 @@
 /* Visual da página inicial (diegola.com.br) e da vitrine de e-books.
-   Mesma linguagem do Diegola Promoções: Albert Sans, carvão #171a20, azul #3e6ae1. */
+   Mesma linguagem do Diegola Promoções (06/11/2026): topo laranja, Poppins nos títulos, cores quentes. */
 :root {
   --fundo: #ffffff;
   --superficie: #f4f4f4;
@@ -7,8 +7,11 @@
   --texto: #171a20;
   --texto-suave: #5c5e62;
   --apagado: #8e8e8e;
-  --azul: #3e6ae1;
-  --azul-forte: #3457b1;
+  --azul: #ff5a1f;
+  --azul-forte: #e8440f;
+  --amarelo: #ffd000;
+  --vermelho: #e5202e;
+  --forte: "Poppins", "Albert Sans", -apple-system, "Segoe UI", Arial, sans-serif;
   --carvao: #171a20;
   --facil: cubic-bezier(.16, 1, .3, 1);
   --fonte: "Albert Sans", -apple-system, "Segoe UI", Arial, sans-serif;
@@ -17,23 +20,24 @@
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--fundo); color: var(--texto); font: 400 16px/1.55 var(--fonte); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
 a { color: inherit; }
-h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 1.08; }
+h1, h2, h3 { margin: 0; font-family: var(--forte); font-weight: 700; letter-spacing: -0.02em; line-height: 1.08; }
 .w { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
 /* topo */
-.topo { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, .86); backdrop-filter: blur(14px) saturate(160%); -webkit-backdrop-filter: blur(14px) saturate(160%); border-bottom: 1px solid transparent; transition: border-color .3s; }
-.topo.rolou { border-bottom-color: var(--borda); }
+.topo { position: sticky; top: 0; z-index: 20; background: linear-gradient(90deg, #ff7a00, #ff4a1c 55%, #f0262b); color: #fff; box-shadow: 0 2px 10px -4px rgba(0, 0, 0, .3); }
 .topo .w { height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.marca { font-weight: 500; letter-spacing: .28em; font-size: 15px; text-decoration: none; }
+.marca { font: 800 21px/1 var(--forte); letter-spacing: .02em; text-decoration: none; }
 .topo nav { display: flex; gap: 4px; }
-.topo nav a { text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 6px; transition: background .25s; }
-.topo nav a:hover { background: rgba(23, 26, 32, .06); }
-.topo nav a.ativo { background: rgba(23, 26, 32, .08); }
+.topo nav a { text-decoration: none; font: 600 14px var(--forte); padding: 8px 14px; border-radius: 999px; transition: background .25s; }
+.topo nav a:hover { background: rgba(255, 255, 255, .18); }
+.topo nav a.ativo { background: var(--amarelo); color: #1d1d1f; }
 
 /* botões */
-.bt { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 26px; border-radius: 6px; font: 500 14px var(--fonte); text-decoration: none; transition: background .3s var(--facil), transform .2s, color .3s; border: 0; cursor: pointer; }
+.bt { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 26px; border-radius: 999px; font: 600 15px var(--forte); text-decoration: none; transition: background .3s var(--facil), transform .2s, color .3s; border: 0; cursor: pointer; }
 .bt:active { transform: scale(.98); }
-.bt.azul { background: var(--azul); color: #fff; }
+.bt.azul { background: var(--azul); color: #fff; box-shadow: 0 10px 22px -12px var(--azul); }
+.bt.amarelo { background: var(--amarelo); color: #1d1d1f; box-shadow: 0 10px 24px -12px rgba(0, 0, 0, .5); }
+.bt.amarelo:hover { background: #ffe14d; }
 .bt.azul:hover { background: var(--azul-forte); }
 .bt.claro { background: rgba(255, 255, 255, .92); color: var(--carvao); }
 .bt.claro:hover { background: #fff; }
@@ -57,10 +61,11 @@ h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 
 .painel h1, .painel h2 { font-size: clamp(34px, 4.4vw, 58px); margin: 14px 0 14px; }
 .painel p { font-size: 17px; max-width: 460px; margin: 0; }
 .painel .acoes { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
-.p-ebooks { background: linear-gradient(160deg, #f7f5f2 0%, #efece7 100%); }
+.p-ebooks { background: linear-gradient(160deg, #fff6e6 0%, #ffe3c7 100%); }
 .p-ebooks p { color: var(--texto-suave); }
-.p-promo { background: radial-gradient(120% 80% at 80% 0%, #2a3140 0%, #171a20 55%, #0e1013 100%); color: #f4f4f4; }
-.p-promo p { color: #a2a4a8; }
+.p-promo { background: radial-gradient(60% 55% at 90% 5%, rgba(255, 208, 0, .55), transparent 70%), linear-gradient(160deg, #ff8a00 0%, #ff5a1f 45%, #f0262b 100%); color: #fff; }
+.p-promo p { color: #fff1e6; }
+.p-promo .olho { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: #1d1d1f; color: var(--amarelo); opacity: 1; }
 
 /* capa de livro: foto + título por cima (as capas vêm sem texto) */
 .livro { position: relative; aspect-ratio: 3/4; border-radius: 3px 9px 9px 3px; overflow: hidden; box-shadow: -10px 18px 38px -14px rgba(0, 0, 0, .5); background: #ddd; }
@@ -78,9 +83,12 @@ h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 
 .leque .livro:hover { z-index: 5; transform: translateX(var(--x)) rotate(0) translateY(-18px) scale(1.04); }
 
 .vitrine-mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-.vitrine-mini .item { background: #fff; border-radius: 10px; aspect-ratio: 1; display: grid; place-items: center; padding: 12px; opacity: 0; animation: sobe .9s var(--facil) forwards; }
-.vitrine-mini img { max-width: 100%; max-height: 100%; object-fit: contain; }
-.lojas { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: #8b8d91; margin-top: 18px; }
+.vitrine-mini .item { position: relative; background: #fff; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 14px 8px 8px; opacity: 0; animation: sobe .9s var(--facil) forwards; box-shadow: 0 14px 28px -16px rgba(90, 10, 0, .6); overflow: hidden; text-decoration: none; }
+.vitrine-mini img { width: 100%; height: clamp(72px, 8vw, 120px); object-fit: contain; }
+.vitrine-mini .off { position: absolute; top: 0; left: 0; padding: 4px 8px; border-radius: 0 0 10px 0; background: var(--vermelho); color: #fff; font: 700 12.5px var(--forte); }
+.vitrine-mini .valor { text-align: center; color: var(--azul-forte); font: 700 14px var(--forte); }
+.lojas { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12.5px; font-weight: 600; margin-top: 18px; }
+.lojas span { padding: 4px 10px; border-radius: 999px; background: rgba(255, 255, 255, .2); color: #fff; }
 
 /* ===== cards de e-book ===== */
 .secao { padding: clamp(56px, 8vw, 96px) 0; }
@@ -102,7 +110,8 @@ h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 
 .ebook .rodape-card { margin-top: auto; padding-top: 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px; }
 .ebook .preco b { display: block; font-size: 20px; font-weight: 500; }
 .ebook .preco small { color: var(--apagado); font-size: 12.5px; }
-.ebook .ver { font-size: 14px; font-weight: 500; color: var(--azul); white-space: nowrap; }
+.ebook .ver { font: 600 14px var(--forte); color: var(--azul-forte); white-space: nowrap; }
+.ebook .preco b { font-family: var(--forte); font-weight: 700; color: var(--azul-forte); }
 
 .confianca { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 28px; }
 .confianca div { background: var(--superficie); border-radius: 12px; padding: 18px; font-size: 14px; color: var(--texto-suave); }
@@ -114,9 +123,9 @@ h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 
 .cabeca-ebooks h1 { font-size: clamp(36px, 5.4vw, 64px); margin: 14px auto 16px; max-width: 820px; }
 .cabeca-ebooks p { color: var(--texto-suave); font-size: 18px; max-width: 620px; margin: 0 auto; }
 
-.faixa-promo { margin-top: 12px; border-radius: 16px; background: var(--carvao); color: #f4f4f4; padding: clamp(28px, 4vw, 44px); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.faixa-promo { margin-top: 12px; border-radius: 16px; background: linear-gradient(100deg, #e5202e, #ff5a1f 70%, #ff8a00); color: #fff; padding: clamp(28px, 4vw, 44px); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
 .faixa-promo h2 { font-size: clamp(24px, 2.8vw, 32px); }
-.faixa-promo p { margin: 8px 0 0; color: #a2a4a8; }
+.faixa-promo p { margin: 8px 0 0; color: #fff1e6; }
 
 footer.rodape { padding: 40px 0 56px; color: var(--apagado); font-size: 13px; }
 footer.rodape .w { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
@@ -135,7 +144,6 @@ footer.rodape a:hover { color: var(--texto); }
 @media (max-width: 560px) {
   .grade-ebooks { grid-template-columns: 1fr; }
   .topo nav a { padding: 8px 10px; }
-  .marca { letter-spacing: .2em; }
   .leque { height: 200px; }
   .confianca { grid-template-columns: 1fr 1fr; }
   footer.rodape a { margin: 0 16px 0 0; }

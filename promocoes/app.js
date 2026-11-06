@@ -588,12 +588,12 @@ function cartao(oferta) {
   if (oferta.imagem) {
     foto.append(el("img", { src: oferta.imagem, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer", onerror: (evento) => evento.target.replaceWith(el("img", { class: "foto-reserva", src: loja.logo, alt: "" })) }));
   } else foto.append(el("img", { class: "foto-reserva", src: loja.logo, alt: "" }));
-  if (oferta.desconto >= 5) foto.append(el("span", { class: "selo-desconto" }, `−${oferta.desconto}%`));
+  if (oferta.desconto >= 5) foto.append(el("span", { class: "selo-desconto" }, `−${oferta.desconto}%`, el("small", {}, "OFF")));
 
   const etiquetas = el("div", { class: "etiquetas" });
   if (oferta.cupom) etiquetas.append(el("button", { class: "cupom", type: "button", title: "Copiar cupom", onclick: () => copiarCupom(oferta.cupom) }, `Cupom ${oferta.cupom}`));
   if (oferta.lojaOficial) etiquetas.append(el("span", { class: "etiqueta oficial" }, "Loja oficial"));
-  if (oferta.nota >= 4) etiquetas.append(el("span", { class: "etiqueta nota" }, `Nota ${oferta.nota.toFixed(1).replace(".", ",")}${oferta.avaliacoes >= 1000 ? ` (${Math.floor(oferta.avaliacoes / 1000)} mil)` : ""}`));
+  if (oferta.nota >= 4) etiquetas.append(el("span", { class: "etiqueta nota", title: "Nota dos compradores" }, el("b", {}, "★"), ` ${oferta.nota.toFixed(1).replace(".", ",")}${oferta.avaliacoes >= 1000 ? ` (${Math.floor(oferta.avaliacoes / 1000)} mil)` : ""}`));
   if (oferta.freteGratis) etiquetas.append(el("span", { class: "etiqueta frete" }, "Frete grátis"));
   if (oferta.vendidos >= 100) etiquetas.append(el("span", { class: "etiqueta" }, `${oferta.vendidos >= 1000 ? `${Math.floor(oferta.vendidos / 1000)} mil+` : `${oferta.vendidos}+`} vendidos`));
 
@@ -611,6 +611,8 @@ function cartao(oferta) {
       el("div", { class: "precos" },
         el("span", { class: "preco" }, brl.format(oferta.preco)),
         oferta.precoDe && el("span", { class: "preco-de" }, brl.format(oferta.precoDe)),
+        // Economia em reais: mais fácil de entender que só a porcentagem.
+        oferta.precoDe && oferta.desconto >= 5 && el("span", { class: "economia" }, `Você economiza ${brl.format(oferta.precoDe - oferta.preco)}`),
       ),
       // Preço que não vem de uma API ao vivo aparece com a hora em que foi visto.
       oferta.precoEm > 0 && el("small", { class: "preco-em" }, `Preço em ${new Date(oferta.precoEm).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).replace(",", " às")}, pode mudar`),
@@ -629,8 +631,8 @@ function ficha(rotulo, ativa, aoClicar, extras = {}) {
   );
 }
 
-function blocoLoja(nome, logo, total, ativa, aoClicar, desativada = false) {
-  return el("button", { class: "loja-bloco", type: "button", "aria-pressed": String(ativa), onclick: aoClicar, disabled: desativada },
+function blocoLoja(nome, logo, total, ativa, aoClicar, desativada = false, cor = "") {
+  return el("button", { class: "loja-bloco", type: "button", "aria-pressed": String(ativa), onclick: aoClicar, disabled: desativada, style: cor && `--cor:${cor}` },
     el("img", { src: logo, alt: "", width: "44", height: "44", loading: "lazy", decoding: "async" }),
     el("strong", {}, nome),
     el("small", {}, total ? `${total} ${total === 1 ? "oferta" : "ofertas"}` : "sem ofertas agora"),
@@ -724,7 +726,7 @@ function desenhar() {
     // Loja sem oferta no momento nem aparece (a não ser a que está escolhida).
     ...Object.entries(LOJAS).map(([chave, loja]) => {
       const total = paraLojas.filter((o) => o.loja === chave).length;
-      return (total || estado.loja === chave) && blocoLoja(loja.nome, loja.logo, total, estado.loja === chave, () => escolherLoja(estado.loja === chave ? "" : chave));
+      return (total || estado.loja === chave) && blocoLoja(loja.nome, loja.logo, total, estado.loja === chave, () => escolherLoja(estado.loja === chave ? "" : chave), false, loja.cor);
     }).filter(Boolean),
   );
 
@@ -738,6 +740,22 @@ function desenhar() {
 
   const lista = ordenadas(filtradas());
   const semFiltro = !estado.loja && !estado.categoria && !estado.busca && !estado.oficial && estado.ordem === "destaque";
+
+  // Categorias em bolinhas: cada uma com a foto da oferta mais procurada dela.
+  const atalhos = nomes.filter((nome) => nome !== "Outros").map((nome) => {
+    const daCategoria = todas.filter((o) => o.categoria === nome && o.imagem);
+    const capa = [...daCategoria].sort((a, b) => procura(b) - procura(a))[0];
+    return capa && { nome, capa, total: todas.filter((o) => o.categoria === nome).length };
+  }).filter(Boolean).sort((a, b) => b.total - a.total);
+  $("atalhos-bloco").hidden = atalhos.length < 3;
+  $("atalhos").replaceChildren(...atalhos.map(({ nome, capa, total }) => el("button", {
+    class: "atalho", type: "button", "aria-pressed": String(estado.categoria === nome),
+    onclick: () => { definir({ categoria: estado.categoria === nome ? "" : nome }); irPara("ofertas"); },
+  },
+    el("span", { class: "atalho-foto" }, el("img", { src: capa.imagem, alt: "", loading: "lazy", decoding: "async", referrerpolicy: "no-referrer", onerror: (evento) => { evento.target.src = LOJAS[capa.loja].logo; } })),
+    el("strong", {}, nome),
+    el("small", {}, `${total} ${total === 1 ? "oferta" : "ofertas"}`),
+  )));
 
   // Cupons válidos agora, cada um com botão de copiar e atalho para as ofertas em que vale.
   $("cupons-bloco").hidden = !estado.cupons.length;
@@ -760,8 +778,25 @@ function desenhar() {
     );
   }));
 
+  // Prateleira de achados baratos (sugestão do Codex): até R$ 100 com desconto honesto.
+  const baratos = semFiltro
+    ? (() => {
+      const bons = todas.filter((o) => o.imagem && o.preco <= 100 && o.desconto >= 20 && o.desconto <= 70 && o.categoria !== "Mercado")
+        .sort((a, b) => procura(b) - procura(a)).slice(0, 60);
+      const cats = [...new Set(bons.map((o) => o.categoria))];
+      return revezar(cats.map((c) => bons.filter((o) => o.categoria === c))).slice(0, 12);
+    })()
+    : [];
+  const prateleiraBarata = baratos.length >= 4 && el("section", { class: "vitrine" },
+    el("div", { class: "titulo-secao" },
+      el("h2", {}, "Achados até R$ 100"),
+      el("button", { class: "link", type: "button", onclick: () => { definir({ ordem: "menor" }); $("ordem").value = "menor"; irPara("ofertas"); } }, "Ver mais baratos"),
+    ),
+    el("div", { class: "trilho" }, ...baratos.map(cartao)),
+  );
+
   // Página inicial: uma faixa por loja, na ordem definida em LOJAS.
-  $("vitrines").replaceChildren(...(semFiltro ? porLoja(todas).filter((grupo) => grupo.length >= 4).map((grupo) => {
+  $("vitrines").replaceChildren(...(prateleiraBarata ? [prateleiraBarata] : []), ...(semFiltro ? porLoja(todas).filter((grupo) => grupo.length >= 4).map((grupo) => {
     const loja = LOJAS[grupo[0].loja];
     return el("section", { class: "vitrine" },
       el("div", { class: "titulo-secao" },
@@ -778,6 +813,8 @@ function desenhar() {
     : [];
   $("destaques-bloco").hidden = destaques.length < 4;
   $("destaques").replaceChildren(...destaques.map(cartao));
+  // Sem contagem regressiva inventada: mostra quando a seleção foi atualizada de verdade.
+  if (destaques.length) $("relampago-quando").textContent = `atualizado ${haQuanto(Math.max(...destaques.map((o) => o.publicadoEm)))}`;
 
   $("titulo-lista").textContent = semFiltro ? "Todas as ofertas" : `${lista.length} ${lista.length === 1 ? "oferta encontrada" : "ofertas encontradas"}`;
   $("grade").replaceChildren(...lista.slice(0, estado.visiveis).map(cartao));

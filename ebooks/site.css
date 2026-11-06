@@ -1,0 +1,146 @@
+/* Visual da página inicial (diegola.com.br) e da vitrine de e-books.
+   Mesma linguagem do Diegola Promoções: Albert Sans, carvão #171a20, azul #3e6ae1. */
+:root {
+  --fundo: #ffffff;
+  --superficie: #f4f4f4;
+  --borda: #e2e3e3;
+  --texto: #171a20;
+  --texto-suave: #5c5e62;
+  --apagado: #8e8e8e;
+  --azul: #3e6ae1;
+  --azul-forte: #3457b1;
+  --carvao: #171a20;
+  --facil: cubic-bezier(.16, 1, .3, 1);
+  --fonte: "Albert Sans", -apple-system, "Segoe UI", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font: 400 16px/1.55 var(--fonte); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+a { color: inherit; }
+h1, h2, h3 { margin: 0; font-weight: 500; letter-spacing: -0.02em; line-height: 1.08; }
+.w { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* topo */
+.topo { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, .86); backdrop-filter: blur(14px) saturate(160%); -webkit-backdrop-filter: blur(14px) saturate(160%); border-bottom: 1px solid transparent; transition: border-color .3s; }
+.topo.rolou { border-bottom-color: var(--borda); }
+.topo .w { height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.marca { font-weight: 500; letter-spacing: .28em; font-size: 15px; text-decoration: none; }
+.topo nav { display: flex; gap: 4px; }
+.topo nav a { text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 6px; transition: background .25s; }
+.topo nav a:hover { background: rgba(23, 26, 32, .06); }
+.topo nav a.ativo { background: rgba(23, 26, 32, .08); }
+
+/* botões */
+.bt { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 26px; border-radius: 6px; font: 500 14px var(--fonte); text-decoration: none; transition: background .3s var(--facil), transform .2s, color .3s; border: 0; cursor: pointer; }
+.bt:active { transform: scale(.98); }
+.bt.azul { background: var(--azul); color: #fff; }
+.bt.azul:hover { background: var(--azul-forte); }
+.bt.claro { background: rgba(255, 255, 255, .92); color: var(--carvao); }
+.bt.claro:hover { background: #fff; }
+.bt.linha { background: transparent; color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .55); }
+.bt.linha:hover { background: rgba(255, 255, 255, .1); }
+.bt.cinza { background: var(--superficie); color: var(--carvao); }
+.bt.cinza:hover { background: #e8e8e8; }
+.seta { transition: transform .3s var(--facil); }
+.bt:hover .seta { transform: translateX(3px); }
+
+/* entrada animada */
+.sobe { opacity: 0; transform: translateY(18px); animation: sobe .9s var(--facil) forwards; animation-delay: var(--d, 0s); }
+@keyframes sobe { to { opacity: 1; transform: none; } }
+.revela { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--facil), transform .9s var(--facil); }
+.revela.visivel { opacity: 1; transform: none; }
+
+/* ===== página inicial: dois painéis ===== */
+.paineis { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 12px; min-height: calc(100vh - 60px); min-height: calc(100dvh - 60px); }
+.painel { position: relative; overflow: hidden; border-radius: 16px; padding: clamp(28px, 4vw, 56px); display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 520px; }
+.painel .olho { font-size: 13px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; opacity: .7; }
+.painel h1, .painel h2 { font-size: clamp(34px, 4.4vw, 58px); margin: 14px 0 14px; }
+.painel p { font-size: 17px; max-width: 460px; margin: 0; }
+.painel .acoes { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
+.p-ebooks { background: linear-gradient(160deg, #f7f5f2 0%, #efece7 100%); }
+.p-ebooks p { color: var(--texto-suave); }
+.p-promo { background: radial-gradient(120% 80% at 80% 0%, #2a3140 0%, #171a20 55%, #0e1013 100%); color: #f4f4f4; }
+.p-promo p { color: #a2a4a8; }
+
+/* capa de livro: foto + título por cima (as capas vêm sem texto) */
+.livro { position: relative; aspect-ratio: 3/4; border-radius: 3px 9px 9px 3px; overflow: hidden; box-shadow: -10px 18px 38px -14px rgba(0, 0, 0, .5); background: #ddd; }
+.livro::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 7px; background: linear-gradient(90deg, rgba(0, 0, 0, .25), rgba(255, 255, 255, .25) 60%, transparent); z-index: 2; }
+.livro img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.livro span { position: absolute; inset: auto 0 0 0; padding: 30% 9% 9%; color: #fff; font-weight: 500; line-height: 1.12; letter-spacing: -0.01em; background: linear-gradient(transparent, rgba(0, 0, 0, .82)); font-size: var(--tam, 15px); z-index: 1; }
+
+.leque { position: relative; height: 250px; margin: 0 auto; width: 100%; max-width: 560px; }
+.leque .livro { position: absolute; bottom: 18px; left: 50%; width: 23.5%; --tam: clamp(11px, 1.05vw, 14px); transform-origin: 50% 100%; opacity: 0; animation: abreLeque 1.1s var(--facil) forwards; transition: transform .5s var(--facil); }
+.leque .livro:nth-child(1) { --r: -7deg; --x: -206%; animation-delay: .35s; }
+.leque .livro:nth-child(2) { --r: -2.5deg; --x: -103%; animation-delay: .45s; bottom: 30px; }
+.leque .livro:nth-child(3) { --r: 2.5deg; --x: 3%; animation-delay: .55s; bottom: 30px; }
+.leque .livro:nth-child(4) { --r: 7deg; --x: 106%; animation-delay: .65s; }
+@keyframes abreLeque { from { opacity: 0; transform: translateX(-50%) rotate(0) translateY(30px); } to { opacity: 1; transform: translateX(var(--x)) rotate(var(--r)); } }
+.leque .livro:hover { z-index: 5; transform: translateX(var(--x)) rotate(0) translateY(-18px) scale(1.04); }
+
+.vitrine-mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.vitrine-mini .item { background: #fff; border-radius: 10px; aspect-ratio: 1; display: grid; place-items: center; padding: 12px; opacity: 0; animation: sobe .9s var(--facil) forwards; }
+.vitrine-mini img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.lojas { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: #8b8d91; margin-top: 18px; }
+
+/* ===== cards de e-book ===== */
+.secao { padding: clamp(56px, 8vw, 96px) 0; }
+.secao-cab { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; }
+.secao-cab h2 { font-size: clamp(30px, 3.6vw, 44px); }
+.secao-cab p { margin: 10px 0 0; color: var(--texto-suave); font-size: 17px; max-width: 560px; }
+.grade-ebooks { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.ebook { display: flex; flex-direction: column; text-decoration: none; border-radius: 16px; background: var(--superficie); overflow: hidden; transition: transform .45s var(--facil), box-shadow .45s var(--facil); }
+.ebook:hover { transform: translateY(-6px); box-shadow: 0 26px 50px -24px rgba(23, 26, 32, .35); }
+.ebook .capa-caixa { position: relative; aspect-ratio: 4/4.3; display: grid; place-items: center; background: radial-gradient(90% 70% at 50% 30%, color-mix(in srgb, var(--cor) 26%, #fff) 0%, color-mix(in srgb, var(--cor) 10%, #f4f4f4) 70%); overflow: hidden; }
+.ebook .capa-caixa .livro { width: 58%; --tam: 17px; transform: rotate(-3deg); transition: transform .6s var(--facil); }
+.ebook:hover .capa-caixa .livro { transform: rotate(0) scale(1.05) translateY(-4px); }
+.ebook .tema { position: absolute; top: 14px; left: 14px; background: rgba(255, 255, 255, .9); font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: 99px; color: var(--carvao); display: inline-flex; align-items: center; gap: 6px; }
+.ebook .tema i { width: 8px; height: 8px; border-radius: 50%; background: var(--cor); }
+.ebook .corpo { padding: 20px 20px 22px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.ebook .canal { font-size: 13px; color: var(--apagado); }
+.ebook h3 { font-size: 21px; line-height: 1.2; }
+.ebook .resumo { font-size: 14.5px; color: var(--texto-suave); margin: 0; }
+.ebook .rodape-card { margin-top: auto; padding-top: 14px; display: flex; justify-content: space-between; align-items: flex-end; gap: 10px; }
+.ebook .preco b { display: block; font-size: 20px; font-weight: 500; }
+.ebook .preco small { color: var(--apagado); font-size: 12.5px; }
+.ebook .ver { font-size: 14px; font-weight: 500; color: var(--azul); white-space: nowrap; }
+
+.confianca { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 28px; }
+.confianca div { background: var(--superficie); border-radius: 12px; padding: 18px; font-size: 14px; color: var(--texto-suave); }
+.confianca b { display: block; color: var(--texto); font-weight: 500; font-size: 15px; margin-bottom: 2px; }
+.confianca svg { width: 22px; height: 22px; fill: none; stroke: var(--azul); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; margin-bottom: 10px; display: block; }
+
+.cabeca-ebooks { padding: clamp(48px, 7vw, 88px) 0 8px; text-align: center; }
+.cabeca-ebooks .olho { font-size: 13px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--azul); }
+.cabeca-ebooks h1 { font-size: clamp(36px, 5.4vw, 64px); margin: 14px auto 16px; max-width: 820px; }
+.cabeca-ebooks p { color: var(--texto-suave); font-size: 18px; max-width: 620px; margin: 0 auto; }
+
+.faixa-promo { margin-top: 12px; border-radius: 16px; background: var(--carvao); color: #f4f4f4; padding: clamp(28px, 4vw, 44px); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.faixa-promo h2 { font-size: clamp(24px, 2.8vw, 32px); }
+.faixa-promo p { margin: 8px 0 0; color: #a2a4a8; }
+
+footer.rodape { padding: 40px 0 56px; color: var(--apagado); font-size: 13px; }
+footer.rodape .w { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+footer.rodape a { text-decoration: none; margin-left: 16px; }
+footer.rodape a:hover { color: var(--texto); }
+
+@media (max-width: 1000px) {
+  .grade-ebooks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .confianca { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 820px) {
+  .paineis { grid-template-columns: 1fr; min-height: 0; }
+  .painel { min-height: 0; }
+  .leque { height: 240px; }
+}
+@media (max-width: 560px) {
+  .grade-ebooks { grid-template-columns: 1fr; }
+  .topo nav a { padding: 8px 10px; }
+  .marca { letter-spacing: .2em; }
+  .leque { height: 200px; }
+  .confianca { grid-template-columns: 1fr 1fr; }
+  footer.rodape a { margin: 0 16px 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
+  .revela { opacity: 1; transform: none; }
+}

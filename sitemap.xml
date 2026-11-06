@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lista de páginas que o Google deve conhecer. Página nova no site = nova entrada aqui. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://diegola.com.br/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/promocoes/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/ebooks/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/cachorro/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/gato/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/orquidea/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://diegola.com.br/autismo/</loc><lastmod>2026-11-06</lastmod></url>
+</urlset>

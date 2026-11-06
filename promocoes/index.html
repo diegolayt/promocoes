@@ -3,75 +3,108 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diegola Promoções: as melhores ofertas do dia</title>
-  <meta name="description" content="Ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress: produtos bem avaliados, lojas oficiais e desconto de verdade, atualizadas o dia todo.">
+  <title>Promoções de hoje: Amazon, Mercado Livre, Shopee e AliExpress | Diegola</title>
+  <meta name="description" content="Promoções do dia com desconto de verdade na Amazon, Mercado Livre, Shopee e AliExpress: cupons, frete grátis, lojas oficiais e produtos bem avaliados, atualizados a cada 15 minutos.">
+  <link rel="canonical" href="https://diegola.com.br/promocoes/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Diegola Promoções">
-  <meta property="og:title" content="Diegola Promoções: as melhores ofertas do dia">
-  <meta property="og:description" content="Ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress, atualizadas o dia todo.">
-  <meta name="theme-color" content="#171a20">
+  <meta property="og:url" content="https://diegola.com.br/promocoes/">
+  <meta property="og:title" content="Promoções de hoje com desconto de verdade | Diegola">
+  <meta property="og:description" content="Cupons, frete grátis e ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress, atualizadas o dia todo.">
+  <meta property="og:image" content="https://diegola.com.br/assets/logo-192.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#ff5a1f">
   <link rel="icon" type="image/png" href="../assets/logo-64.png">
   <link rel="apple-touch-icon" href="../assets/logo-192.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","@id":"https://diegola.com.br/#org","name":"Diegola","url":"https://diegola.com.br/","logo":"https://diegola.com.br/assets/logo-192.png","sameAs":["https://t.me/diegolapromocoes"]},
+    {"@type":"WebSite","@id":"https://diegola.com.br/#site","name":"Diegola","url":"https://diegola.com.br/","publisher":{"@id":"https://diegola.com.br/#org"},"inLanguage":"pt-BR",
+     "potentialAction":{"@type":"SearchAction","target":"https://diegola.com.br/promocoes/?q={search_term_string}","query-input":"required name=search_term_string"}},
+    {"@type":"CollectionPage","name":"Promoções de hoje","url":"https://diegola.com.br/promocoes/","isPartOf":{"@id":"https://diegola.com.br/#site"},"inLanguage":"pt-BR",
+     "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Diegola","item":"https://diegola.com.br/"},{"@type":"ListItem","position":2,"name":"Promoções","item":"https://diegola.com.br/promocoes/"}]}}
+  ]}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,800&display=swap">
   <script>
     // Aplica o tema salvo antes da primeira pintura para não piscar.
     try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=28">
+  <link rel="stylesheet" href="styles.css?v=40">
 </head>
 <body>
   <header id="topo" class="topo">
     <div class="topo-linha">
-      <a class="marca" href="./" aria-label="Diegola Promoções, início">DIEGOLA</a>
+      <a class="marca" href="/" aria-label="Diegola, início">DIEGOLA<small>promoções</small></a>
+      <button id="abrir-busca" class="topo-busca" type="button" aria-label="Buscar ofertas">
+        <span>Buscar air fryer, fone, SSD, tênis…</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
       <nav class="topo-links" aria-label="Seções">
-        <a href="#ofertas">Ofertas</a>
+        <a href="#destaques-bloco">Relâmpago</a>
         <a href="#cupons-bloco">Cupons</a>
-        <a href="#lojas-bloco">Lojas</a>
-        <a href="#destaques-bloco">Descontos</a>
+        <a href="/ebooks/">E-books</a>
       </nav>
       <div class="topo-acoes">
-        <button id="abrir-busca" class="icone" type="button" aria-label="Buscar ofertas">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        </button>
         <button id="tema" class="icone" type="button" aria-label="Alternar tema claro/escuro">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
         </button>
-        <a id="telegram-topo" class="botao-nav" target="_blank" rel="noopener">Entrar no grupo</a>
+        <a id="telegram-topo" class="botao-nav" target="_blank" rel="noopener">Grupo<span> no Telegram</span></a>
       </div>
     </div>
   </header>
 
+  <div class="faixa-viva" aria-label="Destaques do site">
+    <div class="faixa-trilha">
+      <span>Ofertas novas a cada 15 minutos</span><span>Cupons de desconto atualizados</span><span>Frete grátis em muitos produtos</span><span>Só lojas bem avaliadas</span><span>Amazon · Mercado Livre · Shopee · AliExpress</span>
+      <span aria-hidden="true">Ofertas novas a cada 15 minutos</span><span aria-hidden="true">Cupons de desconto atualizados</span><span aria-hidden="true">Frete grátis em muitos produtos</span><span aria-hidden="true">Só lojas bem avaliadas</span><span aria-hidden="true">Amazon · Mercado Livre · Shopee · AliExpress</span>
+    </div>
+  </div>
+
   <section class="palco" aria-label="Ofertas em destaque">
+    <div class="palco-texto">
+      <span class="palco-selo"><i></i>Ao vivo</span>
+      <h1>As melhores promoções de hoje</h1>
+      <p id="resumo" class="resumo" aria-live="polite">Carregando ofertas…</p>
+    </div>
     <div id="anel-cena" class="anel-cena" aria-hidden="true">
       <div id="anel" class="anel"></div>
     </div>
-    <div class="palco-texto">
-      <h1>As melhores ofertas do dia</h1>
-      <p id="resumo" class="resumo" aria-live="polite">Carregando ofertas…</p>
+    <div>
+      <div class="palco-acoes">
+        <a class="botao amarelo" href="#destaques-bloco">Ver ofertas relâmpago</a>
+        <a id="telegram-palco" class="botao secundario" target="_blank" rel="noopener">Entrar no grupo</a>
+      </div>
+      <p class="palco-dica">Arraste para girar · toque em um produto para abrir</p>
     </div>
-    <div class="palco-acoes">
-      <a class="botao primario" href="#ofertas">Ver ofertas</a>
-      <a id="telegram-palco" class="botao secundario" target="_blank" rel="noopener">Entrar no grupo</a>
-    </div>
-    <p class="palco-dica">Arraste para girar · toque em um produto para abrir</p>
   </section>
 
   <section class="garantias" aria-label="Como escolhemos">
     <div class="largura garantias-grade">
-      <div><strong>Nota alta</strong><span>Só produtos bem avaliados e com muitas vendas</span></div>
-      <div><strong>Loja oficial</strong><span>Prioridade para quem vende com garantia</span></div>
-      <div><strong>Desconto real</strong><span>Preço inflado para parecer promoção fica de fora</span></div>
+      <div><i><svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></i><strong>Nota alta</strong><span>Bem avaliados e com muitas vendas</span></div>
+      <div><i><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></i><strong>Loja oficial</strong><span>Prioridade pra quem dá garantia</span></div>
+      <div><i><svg viewBox="0 0 24 24"><path d="M20 12 12 20l-8-8V4h8z"/><circle cx="8.5" cy="8.5" r="1.5"/></svg></i><strong>Desconto real</strong><span>Preço inflado fica de fora</span></div>
+      <div><i><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></i><strong>Sempre novo</strong><span>Atualizado o dia inteiro</span></div>
     </div>
   </section>
 
   <main class="largura">
-    <section id="lojas-bloco" class="bloco-lojas" aria-label="Filtrar por loja">
-      <nav id="lojas" class="lojas-grade"></nav>
+    <section id="atalhos-bloco" class="painel" aria-label="Categorias" hidden>
+      <div class="titulo-secao"><h2>Categorias</h2></div>
+      <nav id="atalhos" class="atalhos-grade"></nav>
     </section>
 
-    <section id="cupons-bloco" class="secao" hidden>
+    <section id="destaques-bloco" class="relampago" hidden>
+      <div class="titulo-secao">
+        <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Oferta relâmpago</h2>
+        <span class="relogio"><i></i>Maiores descontos de hoje · <b id="relampago-quando">agora</b></span>
+      </div>
+      <div id="destaques" class="trilho"></div>
+    </section>
+
+    <section id="cupons-bloco" class="painel" hidden>
       <div class="titulo-secao">
         <h2>Cupons de hoje</h2>
         <button id="cupons-todos" class="link" type="button" hidden></button>
@@ -79,20 +112,12 @@
       <div id="cupons" class="cupons-grade"></div>
     </section>
 
+    <section id="lojas-bloco" class="bloco-lojas" aria-label="Filtrar por loja">
+      <nav id="lojas" class="lojas-grade"></nav>
+    </section>
+
     <div id="vitrines"></div>
-  </main>
 
-  <section id="destaques-bloco" class="destaques" hidden>
-    <div class="largura">
-      <div class="titulo-secao">
-        <h2>Maiores descontos</h2>
-        <span>das últimas 24 horas</span>
-      </div>
-      <div id="destaques" class="trilho"></div>
-    </div>
-  </section>
-
-  <main class="largura">
     <section id="ofertas" class="secao">
       <div class="titulo-secao">
         <h2 id="titulo-lista">Todas as ofertas</h2>
@@ -115,6 +140,12 @@
       <div id="grade" class="grade"></div>
       <p id="vazio" class="vazio" hidden>Nada encontrado com esses filtros. <button id="limpar" class="link" type="button">Limpar filtros</button></p>
       <div class="mais"><button id="mais" class="botao secundario" type="button" hidden>Carregar mais ofertas</button></div>
+    </section>
+
+    <section class="painel sobre">
+      <h2>Promoções de verdade, escolhidas todo dia</h2>
+      <p>O Diegola Promoções junta num lugar só as melhores ofertas do dia da Amazon, do Mercado Livre, da Shopee e do AliExpress. Um robô confere as lojas a cada 15 minutos e só deixa entrar produto bem avaliado, com muitas vendas e desconto real em relação ao preço normal. Os cupons de desconto, o frete grátis e as lojas oficiais aparecem marcados em cada oferta.</p>
+      <p>Tem eletrônicos, celulares, fones, air fryer, informática, games, casa, beleza e moda. Pra receber as promoções assim que saem, entre no grupo gratuito do Telegram.</p>
     </section>
   </main>
 
@@ -171,8 +202,9 @@
   <footer class="rodape">
     <div class="largura rodape-grade">
       <div>
-        <a class="marca" href="./">DIEGOLA</a>
+        <a class="marca" href="/">DIEGOLA<small>promoções</small></a>
         <p>Curadoria diária de ofertas das maiores lojas do Brasil.</p>
+        <nav class="rodape-links" aria-label="Rodapé"><a href="/">Início</a><a href="/ebooks/">E-books</a><a href="/promocoes/">Promoções</a><a href="https://t.me/diegolapromocoes" target="_blank" rel="noopener">Telegram</a></nav>
       </div>
       <div class="rodape-avisos">
         <p>Preços e estoque podem mudar a qualquer momento: vale o valor exibido na loja no fechamento da compra.</p>
@@ -184,6 +216,6 @@
   </footer>
 
   <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
-  <script src="app.js?v=30" defer></script>
+  <script src="app.js?v=40" defer></script>
 </body>
 </html>

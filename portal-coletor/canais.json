@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cachorro",
+    "nome": "Cão Caramelo",
+    "nicho": "Cachorro",
+    "palavras_chave": ["cachorro", "cão", "cães", "pet", "adestramento"],
+    "youtube_channel_id": "UCzqPXMS6ks-50WrkzcU61cw",
+    "kiwify_product_id": "1802ff80-da29-11f1-b1de-6f23c58dc339",
+    "segredo_token": "YT_TOKEN_CACHORRO"
+  },
+  {
+    "id": "gato",
+    "nome": "Gato Sem Segredo",
+    "nicho": "Gato",
+    "palavras_chave": ["gato", "gatos", "felino", "gatinho"],
+    "youtube_channel_id": "UC-5_BwYA39_CQubySGw8dpA",
+    "kiwify_product_id": "e1a1d5f0-da29-11f1-b1de-6f23c58dc339",
+    "segredo_token": "YT_TOKEN_GATO"
+  },
+  {
+    "id": "orquidea",
+    "nome": "Orquídeas em Flor",
+    "nicho": "Orquídea",
+    "palavras_chave": ["orquídea", "orquídeas", "orquidea", "flor", "planta"],
+    "youtube_channel_id": "UCrRhCwP4ZtLtqdYwbQ3UTIg",
+    "kiwify_product_id": "468f3cf0-da2a-11f1-a455-ebbf97d01004",
+    "segredo_token": "YT_TOKEN_ORQUIDEA"
+  },
+  {
+    "id": "autismo",
+    "nome": "Mundo Atípico",
+    "nicho": "Autismo e TDAH",
+    "palavras_chave": ["autismo", "autista", "tea", "tdah", "neurodivergente", "hiperatividade"],
+    "youtube_channel_id": "UChyXeYkUr5QOKCeCpIeZz3A",
+    "kiwify_product_id": "51c3ee80-da2b-11f1-a455-ebbf97d01004",
+    "segredo_token": "YT_TOKEN_AUTISMO"
+  }
+]

@@ -142,6 +142,8 @@ function mostrarPainel() {
 /* ===================================================================
    CÁLCULOS
    =================================================================== */
+// símbolo de cada canal quando a foto de perfil não carrega
+const EMOJI = { cachorro: "🐶", gato: "🐱", orquidea: "🌸", autismo: "♾️" };
 function corDe(id, i) {
   const css = getComputedStyle(document.documentElement).getPropertyValue("--c-" + id).trim();
   return css || CORES_EXTRA[Math.max(0, i - 3) % CORES_EXTRA.length];
@@ -350,7 +352,9 @@ function cardsCanais(linhas) {
   $("#canais-cards").innerHTML = linhas.map(([c, r], i) => `
     <article class="canal-card surge" style="--cor:${c.cor};transition-delay:${i * 80}ms">
       <div class="canal-topo">
-        <div class="avatar">${esc((c.nicho || "?")[0])}</div>
+        <div class="avatar" data-emoji="${EMOJI[c.id] || esc((c.nicho || "?")[0])}">${c.youtube?.foto
+          ? `<img src="${esc(c.youtube.foto)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.textContent=this.parentNode.dataset.emoji">`
+          : (EMOJI[c.id] || esc((c.nicho || "?")[0]))}</div>
         <div><b>${esc(c.nome)}</b><small>${esc(c.nicho)} · ${num(c.youtube?.inscritos)} inscritos</small></div>
         <span class="selo-status ${r.conectado ? "ok" : ""}">${r.conectado ? "● conectado" : "não conectado"}</span>
       </div>

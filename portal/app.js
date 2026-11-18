@@ -363,6 +363,7 @@ function cardsCanais(linhas) {
         <div><span>Vendas</span><strong data-v="${r.vendas}" data-f="num">—</strong></div>
         <div><span>Líquido</span><strong data-v="${r.receita}" data-f="real">—</strong></div>
       </div>
+      ${c.pagina ? `<div class="canal-pagina" title="Contado desde 18/11, total (não muda com o período escolhido)">Página do e-book: <b>${num(c.pagina.visitas)}</b> visitas (${num(c.pagina.yt)} vindas de vídeo) · <b>${num(c.pagina.cliques)}</b> clicaram em comprar</div>` : ""}
       <div class="canal-spark">${spark(r.serie.views, c.cor, { altura: 46, id: "c" + i })}</div>
     </article>`).join("");
   $$("#canais-cards strong[data-v]").forEach((el) => contar(el, +el.dataset.v, el.dataset.f === "real" ? real : num, 1300));
@@ -489,10 +490,10 @@ function videosTabela(animar) {
   const { campo, desc } = ordemVideos;
   const val = (v) => (campo === "seo" ? v.seo?.nota : campo === "publicado" ? new Date(v.publicado).getTime() : v[campo]);
   lista.sort((a, b) => ((val(a) ?? -1) - (val(b) ?? -1)) * (desc ? -1 : 1));
-  const cols = [["publicado", "Publicado"], ["views", "Views"], ["ctr", "CTR"], ["retencao", "Retenção"], ["likes", "Likes"], ["comentarios", "Coment."], ["vendas", "Vendas"], ["receita", "Líquido"], ["seo", "SEO"]];
+  const cols = [["publicado", "Publicado"], ["views", "Views"], ["ctr", "CTR"], ["retencao", "Retenção"], ["likes", "Likes"], ["comentarios", "Coment."], ["visitas_pagina", "Visitas pág."], ["cliques", "Cliques"], ["vendas", "Vendas"], ["receita", "Líquido"], ["seo", "SEO"]];
   const seta = (k) => (campo === k ? (desc ? " ↓" : " ↑") : "");
   let html = `<thead><tr><th></th><th>Título</th>${cols.map(([k, t]) => `<th class="n" data-ordem="${k}">${t}${seta(k)}</th>`).join("")}</tr></thead><tbody>`;
-  if (!lista.length) html += `<tr><td colspan="11" class="vazio">Nenhum vídeo ainda.</td></tr>`;
+  if (!lista.length) html += `<tr><td colspan="13" class="vazio">Nenhum vídeo ainda.</td></tr>`;
   lista.forEach((v, i) => {
     const n = v.seo?.nota ?? 0;
     const anima = animar ? ` class="linha-entra" style="animation-delay:${Math.min(i, 12) * 35}ms"` : "";
@@ -503,9 +504,10 @@ function videosTabela(animar) {
       <td class="n">${dataCurta(v.publicado)}</td><td class="n">${num(v.views)}</td>
       <td class="n">${pct(v.ctr)}</td><td class="n">${pct(v.retencao)}</td>
       <td class="n">${num(v.likes)}</td><td class="n">${num(v.comentarios)}</td>
+      <td class="n">${num(v.visitas_pagina ?? 0)}</td><td class="n">${num(v.cliques ?? 0)}</td>
       <td class="n">${num(v.vendas ?? 0)}</td><td class="n">${real(v.receita ?? 0)}</td>
       <td class="n"><button class="nota ${n >= 8 ? "boa" : n < 6 ? "ruim" : ""}" data-abrir="${i}" aria-expanded="false"><i></i>${n}/10</button></td></tr>
-      <tr class="checklist" data-lista="${i}" hidden><td colspan="11"><ul>${(v.seo?.itens || []).map((it) => `<li class="${it.ok ? "" : "nao"}">${esc(it.txt)}</li>`).join("")}</ul></td></tr>`;
+      <tr class="checklist" data-lista="${i}" hidden><td colspan="13"><ul>${(v.seo?.itens || []).map((it) => `<li class="${it.ok ? "" : "nao"}">${esc(it.txt)}</li>`).join("")}</ul></td></tr>`;
   });
   const t = $("#tab-videos");
   t.innerHTML = html + "</tbody>";

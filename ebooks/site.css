@@ -143,7 +143,9 @@ footer.rodape a:hover { color: var(--texto); }
 }
 @media (max-width: 560px) {
   .grade-ebooks { grid-template-columns: 1fr; }
-  .topo nav a { padding: 8px 10px; }
+  .topo nav a { padding: 7px 9px; font-size: 13px; white-space: nowrap; }
+  .topo nav { gap: 0; }
+  .marca { font-size: 18px; }
   .leque { height: 200px; }
   .confianca { grid-template-columns: 1fr 1fr; }
   footer.rodape a { margin: 0 16px 0 0; }

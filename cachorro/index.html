@@ -117,6 +117,20 @@ footer{padding-top:30px;padding-bottom:90px;font-size:14px;opacity:.7;text-align
 (function(){
  var checkout = "https://pay.kiwify.com.br/hAU6kRk";
  var q = new URLSearchParams(location.search), src = q.get("src") || q.get("utm_content") || "";
+ // Contador anônimo (só números, nada da pessoa): 1 visita e 1 clique por pessoa a cada sessão.
+ var NS = "dgkdfai0yls", P = "cachorro", vid = src.replace(/[^A-Za-z0-9_-]/g, "").slice(0, 20);
+ function conta(chave) { try { fetch("https://abacus.jasoncameron.dev/hit/" + NS + "/" + chave, {keepalive: true, mode: "cors"}).catch(function(){}); } catch (_) {} }
+ function umaVez(tipo) { var s = "ct-" + tipo + "-" + P; try { if (sessionStorage.getItem(s)) return false; sessionStorage.setItem(s, "1"); } catch (_) {} return true; }
+ if (!navigator.webdriver && location.hostname === "diegola.com.br" && umaVez("v")) {
+  conta(P + "-visitas");
+  if (vid) { conta(P + "-yt"); conta(P + "-v-" + vid); }
+ }
+ document.addEventListener("click", function(ev) {
+  var a = ev.target.closest && ev.target.closest("a.comprar");
+  if (!a || !/kiwify/.test(a.href) || navigator.webdriver || location.hostname !== "diegola.com.br" || !umaVez("c")) return;
+  conta(P + "-cliques");
+  if (vid) conta(P + "-c-" + vid);
+ }, true);
  if (!checkout) return;
  var u = new URL(checkout);
  if (src) u.searchParams.set("src", src);

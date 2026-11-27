@@ -26,6 +26,7 @@
     var foraTxt = caixa.getAttribute("data-fora");
     var fora = foraTxt ? new RegExp(foraTxt, "i") : null;
     var soLoja = caixa.getAttribute("data-loja") || "";
+    var teto = parseFloat(caixa.getAttribute("data-max")) || 0;
     var grade = caixa.querySelector(".grade");
     var todos = [], faltam = FONTES.length, ultima = "";
     FONTES.forEach(function (u) {
@@ -35,7 +36,7 @@
         var bons = todos.filter(function (x) { var t = titulo(x); return x.link && x.imagem && (!soLoja || x.loja === soLoja) && busca.test(t) && !(fora && fora.test(t)); }).map(function (x) {
           var p = preco(x.preco), de = preco(x.precoDe), quando = Date.parse(x.publicadoEm || x.precoEm || "") || 0;
           return { x: x, p: p, de: de && p && de > p ? de : null, off: de && p && de > p ? Math.round((1 - p / de) * 100) : 0, quando: quando };
-        }).filter(function (o) { var k = titulo(o.x).toLowerCase().replace(/\W+/g, " ").slice(0, 48); if (!o.p || vistos[k]) return false; vistos[k] = 1; return true; });
+        }).filter(function (o) { var k = titulo(o.x).toLowerCase().replace(/\W+/g, " ").slice(0, 48); if (!o.p || vistos[k] || (teto && o.p > teto)) return false; vistos[k] = 1; return true; });
         var recentes = bons.filter(function (o) { return !o.quando || agora - o.quando < VALIDADE_H * 36e5; });
         var lista = (recentes.length >= 4 ? recentes : bons).sort(function (a, b) { return (b.off + (b.x.nota || 0) * 2) - (a.off + (a.x.nota || 0) * 2) || b.quando - a.quando; }).slice(0, 8);
         if (lista.length < 4 && faltam) return;

@@ -88,7 +88,7 @@
     '<a class="mais" href="/promocoes/" target="_blank" rel="noopener">Ver todas as promoções →</a></div>' +
     '<div class="grade">' + '<div class="esq"></div>'.repeat(4) + '</div>' +
     '<div class="buscas"><span>Buscas prontas na Amazon:</span>' +
-    cfg.buscas.map(function (b) { return '<a href="' + buscaAmazon(b[1]) + '" target="_blank" rel="noopener sponsored">' + esc(b[0]) + '</a>'; }).join("") +
+    cfg.buscas.map(function (b) { return '<a href="' + buscaAmazon(b[1]) + '" target="_blank" rel="sponsored nofollow noopener">' + esc(b[0]) + '</a>'; }).join("") +
     '</div><p class="aviso">Links de afiliado: você paga o mesmo preço e uma parte ajuda o canal a continuar produzindo conteúdo grátis.</p></div>';
 
   /* ---------- ofertas ---------- */
@@ -141,7 +141,7 @@
     if (!lista.length) { grade.remove(); return; }
     grade.innerHTML = lista.map(function (o, i) {
       var x = o.x;
-      return '<a class="card" style="animation-delay:' + i * 70 + 'ms" href="' + esc(x.link) + '" target="_blank" rel="noopener sponsored">' +
+      return '<a class="card" style="animation-delay:' + i * 70 + 'ms" href="' + esc(x.link) + '" target="_blank" rel="sponsored nofollow noopener">' +
         (o.off >= 5 ? '<span class="off">-' + o.off + '%</span>' : "") +
         '<div class="foto"><img src="' + esc(x.imagem) + '" alt="" loading="lazy" referrerpolicy="no-referrer"></div>' +
         '<div class="info"><span class="loja">' + esc(LOJAS[x.loja] || x.loja || "") + '</span>' +

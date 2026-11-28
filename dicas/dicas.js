@@ -3,7 +3,7 @@
 (function () {
   "use strict";
   var BOT = "https://raw.githubusercontent.com/diegolayt/diegola-promocoes-bot/main/data/";
-  var FONTES = ["/data/amazon.json", "/data/ofertas.json", BOT + "feed.mercado.json", BOT + "vitrine.shopee.json", BOT + "feed.json", BOT + "vitrine.aliexpress.json"];
+  var FONTES = ["/data/amazon.json", "/data/ofertas.json", BOT + "feed.mercado.json", BOT + "vitrine.shopee.json", BOT + "feed.json", BOT + "vitrine.aliexpress.json", BOT + "feed.eletronicos.json", BOT + "vitrine.mercadolivre.json", BOT + "hot.aliexpress.json"];
   var CUPONS = [BOT + "cupons.json", "/data/cupons.json"];
   var LOJAS = { amazon: "Amazon", mercadolivre: "Mercado Livre", shopee: "Shopee", aliexpress: "AliExpress", kabum: "KaBuM!", magalu: "Magalu" };
   var VALIDADE_H = 72;

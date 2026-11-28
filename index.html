@@ -4,8 +4,8 @@
   <script>document.documentElement.classList.add('js')</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diegola: e-books práticos e as melhores promoções do dia</title>
-  <meta name="description" content="Guias práticos sobre cachorro, gato, orquídeas, autismo e TDAH, e ofertas selecionadas na Amazon, Mercado Livre, Shopee e AliExpress.">
+  <title>Promoções de eletrônicos hoje: celular, PC e games | Diegola</title>
+  <meta name="description" content="Promoções de celular, placa de vídeo, memória RAM, SSD, mouse, headset e monitor na Amazon, Mercado Livre, Shopee e AliExpress, atualizadas o dia todo.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Diegola">
   <meta property="og:title" content="Diegola: e-books práticos e as melhores promoções do dia">
@@ -37,12 +37,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap">
   <link rel="stylesheet" href="/ebooks/site.css?v=2">
+  <link rel="stylesheet" href="/assets/eletro.css?v=1">
 </head>
 <body>
   <header class="topo">
     <div class="w">
       <a class="marca" href="/">DIEGOLA</a>
       <nav aria-label="Seções">
+        <a href="/ofertas/">Eletrônicos</a>
         <a href="/dicas/">Dicas</a>
         <a href="/ebooks/">E-books</a>
         <a href="/promocoes/">Promoções</a>
@@ -52,25 +54,14 @@
 
   <main>
     <div class="paineis">
-      <section class="painel p-ebooks">
-        <div>
-          <div class="olho sobe">E-books</div>
-          <h1>Guias práticos pro dia a dia.</h1>
-          <p>Cachorro, gato, orquídeas, autismo e TDAH. Plano de 30 dias, passo a passo e acesso imediato no celular.</p>
-          <div class="acoes sobe" style="--d:.24s">
-            <a class="bt azul" href="/ebooks/">Ver os e-books <span class="seta">→</span></a>
-          </div>
-        </div>
-        <div class="leque" id="leque" aria-hidden="true"></div>
-      </section>
-
       <section class="painel p-promo">
         <div>
           <div class="olho sobe" style="--d:.1s"><span style="width:8px;height:8px;border-radius:50%;background:#2bd96b"></span>Promoções ao vivo</div>
-          <h2 class="sobe" style="--d:.18s">As melhores ofertas do dia.</h2>
-          <p class="sobe" style="--d:.26s">Produtos bem avaliados, lojas oficiais e desconto de verdade, atualizados o dia todo.</p>
+          <h1>Promoções de eletrônicos e as melhores ofertas do dia.</h1>
+          <p>Celular, placa de vídeo, memória, SSD, mouse e muito mais na Amazon, Mercado Livre, Shopee e AliExpress. Desconto de verdade, atualizado o dia todo.</p>
           <div class="acoes sobe" style="--d:.34s">
-            <a class="bt amarelo" href="/promocoes/">Ver promoções <span class="seta">→</span></a>
+            <a class="bt amarelo" href="/ofertas/">Ver eletrônicos em oferta <span class="seta">→</span></a>
+            <a class="bt linha" href="/promocoes/">Todas as promoções</a>
             <a class="bt linha" href="https://t.me/diegolapromocoes" target="_blank" rel="noopener">Grupo no Telegram</a>
           </div>
         </div>
@@ -79,15 +70,22 @@
           <div class="lojas sobe" style="--d:.5s"><span>Amazon</span><span>Mercado Livre</span><span>Shopee</span><span>AliExpress</span></div>
         </div>
       </section>
+      <section class="painel p-ebooks">
+        <div>
+          <div class="olho sobe">E-books</div>
+          <h2>Guias práticos pro dia a dia.</h2>
+          <p>Cachorro, gato, orquídeas, autismo e TDAH. Plano de 30 dias, passo a passo e acesso imediato no celular.</p>
+          <div class="acoes sobe" style="--d:.24s">
+            <a class="bt azul" href="/ebooks/">Ver os e-books <span class="seta">→</span></a>
+          </div>
+        </div>
+        <div class="leque" id="leque" aria-hidden="true"></div>
+      </section>
+
     </div>
 
-    <section class="secao w">
-      <div class="secao-cab revela">
-        <div><h2>Nossos e-books</h2><p>Cada guia nasceu de um canal no YouTube e responde as dúvidas que mais aparecem nos comentários.</p></div>
-        <a class="bt cinza" href="/ebooks/">Ver todos <span class="seta">→</span></a>
-      </div>
-      <div class="grade-ebooks" id="lista-ebooks"><a class="ebook" href="/cachorro/" style="--cor:#E58A1F"><div class="corpo"><span class="canal">Canal Cão Caramelo</span><h3>Cachorro Educado em 30 Dias</h3><p class="resumo">Plano de 30 dias com sessões de 5 minutos: vem quando chama, para de pular, de puxar a guia e de fazer xixi fora do lugar.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/gato/" style="--cor:#7A64E0"><div class="corpo"><span class="canal">Canal Gato Sem Segredo</span><h3>Gato Calmo em 30 Dias</h3><p class="resumo">Entenda a língua do seu gato e acabe com a mordida do nada, o xixi fora da caixa, o sofá arranhado e o miado de madrugada.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/orquidea/" style="--cor:#C8457F"><div class="corpo"><span class="canal">Canal Orquídeas em Flor</span><h3>Orquídea Florindo o Ano Todo</h3><p class="resumo">Rega sem erro, luz certa, adubo, replante e o truque da noite fresca que faz a haste nova aparecer.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a><a class="ebook" href="/autismo/" style="--cor:#2F7FA8"><div class="corpo"><span class="canal">Canal Mundo Atípico</span><h3>Autismo e TDAH: o Guia dos Pais</h3><p class="resumo">Reconheça os sinais, entenda a diferença entre os dois, saiba o caminho da avaliação e ajude seu filho em casa e na escola.</p><div class="rodape-card"><span class="preco"><b>R$ 27,90</b><small>ou 6x de R$ 5,24</small></span><span class="ver">Ver o guia →</span></div></div></a></div>
-    </section>
+    <nav class="chips-eletro" aria-label="Eletrônicos em promoção" style="justify-content:center"><a href="/ofertas/celular/">Celular</a><a href="/ofertas/placa-de-video/">Placa de vídeo</a><a href="/ofertas/memoria-ram/">Memória RAM</a><a href="/ofertas/ssd/">SSD</a><a href="/ofertas/mouse/">Mouse</a><a href="/ofertas/teclado/">Teclado</a><a href="/ofertas/headset/">Headset</a><a href="/ofertas/monitor/">Monitor</a><a href="/ofertas/notebook/">Notebook</a><a href="/ofertas/console/">Console</a></nav>
+    <!--ELETRONICOS:inicio--><section class="ao-vivo ofertas vitrine-eletro"><div class="cab"><div class="olho">Ofertas de fim de ano · atualizado em 28/11/2026 às 1h13</div><h2>Eletrônicos em promoção hoje</h2></div><nav class="chips-eletro" aria-label="Eletrônicos em promoção"><a href="/ofertas/celular/">Celular</a><a href="/ofertas/placa-de-video/">Placa de vídeo</a><a href="/ofertas/memoria-ram/">Memória RAM</a><a href="/ofertas/ssd/">SSD</a><a href="/ofertas/mouse/">Mouse</a><a href="/ofertas/teclado/">Teclado</a><a href="/ofertas/headset/">Headset e fone</a><a href="/ofertas/monitor/">Monitor</a><a href="/ofertas/notebook/">Notebook</a><a href="/ofertas/console/">Console</a></nav><div class="grade"><a class="card" href="https://s.shopee.com.br/6Amv4Nqcz0" target="_blank" rel="sponsored nofollow noopener"><span class="off">-57%</span><div class="foto"><img src="https://cf.shopee.com.br/file/sg-11134201-82594-msvh3lmj8a2sde" alt="Smartphone Motorola Moto G Max 5G 256GB 8GB RAM Câmera Principal 200MP + 8MP Câmera Fronta" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">Shopee</span><span class="nome">Smartphone Motorola Moto G Max 5G 256GB 8GB RAM Câmera Principal 200MP + 8MP Câmera Frontal 32MP 6.8&quot; 5200mAh Grafite</span><div class="valor"><b>R$ 1.789,00</b><s>R$ 4.160,47</s></div></div></a><a class="card" href="https://s.click.aliexpress.com/e/_c4UBJ7YH" target="_blank" rel="sponsored nofollow noopener"><span class="off">-62%</span><div class="foto"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Scf888d54102842f69020cca7f2bb2958O.jpg" alt="Mllse amd rx5700 xt 8gb placa gráfica gddr6 256bit pci-e 4.0x16 6 + 8pin radeon gpu rx 560" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">AliExpress</span><span class="nome">Mllse amd rx5700 xt 8gb placa gráfica gddr6 256bit pci-e 4.0x16 6 + 8pin radeon gpu rx 5600xt placa de vídeo para jogos placa de vídeo</span><div class="valor"><b>R$ 1.049,24</b><s>R$ 2.741,19</s></div></div></a><a class="card" href="https://s.click.aliexpress.com/e/_c4sxt15r" target="_blank" rel="sponsored nofollow noopener"><span class="off">-58%</span><div class="foto"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sf42ae1026b534baeb40e775e021c38acK.jpg" alt="Memória Desktop de Alto Desempenho JUHOR DDR4 8GB 3200MHz CL16" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">AliExpress</span><span class="nome">Memória Desktop de Alto Desempenho JUHOR DDR4 8GB 3200MHz CL16</span><div class="valor"><b>R$ 360,42</b><s>R$ 855,53</s></div></div></a><a class="card" href="https://s.click.aliexpress.com/e/_c4NgSJVf" target="_blank" rel="sponsored nofollow noopener"><span class="off">-76%</span><div class="foto"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S08a2c5978a334fa89d7e01e5822d849b4.jpg" alt="KOOTION X15Lite SSD NVMe M2 1TB 512GB 256GB Nvme M2 SSD M.2 2280 PCIe 3.0x4 Disco interno " loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">AliExpress</span><span class="nome">KOOTION X15Lite SSD NVMe M2 1TB 512GB 256GB Nvme M2 SSD M.2 2280 PCIe 3.0x4 Disco interno de estado sólido para laptop desktop</span><div class="valor"><b>R$ 309,16</b><s>R$ 1.272,25</s></div></div></a><a class="card" href="https://s.shopee.com.br/9fMkxeWwq3" target="_blank" rel="sponsored nofollow noopener"><span class="off">-70%</span><div class="foto"><img src="https://cf.shopee.com.br/file/cn-11134207-820l4-mlbqolciatxcb6" alt="Uniwity Mouse Sem Fio Recarregável com Bluetooth, RGB e Design Ergonômico – Conforto e Est" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">Shopee</span><span class="nome">Uniwity Mouse Sem Fio Recarregável com Bluetooth, RGB e Design Ergonômico – Conforto e Estilo</span><div class="valor"><b>R$ 59,99</b><s>R$ 199,97</s></div></div></a><a class="card" href="https://s.shopee.com.br/3B9HDhiQNg" target="_blank" rel="sponsored nofollow noopener"><span class="off">-76%</span><div class="foto"><img src="https://cf.shopee.com.br/file/sg-11134201-824h0-merktp2c64g1a0" alt="Teclado Gamer TGT M90B, Rainbow, ABNT2, Branco, TGT-M90B-RBW01" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">Shopee</span><span class="nome">Teclado Gamer TGT M90B, Rainbow, ABNT2, Branco, TGT-M90B-RBW01</span><div class="valor"><b>R$ 74,99</b><s>R$ 312,46</s></div></div></a><a class="card" href="https://s.shopee.com.br/8KrNXWYGe5" target="_blank" rel="sponsored nofollow noopener"><span class="off">-64%</span><div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820l7-mmipscxwcn4626" alt="INOVA FreeClip Fone de Ouvido Bluetooth Sem Fio Design em C Digital de Bateria Chamadas Ní" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">Shopee</span><span class="nome">INOVA FreeClip Fone de Ouvido Bluetooth Sem Fio Design em C Digital de Bateria Chamadas Nítida</span><div class="valor"><b>R$ 71,99</b><s>R$ 199,97</s></div></div></a><a class="card" href="https://s.click.aliexpress.com/e/_c3sLphyz" target="_blank" rel="sponsored nofollow noopener"><span class="off">-76%</span><div class="foto"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S6824b5297d124b639809ba2e2fa0c84b6.jpg" alt="Monitor Gamer Portátil ARZOPA 16.1 polegadas 100% sRGB 144Hz com Display para Laptop, Type" loading="lazy" referrerpolicy="no-referrer" width="300" height="300"></div><div class="info"><span class="loja">AliExpress</span><span class="nome">Monitor Gamer Portátil ARZOPA 16.1 polegadas 100% sRGB 144Hz com Display para Laptop, Type C e Mini HDMI para PS4/5, Steam Deck, Switch, PC e Mac</span><div class="valor"><b>R$ 554,11</b><s>R$ 2.280,32</s></div></div></a></div><a class="mais" href="/ofertas/?src=home">Ver todos os eletrônicos em promoção →</a><p class="aviso">Links de afiliado: você paga o mesmo e uma parte ajuda o site. Confira o preço final na loja.</p></section><!--ELETRONICOS:fim-->
   </main>
 
   <footer class="rodape">

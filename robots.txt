@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /portal/
 Disallow: /portal-coletor/
 Disallow: /ferramentas/
 

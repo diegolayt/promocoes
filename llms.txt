@@ -1,10 +1,24 @@
 # Diegola
 
-> Site brasileiro do Diego (Diegola): promoções verificadas da Amazon, Mercado Livre, Shopee e AliExpress, guias em e-book sobre cachorro, gato, orquídea e autismo/TDAH, e artigos que respondem dúvidas do dia a dia. Conteúdo em português do Brasil. Links de lojas são de afiliado.
+> Site brasileiro de promoções do Diego (Diegola), com foco em eletrônicos: celular, placa de vídeo, memória RAM, SSD, mouse, teclado, headset, monitor, notebook e console na Amazon, Mercado Livre, Shopee e AliExpress, com desconto real e atualizados várias vezes por dia. Conteúdo em português do Brasil. Links de lojas são de afiliado.
+
+## Eletrônicos em promoção (atualizado a cada 2 horas)
+
+- [Todos os eletrônicos em promoção](https://diegola.com.br/ofertas/): as melhores ofertas de cada categoria.
+- [Celular em promoção hoje](https://diegola.com.br/ofertas/celular/)
+- [Placa de vídeo em promoção hoje](https://diegola.com.br/ofertas/placa-de-video/)
+- [Memória RAM em promoção hoje](https://diegola.com.br/ofertas/memoria-ram/)
+- [SSD em promoção hoje](https://diegola.com.br/ofertas/ssd/)
+- [Mouse em promoção hoje](https://diegola.com.br/ofertas/mouse/)
+- [Teclado em promoção hoje](https://diegola.com.br/ofertas/teclado/)
+- [Headset e fone de ouvido em promoção hoje](https://diegola.com.br/ofertas/headset/)
+- [Monitor em promoção hoje](https://diegola.com.br/ofertas/monitor/)
+- [Notebook em promoção hoje](https://diegola.com.br/ofertas/notebook/)
+- [Console em promoção hoje: PS5, Xbox e Switch](https://diegola.com.br/ofertas/console/)
 
 ## Páginas principais
 
-- [Promoções de hoje](https://diegola.com.br/promocoes/): ofertas com desconto real, atualizadas várias vezes por dia, e cupons válidos.
+- [Promoções de hoje](https://diegola.com.br/promocoes/): todas as ofertas com desconto real, atualizadas várias vezes por dia, e cupons válidos.
 - [E-books](https://diegola.com.br/ebooks/): os 4 guias práticos em PDF.
 - [Dicas](https://diegola.com.br/dicas/): todos os artigos.
 - [Sobre](https://diegola.com.br/sobre/): quem faz o site, canais no YouTube e contato.

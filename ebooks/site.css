@@ -51,8 +51,8 @@ h1, h2, h3 { margin: 0; font-family: var(--forte); font-weight: 700; letter-spac
 /* entrada animada */
 .sobe { opacity: 0; transform: translateY(18px); animation: sobe .9s var(--facil) forwards; animation-delay: var(--d, 0s); }
 @keyframes sobe { to { opacity: 1; transform: none; } }
-.revela { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--facil), transform .9s var(--facil); }
-.revela.visivel { opacity: 1; transform: none; }
+.js .revela { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--facil), transform .9s var(--facil); }
+.js .revela.visivel { opacity: 1; transform: none; }
 
 /* ===== página inicial: dois painéis ===== */
 .paineis { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 12px; min-height: calc(100vh - 60px); min-height: calc(100dvh - 60px); }
@@ -152,5 +152,5 @@ footer.rodape a:hover { color: var(--texto); }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
-  .revela { opacity: 1; transform: none; }
+  .js .revela { opacity: 1; transform: none; }
 }

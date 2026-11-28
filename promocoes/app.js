@@ -24,8 +24,8 @@ const CONFIG = {
 
 // A ordem daqui é a ordem em que as lojas aparecem no site.
 const LOJAS = {
-  amazon: { nome: "Amazon", cor: "#ff9900", logo: "../assets/lojas/amazon.png" },
   mercadolivre: { nome: "Mercado Livre", cor: "#f5c400", logo: "../assets/lojas/mercadolivre.png" },
+  amazon: { nome: "Amazon", cor: "#ff9900", logo: "../assets/lojas/amazon.png" },
   shopee: { nome: "Shopee", cor: "#ee4d2d", logo: "../assets/lojas/shopee.png" },
   aliexpress: { nome: "AliExpress", cor: "#e43225", logo: "../assets/lojas/aliexpress.png" },
   kabum: { nome: "KaBuM!", cor: "#ff6500", logo: "../assets/lojas/kabum.png" },

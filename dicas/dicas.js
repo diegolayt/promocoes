@@ -49,7 +49,7 @@
         }
         grade.innerHTML = lista.map(function (o) {
           var x = o.x;
-          return '<a class="card" href="' + esc(x.link) + '" target="_blank" rel="noopener sponsored">' + (o.off >= 5 ? '<span class="off">-' + o.off + '%</span>' : "") +
+          return '<a class="card" href="' + esc(x.link) + '" target="_blank" rel="sponsored nofollow noopener">' + (o.off >= 5 ? '<span class="off">-' + o.off + '%</span>' : "") +
             '<div class="foto"><img src="' + esc(x.imagem) + '" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="info"><span class="loja">' + esc(LOJAS[x.loja] || x.loja || "") +
             '</span><span class="nome">' + esc(titulo(x)) + '</span><div class="valor"><b>' + real(o.p) + "</b>" + (o.de ? "<s>" + real(o.de) + "</s>" : "") + "</div></div></a>";
         }).join("");
@@ -79,7 +79,7 @@
       }
       alvo.innerHTML = aviso + bons.map(function (c) {
         return '<div class="cupom"><button class="cod" type="button" data-cod="' + esc(c.codigo) + '" title="Copiar código">' + esc(c.codigo) + '</button><div class="desc"><b>' + esc(LOJAS[c.loja] || c.loja) + ":</b> " + esc(c.descricao) +
-          (c.regra ? "<small>" + esc(c.regra) + "</small>" : "") + "</div>" + (c.link ? '<a class="usar" href="' + esc(c.link) + '" target="_blank" rel="noopener sponsored">Usar →</a>' : "<span></span>") + "</div>";
+          (c.regra ? "<small>" + esc(c.regra) + "</small>" : "") + "</div>" + (c.link ? '<a class="usar" href="' + esc(c.link) + '" target="_blank" rel="sponsored nofollow noopener">Usar →</a>' : "<span></span>") + "</div>";
       }).join("");
     });
     caixa.addEventListener("click", function (e) {
